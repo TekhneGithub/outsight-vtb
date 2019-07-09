@@ -4,6 +4,14 @@
  *                   *
  *********************/
 
+:root {
+  --theme-color: #881728;
+  --theme-light: #b18c96;
+  --theme-font: 'Arial', sans-serif;
+  --theme-gray: #5f5f61;
+  --theme-light-gray: #877688;
+}
+
 body {
   width: 100%;
   padding: 0;

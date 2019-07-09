@@ -15,13 +15,15 @@ import { MinisiteComponent } from "./pages/minisite/minisite.component";
 import { AgmCoreModule } from "@agm/core";
 import { HeaderComponent } from "./component/header/header.component";
 import { HeroComponent } from "./component/hero/hero.component";
+import { FooterComponent } from "./component/footer/footer.component";
 
 @NgModule({
   declarations: [
     AppComponent,
     MinisiteComponent,
     HeaderComponent,
-    HeroComponent
+    HeroComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

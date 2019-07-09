@@ -1,11 +1,16 @@
 header {
-  background: #b18c96;
+  background: var(--theme-light);
   height: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9;
 }
 
 header .logo {
   padding: 10px 20px;
   width: 200px;
   margin: 0 auto;
-  background: #a6192e
+  background: var(--theme-color);
 }
