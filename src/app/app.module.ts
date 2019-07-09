@@ -1,42 +1,47 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-import { RouterModule } from '@angular/router';
-import { HttpClientModule } from '@angular/common/http';
-import { environment } from '../environments/environment';
+import { BrowserModule } from "@angular/platform-browser";
+import { NgModule } from "@angular/core";
+import { RouterModule } from "@angular/router";
+import { HttpClientModule } from "@angular/common/http";
+import { environment } from "../environments/environment";
 
-import { VtbComponentsModule } from '@sitespirit/vtb-component-library';
+import { VtbComponentsModule } from "@sitespirit/vtb-component-library";
 
-import { ItineraryResolver } from './resolvers/itinerary.resolver';
+import { ItineraryResolver } from "./resolvers/itinerary.resolver";
 
-import { AppComponent } from './app.component';
+import { AppComponent } from "./app.component";
 
-import { MinisiteComponent } from './pages/minisite/minisite.component';
+import { MinisiteComponent } from "./pages/minisite/minisite.component";
 
-import { AgmCoreModule } from '@agm/core';
+import { AgmCoreModule } from "@agm/core";
+import { HeaderComponent } from "./component/header/header.component";
+import { HeroComponent } from "./component/hero/hero.component";
 
 @NgModule({
   declarations: [
     AppComponent,
-    MinisiteComponent
+    MinisiteComponent,
+    HeaderComponent,
+    HeroComponent
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot([{
-      path: '',
-      component: MinisiteComponent,
-      pathMatch: 'full',
-      resolve: {
-        itinerary: ItineraryResolver
+    RouterModule.forRoot([
+      {
+        path: "",
+        component: MinisiteComponent,
+        pathMatch: "full",
+        resolve: {
+          itinerary: ItineraryResolver
+        }
       }
-    }
-  ]),
-  AgmCoreModule.forRoot({
-    apiKey: 'ASK_SITESPIRIT'
-  }),
-  HttpClientModule,
-  VtbComponentsModule.forRoot(environment)
-],
-providers: [ItineraryResolver],
-bootstrap: [AppComponent]
+    ]),
+    AgmCoreModule.forRoot({
+      apiKey: "AIzaSyAp2Nko-n3uxEhNnXm1KqyBru2eXR_m1gM"
+    }),
+    HttpClientModule,
+    VtbComponentsModule.forRoot(environment)
+  ],
+  providers: [ItineraryResolver],
+  bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
