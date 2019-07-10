@@ -1,6 +1,6 @@
 import { BrowserModule } from "@angular/platform-browser";
 import { NgModule } from "@angular/core";
-import { RouterModule } from "@angular/router";
+import { RouterModule, Routes } from "@angular/router";
 import { HttpClientModule } from "@angular/common/http";
 import { environment } from "../environments/environment";
 
@@ -16,6 +16,7 @@ import { AgmCoreModule } from "@agm/core";
 import { HeaderComponent } from "./component/header/header.component";
 import { HeroComponent } from "./component/hero/hero.component";
 import { FooterComponent } from "./component/footer/footer.component";
+import { NavigationComponent } from "./component/navigation/navigation.component";
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { FooterComponent } from "./component/footer/footer.component";
     MinisiteComponent,
     HeaderComponent,
     HeroComponent,
-    FooterComponent
+    FooterComponent,
+    NavigationComponent
   ],
   imports: [
     BrowserModule,

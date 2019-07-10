@@ -2,6 +2,12 @@
     display: none;
 }
 
+.html5-video-player .video-stream {
+    position: static !important;
+    width: 100% !important;
+    height: 100vh !important;
+}
+
 .hero .vdotxt {
     position: absolute;
     top: 50%;
@@ -52,6 +58,7 @@
 .hero /deep/ {
     text-align: center;
     overflow: hidden;
+    margin-bottom: -5%;
 }
 
 .hero /deep/ .youtube-wrapper {
