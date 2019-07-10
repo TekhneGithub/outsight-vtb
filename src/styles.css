@@ -17,7 +17,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  letter-spacing: 0.1vw;
+  letter-spacing: 1px;
   font-size: 16px;
   font-weight: 500;
 }
@@ -29,14 +29,22 @@ h1, h2, h3, h4, h5, h6, ul, ol {
   font-weight: 100;
 }
 
-h2 {
-  font-size: 36px;
-}
-
 h1, h2, h3 {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 300;
+  color: var(--theme-color);
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+h2 span {
+  font-weight: bold;
 }
 
 img {
@@ -49,9 +57,30 @@ p {
   color: #555555;
 }
 
+.bg-theme-color {
+  background: var(--theme-color);
+}
+
+.bg-gray-color {
+  background: var(--theme-gray);
+}
+
+.bg-theme-color *, .bg-gray-color * {
+  color: #fff;
+}
+
 a, a:focus, a:hover {
   outline: none;
   text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+  body, p {
+    font-size: 13px;
+  }
+  h2 {
+    font-size: 18px;
+  }
 }
 
 /*********************

@@ -1,0 +1,46 @@
+.overview-wrap [class*="col-"] {
+    padding: 15px;
+}
+
+.schedulewrap ul li {
+    list-style: none;
+    padding-top: 10px;
+}
+
+.schedulewrap ul li span {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.overview-wrap [class*="col-"].guidesec {
+    padding: 0;
+}
+
+.overview-wrap .guidesec p, .overview-wrap .guidesec h3 {
+    padding: 15px;
+}
+
+.overview-wrap h3 {
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.overview-wrap h3 span {
+    font-weight: bold;
+    display: block;
+}
+
+.guidesec img {
+    width: 100%;
+    display: block;
+}
+
+@media screen and (max-width: 767px) {
+    .overview-wrap [class*="col-"] {
+        padding: 30px 15px;
+    }
+    .overview-wrap h3 {
+        font-size: 14px;
+    }
+}
