@@ -18,6 +18,7 @@ import { HeroComponent } from "./component/hero/hero.component";
 import { FooterComponent } from "./component/footer/footer.component";
 import { NavigationComponent } from "./component/navigation/navigation.component";
 import { OverviewComponent } from './component/home/overview/overview.component';
+import { ExtraInfoComponent } from './component/home/extra-info/extra-info.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { OverviewComponent } from './component/home/overview/overview.component'
     HeroComponent,
     FooterComponent,
     NavigationComponent,
-    OverviewComponent
+    OverviewComponent,
+    ExtraInfoComponent
   ],
   imports: [
     BrowserModule,
