@@ -24,6 +24,7 @@ import { MainModule } from "./pages/main/main.module";
 import { MainComponent } from "./pages/main/main.component";
 import { FlightsComponent } from './component/home/flights/flights.component';
 import { TripDaysComponent } from './component/home/trip-days/trip-days.component';
+import { OutsightTravelComponent } from './component/home/outsight-travel/outsight-travel.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { TripDaysComponent } from './component/home/trip-days/trip-days.componen
     HomeComponent,
     MainComponent,
     FlightsComponent,
-    TripDaysComponent
+    TripDaysComponent,
+    OutsightTravelComponent
   ],
   imports: [
     BrowserModule,

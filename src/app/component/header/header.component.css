@@ -1,11 +1,12 @@
 header {
   background: var(--theme-light);
   height: 40px;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 9;
+  transition: all .5s ease-in-out;
 }
 
 header .logo {
@@ -13,11 +14,23 @@ header .logo {
   width: 200px;
   margin: 0 auto;
   background: var(--theme-color);
+  transition: all .5s ease-in-out;
+}
+
+header.small-header {
+  height: 30px;
+  background: var(--theme-color);
+}
+
+header.small-header .logo {
+  width: 120px;
+  padding: 8px 10px;
 }
 
 @media screen and (max-width: 767px) {
   header {
     background: none;
+    position: absolute;
   }
   header .logo {
     width: 150px;

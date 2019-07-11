@@ -14,7 +14,7 @@
 }
 
 .daytext {
-    padding: 0 30px;
+    padding: 15px 30px;
 }
 
 .dayimg {
@@ -45,4 +45,10 @@
 
 .daywrap .row:nth-of-type(4n) {
     background: #5f5f61
+}
+
+@media screen and (max-width: 767px) {
+    .daywrap h3 {
+        font-size: 18px;
+    }
 }
