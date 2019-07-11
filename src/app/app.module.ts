@@ -17,8 +17,13 @@ import { HeaderComponent } from "./component/header/header.component";
 import { HeroComponent } from "./component/hero/hero.component";
 import { FooterComponent } from "./component/footer/footer.component";
 import { NavigationComponent } from "./component/navigation/navigation.component";
-import { OverviewComponent } from './component/home/overview/overview.component';
-import { ExtraInfoComponent } from './component/home/extra-info/extra-info.component';
+import { HomeComponent } from "./pages/home/home.component";
+import { OverviewComponent } from "./component/home/overview/overview.component";
+import { ExtraInfoComponent } from "./component/home/extra-info/extra-info.component";
+import { MainModule } from "./pages/main/main.module";
+import { MainComponent } from "./pages/main/main.component";
+import { FlightsComponent } from './component/home/flights/flights.component';
+import { TripDaysComponent } from './component/home/trip-days/trip-days.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +34,11 @@ import { ExtraInfoComponent } from './component/home/extra-info/extra-info.compo
     FooterComponent,
     NavigationComponent,
     OverviewComponent,
-    ExtraInfoComponent
+    ExtraInfoComponent,
+    HomeComponent,
+    MainComponent,
+    FlightsComponent,
+    TripDaysComponent
   ],
   imports: [
     BrowserModule,
