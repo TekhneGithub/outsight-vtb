@@ -1,0 +1,19 @@
+.map-info .map-info-heading{
+    padding:40px 20px;
+    background-color: #fffefe;
+}
+.map-info-heading h2{font-weight: 900;margin-bottom: 20px;}
+.map-info-list ul{
+    padding: 0;
+    margin: 0;
+}
+.map-info-list ul li{
+    list-style-type: none;
+    padding: 5px 0px;
+    line-height: 1.56;
+    font-weight: 900;
+    columns: #000000;
+}
+.map-info-list ul li span{
+    padding-right: 20px;
+}

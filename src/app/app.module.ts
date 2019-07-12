@@ -24,6 +24,9 @@ import { MainComponent } from "./pages/main/main.component";
 import { FlightsComponent } from "./component/home/flights/flights.component";
 import { TripDaysComponent } from "./component/home/trip-days/trip-days.component";
 import { OutsightTravelComponent } from "./component/home/outsight-travel/outsight-travel.component";
+import { MapComponent } from './component/contact/map/map.component';
+import { ContactComponent } from './pages/contact/contact.component';
+import { MapinfoComponent } from './component/contact/mapinfo/mapinfo.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +42,10 @@ import { OutsightTravelComponent } from "./component/home/outsight-travel/outsig
     MainComponent,
     FlightsComponent,
     TripDaysComponent,
-    OutsightTravelComponent
+    OutsightTravelComponent,
+    MapComponent,
+    ContactComponent,
+    MapinfoComponent
   ],
   imports: [
     BrowserModule,
@@ -54,8 +60,8 @@ import { OutsightTravelComponent } from "./component/home/outsight-travel/outsig
         component: HomeComponent
       },
       {
-        path: "main",
-        component: MainComponent
+        path: "conatct",
+        component: ContactComponent
       }
     ]),
     AgmCoreModule.forRoot({
