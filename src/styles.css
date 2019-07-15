@@ -49,6 +49,10 @@ h2 span {
   font-weight: bold;
 }
 
+h3 {
+  font-size: 20px;
+}
+
 img {
   max-width: 100%;
 }
@@ -68,11 +72,15 @@ p {
   background: var(--theme-color);
 }
 
+.bg-light-color {
+  background: var(--theme-light);
+}
+
 .bg-gray-color {
   background: var(--theme-gray);
 }
 
-.bg-theme-color *, .bg-gray-color * {
+.bg-theme-color *, .bg-gray-color *, .bg-light-color * {
   color: #fff;
 }
 
@@ -81,12 +89,30 @@ a, a:focus, a:hover {
   text-decoration: none;
 }
 
+ul.dash-style-list li {
+  list-style: none;
+  position: relative;
+  padding-left: 15px;
+}
+
+ul.dash-style-list li:before {
+  content: '-';
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 30px;
+  line-height: 20px;
+}
+
 @media screen and (max-width: 767px) {
   body, p {
     font-size: 13px;
   }
   h2 {
     font-size: 18px;
+  }
+  h3 {
+    font-size: 16px;
   }
 }
 

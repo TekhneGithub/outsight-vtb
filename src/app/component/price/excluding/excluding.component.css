@@ -1,0 +1,7 @@
+.exclwrap {
+    background: rgba(135, 118, 136, 0.3);
+}
+
+.exclwrap [class*="col-"] {
+    padding: 30px 15px;
+}

@@ -30,6 +30,14 @@ import { MapinfoComponent } from './component/contact/mapinfo/mapinfo.component'
 import { TipsComponent } from './pages/tips/tips.component';
 import { GalleryComponent } from './component/tips/gallery/gallery.component';
 import { GalleryinfoComponent } from './component/tips/galleryinfo/galleryinfo.component';
+import { CostComponent } from "./component/price/cost/cost.component";
+import { PriceComponent } from "./pages/price/price.component";
+import { InclusiveComponent } from "./component/price/inclusive/inclusive.component";
+import { ExcludingComponent } from "./component/price/excluding/excluding.component";
+import { ExtraComponent } from "./component/price/extra/extra.component";
+// import { MapComponent } from "./component/contact/map/map.component";
+// import { ContactComponent } from "./pages/contact/contact.component";
+// import { MapinfoComponent } from "./component/contact/mapinfo/mapinfo.component";
 
 @NgModule({
   declarations: [
@@ -46,6 +54,11 @@ import { GalleryinfoComponent } from './component/tips/galleryinfo/galleryinfo.c
     FlightsComponent,
     TripDaysComponent,
     OutsightTravelComponent,
+    CostComponent,
+    PriceComponent,
+    InclusiveComponent,
+    ExcludingComponent,
+    ExtraComponent,
     MapComponent,
     ContactComponent,
     MapinfoComponent,
@@ -66,7 +79,11 @@ import { GalleryinfoComponent } from './component/tips/galleryinfo/galleryinfo.c
         component: HomeComponent
       },
       {
-        path: "conatct",
+        path: "price",
+        component: PriceComponent
+      },
+      {
+        path: "contact",
         component: ContactComponent
       },
       {
