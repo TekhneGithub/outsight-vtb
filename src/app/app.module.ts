@@ -35,6 +35,8 @@ import { PriceComponent } from "./pages/price/price.component";
 import { InclusiveComponent } from "./component/price/inclusive/inclusive.component";
 import { ExcludingComponent } from "./component/price/excluding/excluding.component";
 import { ExtraComponent } from "./component/price/extra/extra.component";
+import { HotelGalleryComponent } from './component/hotels/hotel-gallery/hotel-gallery.component';
+import { HotelsComponent } from './pages/hotels/hotels.component';
 // import { MapComponent } from "./component/contact/map/map.component";
 // import { ContactComponent } from "./pages/contact/contact.component";
 // import { MapinfoComponent } from "./component/contact/mapinfo/mapinfo.component";
@@ -64,7 +66,9 @@ import { ExtraComponent } from "./component/price/extra/extra.component";
     MapinfoComponent,
     TipsComponent,
     GalleryComponent,
-    GalleryinfoComponent
+    GalleryinfoComponent,
+    HotelGalleryComponent,
+    HotelsComponent
   ],
   imports: [
     BrowserModule,
@@ -89,6 +93,10 @@ import { ExtraComponent } from "./component/price/extra/extra.component";
       {
         path: "tips",
         component: TipsComponent
+      },
+      {
+        path: "hotel",
+        component: HotelsComponent
       }
     ]),
     AgmCoreModule.forRoot({
