@@ -27,6 +27,9 @@ import { OutsightTravelComponent } from "./component/home/outsight-travel/outsig
 import { MapComponent } from './component/contact/map/map.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { MapinfoComponent } from './component/contact/mapinfo/mapinfo.component';
+import { TipsComponent } from './pages/tips/tips.component';
+import { GalleryComponent } from './component/tips/gallery/gallery.component';
+import { GalleryinfoComponent } from './component/tips/galleryinfo/galleryinfo.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +48,10 @@ import { MapinfoComponent } from './component/contact/mapinfo/mapinfo.component'
     OutsightTravelComponent,
     MapComponent,
     ContactComponent,
-    MapinfoComponent
+    MapinfoComponent,
+    TipsComponent,
+    GalleryComponent,
+    GalleryinfoComponent
   ],
   imports: [
     BrowserModule,
@@ -62,6 +68,10 @@ import { MapinfoComponent } from './component/contact/mapinfo/mapinfo.component'
       {
         path: "conatct",
         component: ContactComponent
+      },
+      {
+        path: "tips",
+        component: TipsComponent
       }
     ]),
     AgmCoreModule.forRoot({
