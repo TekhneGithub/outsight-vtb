@@ -24,6 +24,11 @@ import { MainComponent } from "./pages/main/main.component";
 import { FlightsComponent } from "./component/home/flights/flights.component";
 import { TripDaysComponent } from "./component/home/trip-days/trip-days.component";
 import { OutsightTravelComponent } from "./component/home/outsight-travel/outsight-travel.component";
+import { CostComponent } from "./component/price/cost/cost.component";
+import { PriceComponent } from "./pages/price/price.component";
+import { InclusiveComponent } from './component/price/inclusive/inclusive.component';
+import { ExcludingComponent } from './component/price/excluding/excluding.component';
+import { ExtraComponent } from './component/price/extra/extra.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +44,12 @@ import { OutsightTravelComponent } from "./component/home/outsight-travel/outsig
     MainComponent,
     FlightsComponent,
     TripDaysComponent,
-    OutsightTravelComponent
+    OutsightTravelComponent,
+    CostComponent,
+    PriceComponent,
+    InclusiveComponent,
+    ExcludingComponent,
+    ExtraComponent
   ],
   imports: [
     BrowserModule,
@@ -54,8 +64,8 @@ import { OutsightTravelComponent } from "./component/home/outsight-travel/outsig
         component: HomeComponent
       },
       {
-        path: "main",
-        component: MainComponent
+        path: "price",
+        component: PriceComponent
       }
     ]),
     AgmCoreModule.forRoot({

@@ -1,0 +1,28 @@
+.inclwrap {
+    background: rgba(177, 140, 150, 0.3);
+}
+
+.incldesc {
+    padding: 30px 15px;
+}
+
+.inclwrap .col-md-4 {
+    padding: 0;
+}
+
+.inclwrap h3 {
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    padding: 10px;
+}
+
+.inclwrap h3 span {
+    font-weight: bold;
+    display: block;
+}
+
+.inclwrap img {
+    width: 100%;
+    display: block;
+}
