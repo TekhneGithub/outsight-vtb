@@ -29,9 +29,16 @@ import { PriceComponent } from "./pages/price/price.component";
 import { InclusiveComponent } from "./component/price/inclusive/inclusive.component";
 import { ExcludingComponent } from "./component/price/excluding/excluding.component";
 import { ExtraComponent } from "./component/price/extra/extra.component";
+import { HotelGalleryComponent } from "./component/hotels/hotel-gallery/hotel-gallery.component";
+import { HotelsComponent } from "./pages/hotels/hotels.component";
+import { DestinationComponent } from "./component/info/destination/destination.component";
+import { InfoComponent } from "./pages/info/info.component";
 import { MapComponent } from "./component/contact/map/map.component";
 import { ContactComponent } from "./pages/contact/contact.component";
 import { MapinfoComponent } from "./component/contact/mapinfo/mapinfo.component";
+import { TipsComponent } from "./pages/tips/tips.component";
+import { GalleryComponent } from "./component/tips/gallery/gallery.component";
+import { GalleryinfoComponent } from "./component/tips/galleryinfo/galleryinfo.component";
 
 @NgModule({
   declarations: [
@@ -55,7 +62,14 @@ import { MapinfoComponent } from "./component/contact/mapinfo/mapinfo.component"
     ExtraComponent,
     MapComponent,
     ContactComponent,
-    MapinfoComponent
+    MapinfoComponent,
+    HotelGalleryComponent,
+    HotelsComponent,
+    InfoComponent,
+    DestinationComponent,
+    TipsComponent,
+    GalleryComponent,
+    GalleryinfoComponent
   ],
   imports: [
     BrowserModule,
@@ -70,11 +84,23 @@ import { MapinfoComponent } from "./component/contact/mapinfo/mapinfo.component"
         component: HomeComponent
       },
       {
+        path: "tips",
+        component: TipsComponent
+      },
+      {
+        path: "hotels",
+        component: HotelsComponent
+      },
+      {
         path: "price",
         component: PriceComponent
       },
       {
-        path: "conatct",
+        path: "info",
+        component: InfoComponent
+      },
+      {
+        path: "route",
         component: ContactComponent
       }
     ]),

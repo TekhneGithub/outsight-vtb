@@ -1,0 +1,49 @@
+.destwrap h2 {
+    margin: 10px 15px;
+}
+
+.mapcont {
+    padding: 30px 15px;
+    position: relative;
+}
+
+.mapcont:before, .mapcont:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: var(--theme-light-gray);
+}
+
+.mapcont:after {
+    right: -100%;
+    left: auto;
+}
+
+.destwrap .col-md-4 {
+    background: #b18c96;
+    padding: 0;
+}
+
+.destwrap .col-md-4 h2 {
+    background: #fff;
+    margin: 0 auto;
+    padding: 10px 15px;
+}
+
+.destlist {
+    padding: 30px 15px;
+}
+
+.destlist ul li {
+    display: inline-block;
+    width: 49%;
+    color: #fff;
+    padding: 5px 0;
+}
+
+.destlist ul li:nth-child(2n) {
+    margin-left: 1%;
+}

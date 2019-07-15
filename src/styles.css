@@ -22,6 +22,7 @@ body {
   font-weight: 400;
   background: #efeff0;
   line-height: 1.4;
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6, ul, ol {
@@ -76,11 +77,15 @@ p {
   background: var(--theme-light);
 }
 
+.bg-lightgray-color {
+  background: var(--theme-light-gray);
+}
+
 .bg-gray-color {
   background: var(--theme-gray);
 }
 
-.bg-theme-color *, .bg-gray-color *, .bg-light-color * {
+.bg-theme-color *, .bg-gray-color *, .bg-light-color *, .bg-lightgray-color * {
   color: #fff;
 }
 
