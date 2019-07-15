@@ -24,19 +24,16 @@ import { MainComponent } from "./pages/main/main.component";
 import { FlightsComponent } from "./component/home/flights/flights.component";
 import { TripDaysComponent } from "./component/home/trip-days/trip-days.component";
 import { OutsightTravelComponent } from "./component/home/outsight-travel/outsight-travel.component";
-import { MapComponent } from "./component/contact/map/map.component";
-import { ContactComponent } from "./pages/contact/contact.component";
-import { MapinfoComponent } from "./component/contact/mapinfo/mapinfo.component";
-import { TipsComponent } from "./pages/tips/tips.component";
-import { GalleryComponent } from "./component/tips/gallery/gallery.component";
-import { GalleryinfoComponent } from "./component/tips/galleryinfo/galleryinfo.component";
 import { CostComponent } from "./component/price/cost/cost.component";
 import { PriceComponent } from "./pages/price/price.component";
 import { InclusiveComponent } from "./component/price/inclusive/inclusive.component";
 import { ExcludingComponent } from "./component/price/excluding/excluding.component";
 import { ExtraComponent } from "./component/price/extra/extra.component";
-import { HotelGalleryComponent } from "./component/hotels/hotel-gallery/hotel-gallery.component";
-import { HotelsComponent } from "./pages/hotels/hotels.component";
+import { MapComponent } from "./component/contact/map/map.component";
+import { ContactComponent } from "./pages/contact/contact.component";
+import { MapinfoComponent } from "./component/contact/mapinfo/mapinfo.component";
+import { InfoComponent } from "./pages/info/info.component";
+import { DestinationComponent } from "./component/info/destination/destination.component";
 
 @NgModule({
   declarations: [
@@ -61,11 +58,8 @@ import { HotelsComponent } from "./pages/hotels/hotels.component";
     MapComponent,
     ContactComponent,
     MapinfoComponent,
-    TipsComponent,
-    GalleryComponent,
-    GalleryinfoComponent,
-    HotelGalleryComponent,
-    HotelsComponent
+    InfoComponent,
+    DestinationComponent
   ],
   imports: [
     BrowserModule,
@@ -84,16 +78,12 @@ import { HotelsComponent } from "./pages/hotels/hotels.component";
         component: PriceComponent
       },
       {
-        path: "contact",
+        path: "info",
+        component: InfoComponent
+      },
+      {
+        path: "conatct",
         component: ContactComponent
-      },
-      {
-        path: "tips",
-        component: TipsComponent
-      },
-      {
-        path: "hotel",
-        component: HotelsComponent
       }
     ]),
     AgmCoreModule.forRoot({
