@@ -32,6 +32,8 @@ import { ExtraComponent } from "./component/price/extra/extra.component";
 import { MapComponent } from "./component/contact/map/map.component";
 import { ContactComponent } from "./pages/contact/contact.component";
 import { MapinfoComponent } from "./component/contact/mapinfo/mapinfo.component";
+import { InfoComponent } from "./pages/info/info.component";
+import { DestinationComponent } from "./component/info/destination/destination.component";
 
 @NgModule({
   declarations: [
@@ -55,7 +57,9 @@ import { MapinfoComponent } from "./component/contact/mapinfo/mapinfo.component"
     ExtraComponent,
     MapComponent,
     ContactComponent,
-    MapinfoComponent
+    MapinfoComponent,
+    InfoComponent,
+    DestinationComponent
   ],
   imports: [
     BrowserModule,
@@ -72,6 +76,10 @@ import { MapinfoComponent } from "./component/contact/mapinfo/mapinfo.component"
       {
         path: "price",
         component: PriceComponent
+      },
+      {
+        path: "info",
+        component: InfoComponent
       },
       {
         path: "conatct",
