@@ -26,9 +26,12 @@ import { TripDaysComponent } from "./component/home/trip-days/trip-days.componen
 import { OutsightTravelComponent } from "./component/home/outsight-travel/outsight-travel.component";
 import { CostComponent } from "./component/price/cost/cost.component";
 import { PriceComponent } from "./pages/price/price.component";
-import { InclusiveComponent } from './component/price/inclusive/inclusive.component';
-import { ExcludingComponent } from './component/price/excluding/excluding.component';
-import { ExtraComponent } from './component/price/extra/extra.component';
+import { InclusiveComponent } from "./component/price/inclusive/inclusive.component";
+import { ExcludingComponent } from "./component/price/excluding/excluding.component";
+import { ExtraComponent } from "./component/price/extra/extra.component";
+import { MapComponent } from "./component/contact/map/map.component";
+import { ContactComponent } from "./pages/contact/contact.component";
+import { MapinfoComponent } from "./component/contact/mapinfo/mapinfo.component";
 
 @NgModule({
   declarations: [
@@ -49,7 +52,10 @@ import { ExtraComponent } from './component/price/extra/extra.component';
     PriceComponent,
     InclusiveComponent,
     ExcludingComponent,
-    ExtraComponent
+    ExtraComponent,
+    MapComponent,
+    ContactComponent,
+    MapinfoComponent
   ],
   imports: [
     BrowserModule,
@@ -66,6 +72,10 @@ import { ExtraComponent } from './component/price/extra/extra.component';
       {
         path: "price",
         component: PriceComponent
+      },
+      {
+        path: "conatct",
+        component: ContactComponent
       }
     ]),
     AgmCoreModule.forRoot({
