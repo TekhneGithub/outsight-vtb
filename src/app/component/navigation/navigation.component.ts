@@ -10,8 +10,8 @@ export class NavigationComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {
-    $(".hamburger").click(function() {
-      $(this).toggleClass("is-active");
+    $(".hamburger, .navigation ul li").click(function() {
+      $(".hamburger").toggleClass("is-active");
       if ($(this).hasClass("is-active")) {
         $(".navigation ul").animate({ left: "0" }, 500);
       } else {

@@ -39,6 +39,7 @@ import { MapinfoComponent } from "./component/contact/mapinfo/mapinfo.component"
 import { TipsComponent } from "./pages/tips/tips.component";
 import { GalleryComponent } from "./component/tips/gallery/gallery.component";
 import { GalleryinfoComponent } from "./component/tips/galleryinfo/galleryinfo.component";
+import { GeneralInfoComponent } from './component/info/general-info/general-info.component';
 
 @NgModule({
   declarations: [
@@ -69,7 +70,8 @@ import { GalleryinfoComponent } from "./component/tips/galleryinfo/galleryinfo.c
     DestinationComponent,
     TipsComponent,
     GalleryComponent,
-    GalleryinfoComponent
+    GalleryinfoComponent,
+    GeneralInfoComponent
   ],
   imports: [
     BrowserModule,
