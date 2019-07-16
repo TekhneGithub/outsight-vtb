@@ -1,0 +1,59 @@
+.travel-even .tavel-even-heading{
+    background-color: var( --theme-color);
+    padding: 20px;
+}
+.travel-even .tavel-even-heading h2{
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+
+.travel-even .tavel-even-info h2{
+    padding: 20px 0;
+    margin-bottom: 0;
+}
+.travel-even .trvel-person .travel-person-img{
+    position: relative;
+}
+.travel-even .trvel-person .travel-person-img::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width:100%;
+    background-color: var(--theme-gray);
+    right: 0;
+    left: 0;
+    z-index:-1;
+}
+.travel-even .trvel-person .travel-person-img img{
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #fff;
+    position: relative;
+    top: 50px;
+    
+}
+.travel-even .trvel-person .travel-person-img:after{
+    content: '';
+    position: absolute;
+    left:0;
+    right: 0;
+    margin: 0 auto;
+    top:137%;
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 40px solid #fff;
+}
+.travel-even .travel-person-info{
+    background-color: var(--theme-light-gray);
+    padding: 100px 20px 20px ;
+}
+.travel-even .travel-person-info p{
+    max-width: 300px;
+    margin: 0 auto;
+    color:#fff;
+    margin-bottom: 30px;
+    
+}
