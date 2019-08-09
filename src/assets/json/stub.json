@@ -61,7 +61,7 @@
         },
         {
           "id": 6,
-          "name": "bestemming1", 
+          "name": "bestemming1",
           "type_id": 3,
           "valid_regex": "",
           "defaults": "Argentini\u00eb;Argentini\u00eb|Bolivia|Botswana|Brazilie|Cambodja|Chili|China|Colombia|Costa Rica|Cuba|Ecuador|Galapagos|Guatemala|India|Indonesie|Japan|Jordanie|Laos|Malediven|Maleisie|Marokko|Mexico|Myanmar|Namibie|Nepal|Nicaragua|Panama|Peru|Sri Lanka|Suriname|Tanzania|Thailand|Tibet|Vietnam|Zuid-Afrika",
@@ -116,7 +116,7 @@
           "field_value_link_id": 296,
           "link_type": "order",
           "link_id": 1612,
-          "value": "Vietnam"  //Desg 1
+          "value": "Vietnam"
         },
         {
           "id": 16,
