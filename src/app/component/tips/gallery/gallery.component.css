@@ -84,3 +84,29 @@
 .custom-triange.up.tr-bg-light{
     border-bottom-color: var(--theme-light);
 }
+.custom-triange.down.cutsom-content-bg-light{
+    border-top-color: var(--theme-light);
+}
+
+
+@media screen and (max-width: 767px) {
+    .custom-triange{
+        transform: rotateZ(90deg);
+        top:inherit;
+        right: 0;
+        bottom: 100%;
+        left: 0;
+        margin: 0 auto;
+    }
+    .custom-triange.down{
+        transform: rotateZ(-180deg);
+        top:inherit;
+        left:0;
+    }
+    .custom-triange.up{
+        left: 20%;
+    }
+
+    /* Flex order */
+
+}

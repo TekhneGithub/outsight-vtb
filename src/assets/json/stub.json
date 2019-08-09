@@ -1,1038 +1,1265 @@
-{
-  "startDate":"Tue Nov 13 2018 00:00:00 GMT+0100 ",
-  "TSOrder":{
-     "id":594,
-     "sourceDescription":"Test VTB"
-  },
-  "extraFieldValues":[
-     {
-        "id":1,
-        "parent_id":null,
-        "link_type":"order",
-        "layout_data":null,
-        "display_at":null,
-        "sort_order":null,
-        "name":"Order Extra Fields",
-        "fields":[
-           {
-              "id":2,
-              "name":"header_video",
-              "type_id":1,
-              "valid_regex":"",
-              "defaults":null,
-              "category_id":2,
-              "sort_order":null,
-              "field_type":"TextBox",
-              "display_at":"both",
-              "show_in_product":0,
-              "layout_data":null,
-              "maxlength":null,
-              "maxlength_enforce":0,
-              "translated_name":"Header Video",
-              "field_value_link_id":5,
-              "link_type":"order",
-              "link_id":594,
-              "value":"https:\/\/www.youtube.com\/watch?v=Ioq1u3VvWRk"
-           }
-        ]
-     }
-  ],
-  "participants":{
-     "party 1":[
+  {
+    "id": 1612,
+    "sourceDescription": "#001612: Mildred Zomerdijk",
+    "startDate": "Mon, 24 Jun 2019 13:28:31 +0200",
+    "extraFieldValues": [{
+      "id": 2,
+      "parent_id": null,
+      "link_type": "order",
+      "layout_data": null,
+      "display_at": null,
+      "sort_order": null,
+      "name": "Order",
+      "fields": [{
+          "id": 7,
+          "name": "Travelplannaam",
+          "type_id": 1,
+          "valid_regex": "",
+          "defaults": null,
+          "category_id": 2,
+          "sort_order": null,
+          "field_width": null,
+          "field_type": "TextBox",
+          "display_at": "both",
+          "show_in_product": 0,
+          "layout_data": null,
+          "maxlength": null,
+          "maxlength_enforce": 0,
+          "translated_name": "Travelplan Naam",
+          "field_value_link_id": 295,
+          "link_type": "order",
+          "link_id": 1612,
+          "value": "Naam Travelplan = Mastertrip"
+        },
         {
-           "id":5271,
-           "title_id":2,
-           "title":"Mevr.",
-           "initials":"",
-           "name":"Jane",
-           "surname":"Doe",
-           "company":"",
-           "street":"",
-           "housenum":"",
-           "postalcode":"",
-           "city":"",
-           "country":"NL",
-           "birthdate":null,
-           "age_calc_type":"birthdate",
-           "informal":1,
-           "language_id":2,
-           "notes":"",
-           "created":"2018-12-07 12:36:10",
-           "created_by":null,
-           "modified":null,
-           "minimal":1,
-           "use_maincontact_details":0,
-           "nationality":null,
-           "passport_firstname":"",
-           "passport_number":"",
-           "passport_expiry_date":null,
-           "frequent_flyer_numbers":"",
-           "airline_preference":"",
-           "meal_preference":"",
-           "seat_preference":"",
-           "preferences_memo":"",
-           "smoking":null,
-           "lodging_preference":"",
-           "province":"",
-           "passport_issue_city":"",
-           "birth_city":"",
-           "contact_tag":null,
-           "surname_prefix":"",
-           "last_email_contact_ts":null,
-           "last_email_contact_id":null,
-           "last_email_contact_mailbox_id":null,
-           "last_call_contact_id":null,
-           "last_call_contact_ts":null,
-           "passport_surname":"",
-           "inserted_by":9,
-           "inserted_at":"2018-12-07 12:36:10",
-           "inserted_audit_id":null,
-           "updated_by":9,
-           "updated_at":"2018-12-07 12:36:10",
-           "updated_audit_id":null,
-           "general_info":null,
-           "passport_nr":null,
-           "boardingplace_id":null,
-           "groupnr":1,
-           "sex":"female",
-           "has_linked_ols":38,
-           "has_locked_ols":0,
-           "partyName":"party 1"
+          "id": 1,
+          "name": "cover",
+          "type_id": 3,
+          "valid_regex": "",
+          "defaults": "Family;Family|1 stel|2 stellen|groepje",
+          "category_id": 2,
+          "sort_order": 1,
+          "field_width": null,
+          "field_type": "FilteringSelect",
+          "display_at": "both",
+          "show_in_product": 0,
+          "layout_data": null,
+          "maxlength": null,
+          "maxlength_enforce": 0,
+          "translated_name": "Cover",
+          "selected": "Family",
+          "options": [
+            "Family",
+            "1 stel",
+            "2 stellen",
+            "groepje"
+          ],
+          "field_value_link_id": 306,
+          "link_type": "order",
+          "link_id": 1612,
+          "value": null
+        },
+        {
+          "id": 6,
+          "name": "bestemming1", 
+          "type_id": 3,
+          "valid_regex": "",
+          "defaults": "Argentini\u00eb;Argentini\u00eb|Bolivia|Botswana|Brazilie|Cambodja|Chili|China|Colombia|Costa Rica|Cuba|Ecuador|Galapagos|Guatemala|India|Indonesie|Japan|Jordanie|Laos|Malediven|Maleisie|Marokko|Mexico|Myanmar|Namibie|Nepal|Nicaragua|Panama|Peru|Sri Lanka|Suriname|Tanzania|Thailand|Tibet|Vietnam|Zuid-Afrika",
+          "category_id": 2,
+          "sort_order": 2,
+          "field_width": null,
+          "field_type": "FilteringSelect",
+          "display_at": "both",
+          "show_in_product": 0,
+          "layout_data": null,
+          "maxlength": null,
+          "maxlength_enforce": 0,
+          "translated_name": "Hoofd Bestemming",
+          "selected": "Argentini\u00eb",
+          "options": [
+            "Argentini\u00eb",
+            "Bolivia",
+            "Botswana",
+            "Brazilie",
+            "Cambodja",
+            "Chili",
+            "China",
+            "Colombia",
+            "Costa Rica",
+            "Cuba",
+            "Ecuador",
+            "Galapagos",
+            "Guatemala",
+            "India",
+            "Indonesie",
+            "Japan",
+            "Jordanie",
+            "Laos",
+            "Malediven",
+            "Maleisie",
+            "Marokko",
+            "Mexico",
+            "Myanmar",
+            "Namibie",
+            "Nepal",
+            "Nicaragua",
+            "Panama",
+            "Peru",
+            "Sri Lanka",
+            "Suriname",
+            "Tanzania",
+            "Thailand",
+            "Tibet",
+            "Vietnam",
+            "Zuid-Afrika"
+          ],
+          "field_value_link_id": 296,
+          "link_type": "order",
+          "link_id": 1612,
+          "value": "Vietnam"  //Desg 1
+        },
+        {
+          "id": 16,
+          "name": "bestemming2",
+          "type_id": 3,
+          "valid_regex": "",
+          "defaults": "Argentini\u00eb;Argentini\u00eb|Bolivia|Botswana|Brazilie|Cambodja|Chili|China|Colombia|Costa Rica|Cuba|Ecuador|Galapagos|Guatemala|India|Indonesie|Japan|Jordanie|Laos|Malediven|Maleisie|Marokko|Mexico|Myanmar|Namibie|Nepal|Nicaragua|Panama|Peru|Sri Lanka|Suriname|Tanzania|Thailand|Tibet|Vietnam|Zuid-Afrika",
+          "category_id": 2,
+          "sort_order": 3,
+          "field_width": null,
+          "field_type": "FilteringSelect",
+          "display_at": "both",
+          "show_in_product": 0,
+          "layout_data": null,
+          "maxlength": null,
+          "maxlength_enforce": 0,
+          "translated_name": "Extra Bestemming",
+          "selected": "Argentini\u00eb",
+          "options": [
+            "Argentini\u00eb",
+            "Bolivia",
+            "Botswana",
+            "Brazilie",
+            "Cambodja",
+            "Chili",
+            "China",
+            "Colombia",
+            "Costa Rica",
+            "Cuba",
+            "Ecuador",
+            "Galapagos",
+            "Guatemala",
+            "India",
+            "Indonesie",
+            "Japan",
+            "Jordanie",
+            "Laos",
+            "Malediven",
+            "Maleisie",
+            "Marokko",
+            "Mexico",
+            "Myanmar",
+            "Namibie",
+            "Nepal",
+            "Nicaragua",
+            "Panama",
+            "Peru",
+            "Sri Lanka",
+            "Suriname",
+            "Tanzania",
+            "Thailand",
+            "Tibet",
+            "Vietnam",
+            "Zuid-Afrika"
+          ],
+          "field_value_link_id": 307,
+          "link_type": "order",
+          "link_id": 1612,
+          "value": null
+        },
+        {
+          "id": 17,
+          "name": "order_bron",
+          "type_id": 3,
+          "valid_regex": "",
+          "defaults": "Vakantiebeurs;repeater-al eerder bij OutSight geboekt|via vrienden of bekenden|via Vakantiebeurs Amsterdam|via Vakantiebeurs Breda|via VERRE REIZEN EVENT in Antwerpen|via VERRE REIZEN EVENT in Den Haag|link op Facebook.nl|link op Reisgraag.nl|link op 27vakantiedagen.nl|zoekmachine Google|online: link op columbusmagazine.nl|online: link op meridiantravel.nl|online: link op een startpagina|online: link op andersreizen.nl|online: link op een andere pagina|advertentie in Columbus Magazine|advertentie in Meridian Magazine|advertentie in krant|ZRA",
+          "category_id": 2,
+          "sort_order": 4,
+          "field_width": null,
+          "field_type": "FilteringSelect",
+          "display_at": "both",
+          "show_in_product": 0,
+          "layout_data": null,
+          "maxlength": null,
+          "maxlength_enforce": 0,
+          "translated_name": "Order Bron",
+          "selected": "Vakantiebeurs",
+          "options": [
+            "repeater-al eerder bij OutSight geboekt",
+            "via vrienden of bekenden",
+            "via Vakantiebeurs Amsterdam",
+            "via Vakantiebeurs Breda",
+            "via VERRE REIZEN EVENT in Antwerpen",
+            "via VERRE REIZEN EVENT in Den Haag",
+            "link op Facebook.nl",
+            "link op Reisgraag.nl",
+            "link op 27vakantiedagen.nl",
+            "zoekmachine Google",
+            "online: link op columbusmagazine.nl",
+            "online: link op meridiantravel.nl",
+            "online: link op een startpagina",
+            "online: link op andersreizen.nl",
+            "online: link op een andere pagina",
+            "advertentie in Columbus Magazine",
+            "advertentie in Meridian Magazine",
+            "advertentie in krant",
+            "ZRA"
+          ],
+          "field_value_link_id": 308,
+          "link_type": "order",
+          "link_id": 1612,
+          "value": null
+        },
+        {
+          "id": 18,
+          "name": "Afhaakredenen",
+          "type_id": 3,
+          "valid_regex": "",
+          "defaults": "Gaat niet, reis te duur;Gaat niet, reis te duur|Gaat niet, andere reden|Elders geboekt, beter reisaanbod bij Riksja|Elders geboekt, beter reisaanbod bij Van Verre|Elders geboekt, beter reisaanbod bij YourWay2Go|Elders geboekt, beter reisaanbod bij DimSum|Elders geboekt, beter reisaanbod bij Vamonos|Elders geboekt, beter reisaanbod bij ander|Elders geboekt, betere prijzen bij Riksja|Elders geboekt, betere prijzen bij Van Verre|Elders geboekt, betere prijzen bij YourWay2Go|Elders geboekt, betere prijzen bij DimSum|Elders geboekt, betere prijzen bij Vamonos|Elders geboekt, betere prijzen bij ander|Gaat zelf regelen ter plekke|Gaat zelf regelen online Booking.com|Gaat zelf regelen online lokale DMC|Gaat met groepsreis|Heeft pakketreis geboekt|Afhaakreden niet bekend",
+          "category_id": 2,
+          "sort_order": 5,
+          "field_width": null,
+          "field_type": "FilteringSelect",
+          "display_at": "both",
+          "show_in_product": 0,
+          "layout_data": null,
+          "maxlength": null,
+          "maxlength_enforce": 0,
+          "translated_name": "Afhaakredenen",
+          "selected": "Gaat niet, reis te duur",
+          "options": [
+            "Gaat niet, reis te duur",
+            "Gaat niet, andere reden",
+            "Elders geboekt, beter reisaanbod bij Riksja",
+            "Elders geboekt, beter reisaanbod bij Van Verre",
+            "Elders geboekt, beter reisaanbod bij YourWay2Go",
+            "Elders geboekt, beter reisaanbod bij DimSum",
+            "Elders geboekt, beter reisaanbod bij Vamonos",
+            "Elders geboekt, beter reisaanbod bij ander",
+            "Elders geboekt, betere prijzen bij Riksja",
+            "Elders geboekt, betere prijzen bij Van Verre",
+            "Elders geboekt, betere prijzen bij YourWay2Go",
+            "Elders geboekt, betere prijzen bij DimSum",
+            "Elders geboekt, betere prijzen bij Vamonos",
+            "Elders geboekt, betere prijzen bij ander",
+            "Gaat zelf regelen ter plekke",
+            "Gaat zelf regelen online Booking.com",
+            "Gaat zelf regelen online lokale DMC",
+            "Gaat met groepsreis",
+            "Heeft pakketreis geboekt",
+            "Afhaakreden niet bekend"
+          ],
+          "field_value_link_id": 309,
+          "link_type": "order",
+          "link_id": 1612,
+          "value": null
         }
-     ]
-  },
-  "segments":[
-     {
-        "nights":2,
-        "day":1,
-        "isFlight":false,
-        "typeId":12,
-        "title":"Consectetur adipiscing elit",
-        "subTitle":"Donec iaculis enim",
-        "content":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ligula mauris, consequat quis leo maximus, pellentesque condimentum urna. Pellentesque vel metus non ligula efficitur condimentum. Donec enim nisi, mollis sed aliquet id, tempor quis risus. Pellentesque neque massa, ultrices sed eros eu, pretium porta urna. Curabitur nulla ipsum, fringilla convallis quam in, pretium cursus justo. Cras aliquam orci sed lorem rhoncus, ac tincidunt elit interdum. Cras nec tortor augue. Donec vehicula nulla posuere ante rutrum, ultrices facilisis eros accumsan. Donec elementum finibus arcu, ut viverra nisi porttitor vitae. Nunc sed ullamcorper libero, ac condimentum purus. Nunc aliquet, velit nec egestas vestibulum, nulla arcu hendrerit justo, at tincidunt magna nisl eu orci. Vestibulum a nisi varius, egestas orci id, commodo ex. Donec iaculis enim quis libero viverra, eget tempus tellus posuere. Aliquam sit amet lectus eros. Mauris posuere ex dolor, a luctus ante tempus eu. Proin imperdiet mattis odio, ut lobortis tellus imperdiet nec.<\/p>",
-        "TSBlock":{
-           "id":3249
+      ]
+    }],
+    "participants": {
+      "party 1": [{
+          "id": "2036630",
+          "name": "Mildred",
+          "surname": "Zomerdijk",
+          "surname_prefix": "",
+          "title": "2",
+          "sex": "female",
+          "birthdate": "1965-09-14"
         },
-        "flightInfo":[
-
-        ],
-        "media":[
-           {
-              "sourceType":"mediaspirit",
-              "sourceId":"09eea36db78f48a52450481ffc13c3b3",
-              "url":"https:\/\/s3-eu-west-1.amazonaws.com\/demo.mediaspirit.io\/original\/lg\/Zuid-Afrika-Fauna-babyolifant.JPG"
-           },
-           {
-              "sourceType":"mediaspirit",
-              "sourceId":"677a2ed7fe35b9d5f8b300bb67823f5b",
-              "url":"https:\/\/s3-eu-west-1.amazonaws.com\/demo.mediaspirit.io\/original\/lg\/Zuid-Afrika-BlydeRiverCanyon.JPG"
-           },
-           {
-              "sourceType":"mediaspirit",
-              "sourceId":"804f8c2ccbce001f14a2b3640bf60fd5",
-              "url":"https:\/\/s3-eu-west-1.amazonaws.com\/demo.mediaspirit.io\/original\/lg\/route%20van%20Johannesburg%20naar%20Hazyview%20Machadodorp%20(1).jpg"
-           }
-        ],
-        "elements":[
-           {
-              "offset":0,
-              "nights":2,
-              "unitAmount":2,
-              "unitId":2,
-              "optional":false,
-              "not_calculated":true,
-              "title":"Hotel Iaculis Ligula",
-              "TSProduct":{
-                 "id":191,
-                 "tag":"GUAACCELH",
-                 "bookableDays":[
-
-                 ]
-              },
-              "TSOrderline":{
-                 "id":8457
-              },
-              "media":[
-                 {
-                    "id":1,
-                    "sourceType":"mediaspirit",
-                    "sourceId":"b87d869228aac78678cd0559d0225241",
-                    "url":"https:\/\/s3-eu-west-1.amazonaws.com\/demo.mediaspirit.io\/original\/lg\/Manggis,%20Alila%20Manggis%20(8).jpg",
-                    "description":null
-                 }
-              ],
-              "olPrices":{
-                 "costPrice":"0.000",
-                 "discount":null,
-                 "title":"Hotel Iaculis Ligula",
-                 "discountMethod":null,
-                 "exchangeRate":"1.000000000",
-                 "purchaseCurrency":"EUR",
-                 "salesCurrency":"EUR",
-                 "participants":{
-                    "5271":{
-                       "costPrice":"0.000",
-                       "salesPrice":"0.000"
-                    }
-                 },
-                 "salesTotal":"0.000",
-                 "hasError":"Bad Request: failed fetching live prices: error_no_matrixline_found",
-                 "usedParams":{
-                    "productId":191,
-                    "startDate":"2018-11-13",
-                    "nrOfItems":2,
-                    "nrOfAdults":1,
-                    "nrOfChildren":0,
-                    "nrOfBabies":0,
-                    "nrOfAdolescent":0,
-                    "matrixDescription":"Vulputate ut"
-                 }
-              },
-              "additionalText":"Glass aptent taciti sociosqu ad litora torquent per conubia",
-              "subAdditionalText":null,
-              "roomTypes":[
-                 {
-                    "defaultPrice":"0.0000",
-                    "description":"Vulputate ut",
-                    "minPerson":null,
-                    "maxPerson":null,
-                    "minUnit":null,
-                    "maxUnit":null
-                 }
-              ],
-              "supplierComment":null,
-              "missingBookableDays":[
-
-              ],
-              "hasPreviousElementParticipantOverlap":true,
-              "day":1,
-              "date":"2018-11-12T23:00:00.000Z",
-              "endDate":"2018-11-14T23:00:00.000Z",
-              "roomTypeMatchesParticipants":true,
-              "manual_calc":false,
-              "oldPricesUsed":false,
-              "subTitle":"Vulputate ut"
-           },
-           {
-              "offset":0,
-              "nights":2,
-              "unitAmount":2,
-              "unitId":2,
-              "optional":false,
-              "not_calculated":true,
-              "title":"Hotel Iaculis Ligula",
-              "TSProduct":{
-                 "id":191,
-                 "tag":"GUAACCELH",
-                 "bookableDays":[
-
-                 ]
-              },
-              "TSOrderline":{
-                 "id":8457
-              },
-              "media":[
-                 {
-                    "id":1,
-                    "sourceType":"mediaspirit",
-                    "sourceId":"b87d869228aac78678cd0559d0225241",
-                    "url":"https:\/\/s3-eu-west-1.amazonaws.com\/demo.mediaspirit.io\/original\/lg\/P1030133_gu329s.JPG",
-                    "description":null
-                 }
-              ],
-              "olPrices":{
-                 "costPrice":"0.000",
-                 "discount":null,
-                 "title":"Hotel Iaculis Ligula",
-                 "discountMethod":null,
-                 "exchangeRate":"1.000000000",
-                 "purchaseCurrency":"EUR",
-                 "salesCurrency":"EUR",
-                 "participants":{
-                    "5271":{
-                       "costPrice":"0.000",
-                       "salesPrice":"0.000"
-                    }
-                 },
-                 "salesTotal":"0.000",
-                 "hasError":"Bad Request: failed fetching live prices: error_no_matrixline_found",
-                 "usedParams":{
-                    "productId":191,
-                    "startDate":"2018-11-13",
-                    "nrOfItems":2,
-                    "nrOfAdults":1,
-                    "nrOfChildren":0,
-                    "nrOfBabies":0,
-                    "nrOfAdolescent":0,
-                    "matrixDescription":"Libero gravida"
-                 }
-              },
-              "additionalText":"Class aptent taciti sociosqu ad litora torquent per conubia",
-              "subAdditionalText":null,
-              "roomTypes":[
-                 {
-                    "defaultPrice":"0.0000",
-                    "description":"Libero gravida",
-                    "minPerson":null,
-                    "maxPerson":null,
-                    "minUnit":null,
-                    "maxUnit":null
-                 }
-              ],
-              "supplierComment":null,
-              "missingBookableDays":[
-
-              ],
-              "hasPreviousElementParticipantOverlap":true,
-              "day":1,
-              "date":"2018-11-12T23:00:00.000Z",
-              "endDate":"2018-11-14T23:00:00.000Z",
-              "roomTypeMatchesParticipants":true,
-              "manual_calc":false,
-              "oldPricesUsed":false,
-              "subTitle":"Libero gravida"
-           },
-           {
-              "offset":0,
-              "nights":2,
-              "unitAmount":2,
-              "unitId":2,
-              "optional":false,
-              "not_calculated":true,
-              "title":"Hotel Etiam Sodales",
-              "TSProduct":{
-                 "id":191,
-                 "tag":"GUAACCELH",
-                 "bookableDays":[
-
-                 ]
-              },
-              "TSOrderline":{
-                 "id":8457
-              },
-              "media":[
-                 {
-                    "id":1,
-                    "sourceType":"mediaspirit",
-                    "sourceId":"b87d869228aac78678cd0559d0225241",
-                    "url":"https:\/\/s3-eu-west-1.amazonaws.com\/demo.mediaspirit.io\/original\/lg\/Manggis,%20Alila%20Manggis%20(20).jpg",
-                    "description":null
-                 }
-              ],
-              "olPrices":{
-                 "costPrice":"0.000",
-                 "discount":null,
-                 "title":"Hotel Etiam Sodales",
-                 "discountMethod":null,
-                 "exchangeRate":"1.000000000",
-                 "purchaseCurrency":"EUR",
-                 "salesCurrency":"EUR",
-                 "participants":{
-                    "5271":{
-                       "costPrice":"0.000",
-                       "salesPrice":"0.000"
-                    }
-                 },
-                 "salesTotal":"0.000",
-                 "hasError":"Bad Request: failed fetching live prices: error_no_matrixline_found",
-                 "usedParams":{
-                    "productId":191,
-                    "startDate":"2018-11-13",
-                    "nrOfItems":2,
-                    "nrOfAdults":1,
-                    "nrOfChildren":0,
-                    "nrOfBabies":0,
-                    "nrOfAdolescent":0,
-                    "matrixDescription":"Ex Ontbijt"
-                 }
-              },
-              "additionalText":"Class aptent taciti sociosqu ad litora torquent per conubia",
-              "subAdditionalText":null,
-              "roomTypes":[
-                 {
-                    "defaultPrice":"0.0000",
-                    "description":"Proin faucibus",
-                    "minPerson":null,
-                    "maxPerson":null,
-                    "minUnit":null,
-                    "maxUnit":null
-                 }
-              ],
-              "supplierComment":null,
-              "missingBookableDays":[
-
-              ],
-              "hasPreviousElementParticipantOverlap":true,
-              "day":1,
-              "date":"2018-11-12T23:00:00.000Z",
-              "endDate":"2018-11-14T23:00:00.000Z",
-              "roomTypeMatchesParticipants":true,
-              "manual_calc":false,
-              "oldPricesUsed":false,
-              "subTitle":"Proin faucibus"
-           },
-           {
-              "offset":0,
-              "nights":2,
-              "unitAmount":2,
-              "unitId":2,
-              "optional":false,
-              "not_calculated":true,
-              "title":"Hotel Sed Porttitor Lacus",
-              "TSProduct":{
-                 "id":191,
-                 "tag":"GUAACCELH",
-                 "bookableDays":[
-
-                 ]
-              },
-              "TSOrderline":{
-                 "id":8457
-              },
-              "media":[
-                 {
-                    "id":1,
-                    "sourceType":"mediaspirit",
-                    "sourceId":"b87d869228aac78678cd0559d0225241",
-                    "url":"https:\/\/s3-eu-west-1.amazonaws.com\/demo.mediaspirit.io\/original\/lg\/IMG_0360_8iylui.JPG",
-                    "description":null
-                 }
-              ],
-              "olPrices":{
-                 "costPrice":"0.000",
-                 "discount":null,
-                 "title":"Hotel Sed Porttitor Lacus",
-                 "discountMethod":null,
-                 "exchangeRate":"1.000000000",
-                 "purchaseCurrency":"EUR",
-                 "salesCurrency":"EUR",
-                 "participants":{
-                    "5271":{
-                       "costPrice":"0.000",
-                       "salesPrice":"0.000"
-                    }
-                 },
-                 "salesTotal":"5.000",
-                 "hasError":"Bad Request: failed fetching live prices: error_no_matrixline_found",
-                 "usedParams":{
-                    "productId":191,
-                    "startDate":"2018-11-13",
-                    "nrOfItems":2,
-                    "nrOfAdults":1,
-                    "nrOfChildren":0,
-                    "nrOfBabies":0,
-                    "nrOfAdolescent":0,
-                    "matrixDescription":"Hotel Sed Porttitor Lacus"
-                 }
-              },
-              "additionalText":"Glass aptent taciti sociosqu ad litora torquent per conubia",
-              "subAdditionalText":null,
-              "roomTypes":[
-                 {
-                    "defaultPrice":"0.0000",
-                    "description":"Hotel Sed Porttitor Lacus",
-                    "minPerson":null,
-                    "maxPerson":null,
-                    "minUnit":null,
-                    "maxUnit":null
-                 }
-              ],
-              "supplierComment":null,
-              "missingBookableDays":[
-
-              ],
-              "hasPreviousElementParticipantOverlap":true,
-              "day":1,
-              "date":"2018-11-12T23:00:00.000Z",
-              "endDate":"2018-11-14T23:00:00.000Z",
-              "roomTypeMatchesParticipants":true,
-              "manual_calc":false,
-              "oldPricesUsed":false,
-              "subTitle":"Posuere dolor"
-           }
-        ],
-        "inViewport":false,
-        "maps":{
-           "latitude":-24.238182,
-           "longitude":19.801568,
-           "zoom":5
+        {
+          "id": "2036631",
+          "name": "Artje",
+          "surname": "Hoeben",
+          "surname_prefix": "",
+          "title": "2",
+          "sex": "female",
+          "birthdate": "1964-08-10"
+        }
+      ]
+    },
+    "segments": [{
+        "nights": 2,
+        "day": 12,
+        "isFlight": false,
+        "typeId": 13,
+        "title": "Eerste dagen in Ho Chi Minh Stad",
+        "subTitle": null,
+        "content": null,
+        "TSBlock": {
+          "id": 7602
         },
-        "carRentalElements":[
+        "flightInfo": [
 
         ],
-        "date":"2018-11-12T23:00:00.000Z",
-        "missingBookableDays":false,
-        "elementsOrder":"8457",
-        "elementsMapActive":"",
-        "hasElementsOverlap":false,
-        "carRentalEnd":null,
-        "carRentalStart":null,
-        "endDate":"2018-11-14T23:00:00.000Z"
-     },
-     {
-        "nights":0,
-        "day":2,
-        "isFlight":false,
-        "typeId":12,
-        "title":"Nullam in augue",
-        "subTitle":"Vivamus nisl est",
-        "content":"<p>Nullam in augue et eros congue dictum. Vivamus nisl est, interdum et molestie non, pulvinar quis leo. Morbi convallis est leo, ut fermentum velit malesuada non. Phasellus nec enim sapien. In nec iaculis ligula. Donec viverra, libero ut blandit condimentum, velit orci finibus turpis, vel accumsan nibh eros vel eros. Fusce libero sapien, accumsan eu massa quis, efficitur iaculis elit. Sed sed tincidunt enim, quis faucibus massa. Vestibulum vel risus vitae enim sagittis ornare sed et est.<\/p>",
-        "TSBlock":{
-           "id":2991
+        "maps": {
+          "addressInfo": [
+
+          ],
+          "fiendOfView": 0,
+          "heading": 0,
+          "latitude": 10.8230989,
+          "longitude": 106.6296638,
+          "pitch": 0,
+          "searchPlace": null,
+          "staticImageZoom": null,
+          "zoom": 16
         },
-        "flightInfo":[
+        "media": [
 
         ],
-        "media":[
-           {
-              "sourceType":"mediaspirit",
-              "sourceId":"09eea36db78f48a52450481ffc13c3b3",
-              "url":"https:\/\/s3-eu-west-1.amazonaws.com\/demo.mediaspirit.io\/original\/lg\/Zuid-Afrika-Krugerpark-Neushoorn.JPG"
-           },
-           {
-              "id":2,
-              "sourceType":"mediaspirit",
-              "sourceId":"6ef21317bb6a50e1ede18bb9bd13d16d",
-              "url":"https:\/\/s3-eu-west-1.amazonaws.com\/demo.mediaspirit.io\/original\/lg\/Krugerpark%20(1).JPG",
-              "description":""
-           },
-           {
-              "sourceType":"mediaspirit",
-              "sourceId":"804f8c2ccbce001f14a2b3640bf28b0c",
-              "url":"https:\/\/s3-eu-west-1.amazonaws.com\/demo.mediaspirit.io\/original\/lg\/Krugerpark%20selfdrive%20(1).JPG"
-           }
+        "elements": [{
+            "emptyOlStartDT": false,
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 1,
+            "unitId": 8,
+            "optional": false,
+            "not_calculated": false,
+            "subTitle": "<1of2 personen>",
+            "title": "Transfer luchthaven - hotel in Ho Chi Minh City",
+            "TSProduct": {
+              "id": 234,
+              "tag": "VNV200",
+              "bookableDays": [
+
+              ]
+            },
+            "TSOrderline": {
+              "id": 17181
+            },
+            "maps": {
+              "addressInfo": [
+
+              ],
+              "fiendOfView": 0,
+              "heading": 0,
+              "latitude": 10.8230989,
+              "longitude": 106.6296638,
+              "pitch": 0,
+              "searchPlace": null,
+              "staticImageZoom": null,
+              "zoom": 14
+            },
+            "media": [{
+              "url": "https:\/\/media.outsight.nl\/original\/lg\/Azie-Vietnam-Vervoer-Transfer.JPG",
+              "id": 29,
+              "description": "",
+              "mediaspirit_id": "e430f8d12e3775a73599bc99416c3f22",
+              "sourceId": "e430f8d12e3775a73599bc99416c3f22",
+              "sourceType": "mediaspirit"
+            }],
+            "olPrices": {
+              "costPrice": "22.620",
+              "discount": null,
+              "title": "Transfer luchthaven - hotel in Ho Chi Minh City [<1of2 personen>]",
+              "discountMethod": null,
+              "exchangeRate": "0.870000000",
+              "purchaseCurrency": "USD",
+              "salesCurrency": "EUR",
+              "participants": {
+                "2036630": {
+                  "costPrice": "11.310",
+                  "salesPrice": 16
+                },
+                "2036631": {
+                  "costPrice": "11.310",
+                  "salesPrice": 16
+                }
+              },
+              "salesTotal": 32
+            },
+            "additionalText": "<html><head><title><\/title><\/head><body>Beschrijving bij product: Na aankomst op de luchthaven van <strong>Ho Chi Minh City<\/strong> word je opgewacht door een chauffeur die je naar je hotel voor de eerste twee nachten brengt. In deze bouwsteen zit de transfer van het vliegveld naar je hotel in het centrum en de eerste twee overnachtingen, de rest van de reis kun je zelf verder invullen!<\/body><\/html>",
+            "subAdditionalText": null,
+            "roomTypes": [{
+                "defaultPrice": "26.0000",
+                "description": "<1of2 personen>",
+                "minPerson": 1,
+                "maxPerson": 2,
+                "minUnit": 1,
+                "maxUnit": null
+              },
+              {
+                "defaultPrice": "43.0000",
+                "description": "<3of4personen>",
+                "minPerson": 3,
+                "maxPerson": 4,
+                "minUnit": 1,
+                "maxUnit": null
+              }
+            ],
+            "supplierComment": null,
+            "sellingAmount": null,
+            "sellingMarkupType": null
+          },
+          {
+            "emptyOlStartDT": false,
+            "offset": 0,
+            "flexNights": 2,
+            "nights": 0,
+            "unitAmount": 2,
+            "unitId": 2,
+            "optional": false,
+            "not_calculated": false,
+            "subTitle": "Superior Room",
+            "title": "Ho Chi Minh, GK Central Hotel",
+            "TSProduct": {
+              "id": 158,
+              "tag": "VNH001",
+              "bookableDays": [
+
+              ]
+            },
+            "TSOrderline": {
+              "id": 17182
+            },
+            "maps": {
+              "addressInfo": [
+
+              ],
+              "fiendOfView": 0,
+              "heading": 0,
+              "latitude": 10.8230989,
+              "longitude": 106.6296638,
+              "pitch": 0,
+              "searchPlace": null,
+              "staticImageZoom": null,
+              "zoom": 14
+            },
+            "media": [{
+              "url": "https:\/\/media.outsight.nl\/original\/lg\/Vietnam-hotels-Saigon-GK-Central.jpg",
+              "id": 13,
+              "description": "",
+              "mediaspirit_id": "48124002a0592d97db56908f991d2cd3",
+              "sourceId": "48124002a0592d97db56908f991d2cd3",
+              "sourceType": "mediaspirit"
+            }],
+            "olPrices": {
+              "costPrice": "90.480",
+              "discount": null,
+              "title": "Ho Chi Minh, GK Central Hotel [Superior Room]",
+              "discountMethod": null,
+              "exchangeRate": "0.870000000",
+              "purchaseCurrency": "USD",
+              "salesCurrency": "EUR",
+              "participants": {
+                "2036630": {
+                  "costPrice": "45.240",
+                  "salesPrice": 61
+                },
+                "2036631": {
+                  "costPrice": "45.240",
+                  "salesPrice": 61
+                }
+              },
+              "salesTotal": 122
+            },
+            "subAdditionalText": "inclusief ontbijt",
+            "additionalText": "<html><head><title><\/title><\/head><body>Het GK Central Hotel is ons standaardhotel in Saigon! Dit is de tekst die in TS staat bij product -&gt; beschrijving. Hoe lang moeten we deze tekst maken?<\/body><\/html>",
+            "roomTypes": [{
+                "defaultPrice": "52.0000",
+                "description": "Superior Room",
+                "minPerson": 1,
+                "maxPerson": 2,
+                "minUnit": 1,
+                "maxUnit": null
+              },
+              {
+                "defaultPrice": "61.0000",
+                "description": "Deluxe Room",
+                "minPerson": 1,
+                "maxPerson": 2,
+                "minUnit": 1,
+                "maxUnit": null
+              },
+              {
+                "defaultPrice": "77.0000",
+                "description": "Premium Deluxe Room",
+                "minPerson": 1,
+                "maxPerson": 2,
+                "minUnit": 1,
+                "maxUnit": null
+              },
+              {
+                "defaultPrice": "112.0000",
+                "description": "Premium Deluxe Room met extra bed",
+                "minPerson": 3,
+                "maxPerson": 3,
+                "minUnit": 1,
+                "maxUnit": null
+              }
+            ],
+            "supplierComment": null,
+            "sellingAmount": null,
+            "sellingMarkupType": null
+          }
         ],
-        "elements":[
-           {
-              "offset":0,
-              "nights":0,
-              "unitAmount":0,
-              "unitId":1,
-              "optional":false,
-              "not_calculated":true,
-              "title":"Nam mollis hendrerit",
-              "TSProduct":{
-                 "id":199,
-                 "tag":"GUATRAAN2",
-                 "bookableDays":[
-
-                 ]
-              },
-              "TSOrderline":{
-                 "id":8010
-              },
-              "media":[
-
-              ],
-              "olPrices":{
-                 "costPrice":"0.000",
-                 "discount":null,
-                 "title":"Nam mollis hendrerit",
-                 "discountMethod":null,
-                 "exchangeRate":"1.000000000",
-                 "purchaseCurrency":"EUR",
-                 "salesCurrency":"EUR",
-                 "participants":{
-                    "5271":{
-                       "costPrice":"0.000",
-                       "salesPrice":"0.000"
-                    }
-                 },
-                 "salesTotal":"0.000"
-              },
-              "additionalText":"In nec iaculis ligula. Donec viverra, libero ut blandit condimentum",
-              "subAdditionalText":null,
-              "roomTypes":[
-
-              ],
-              "supplierComment":null,
-              "missingBookableDays":[
-
-              ],
-              "needsOffsetRecalculation":true,
-              "day":3,
-              "date":"2018-11-14T23:00:00.000Z",
-              "endDate":"2018-11-14T23:00:00.000Z",
-              "roomTypeMatchesParticipants":true,
-              "manual_calc":false,
-              "oldPricesUsed":false
-           },
-           {
-              "offset":0,
-              "nights":0,
-              "unitAmount":2,
-              "unitId":5,
-              "optional":true,
-              "not_calculated":true,
-              "title":"Proin et dolor",
-              "TSProduct":{
-                 "id":200,
-                 "tag":"GUAACCELP",
-                 "bookableDays":[
-
-                 ]
-              },
-              "TSOrderline":{
-                 "id":8011
-              },
-              "media":[
-
-              ],
-              "olPrices":{
-                 "costPrice":"0.000",
-                 "discount":null,
-                 "title":"Proin et dolor",
-                 "discountMethod":null,
-                 "exchangeRate":"1.000000000",
-                 "purchaseCurrency":"EUR",
-                 "salesCurrency":"EUR",
-                 "participants":{
-                    "5271":{
-                       "costPrice":"0.000",
-                       "salesPrice":"0.000"
-                    }
-                 },
-                 "salesTotal":"20.000"
-              },
-              "additionalText":"Proin et dolor vel dui tincidunt sodales",
-              "subAdditionalText":null,
-              "roomTypes":[
-                 {
-                    "defaultPrice":"0.0000",
-                    "description":"Incl Ontbijt",
-                    "minPerson":null,
-                    "maxPerson":null,
-                    "minUnit":null,
-                    "maxUnit":null
-                 }
-              ],
-              "supplierComment":null,
-              "missingBookableDays":[
-
-              ],
-              "needsOffsetRecalculation":true,
-              "day":3,
-              "date":"2018-11-14T23:00:00.000Z",
-              "endDate":"2018-11-14T23:00:00.000Z",
-              "roomTypeMatchesParticipants":true,
-              "manual_calc":false,
-              "oldPricesUsed":false
-           },
-           {
-              "offset":0,
-              "nights":0,
-              "unitAmount":0,
-              "unitId":5,
-              "optional":false,
-              "not_calculated":true,
-              "title":"Etiam a lorem a mi pulvinar condimentum",
-              "TSProduct":{
-                 "id":201,
-                 "tag":"GUAACTRAF",
-                 "bookableDays":[
-
-                 ]
-              },
-              "TSOrderline":{
-                 "id":8012
-              },
-              "media":[
-
-              ],
-              "olPrices":{
-                 "costPrice":"0.000",
-                 "discount":null,
-                 "title":"Etiam a lorem a mi pulvinar condimentum",
-                 "discountMethod":null,
-                 "exchangeRate":"1.000000000",
-                 "purchaseCurrency":"EUR",
-                 "salesCurrency":"EUR",
-                 "participants":{
-                    "5271":{
-                       "costPrice":"0.000",
-                       "salesPrice":"0.000"
-                    }
-                 },
-                 "salesTotal":"75.000"
-              },
-              "additionalText":"Phasellus pulvinar arcu dolor, et mollis quam maximus quis",
-              "subAdditionalText":null,
-              "roomTypes":[
-
-              ],
-              "supplierComment":null,
-              "missingBookableDays":[
-
-              ],
-              "day":3,
-              "date":"2018-11-14T23:00:00.000Z",
-              "endDate":"2018-11-14T23:00:00.000Z",
-              "roomTypeMatchesParticipants":true,
-              "needsOffsetRecalculation":true,
-              "manual_calc":false,
-              "oldPricesUsed":false
-           }
-        ],
-        "inViewport":false,
-        "maps":{
-           "latitude":52.212853,
-           "longitude":5.2886923,
-           "zoom":15
+        "liborderId": 1612
+      },
+      {
+        "nights": 3,
+        "day": 10,
+        "isFlight": false,
+        "typeId": 14,
+        "title": "Naar Hanoi",
+        "subTitle": "Op welke dag maak ik de excursie?",
+        "content": null,
+        "TSBlock": {
+          "id": 7636
         },
-        "carRentalElements":[
+        "flightInfo": [
 
         ],
-        "date":"2018-11-14T23:00:00.000Z",
-        "missingBookableDays":false,
-        "elementsOrder":"8010|8011|8012",
-        "elementsMapActive":"",
-        "hasElementsOverlap":false,
-        "carRentalEnd":null,
-        "carRentalStart":null,
-        "endDate":"2018-11-14T23:00:00.000Z"
-     },
-     {
-        "nights":0,
-        "day":3,
-        "isFlight":false,
-        "typeId":12,
-        "title":"Sed porttitor lacus",
-        "subTitle":"In pellentesque",
-        "content":"<p>Praesent accumsan eros vel odio semper, sed porttitor lacus pellentesque. In pellentesque, orci ut porta porttitor, felis ipsum varius ligula, a facilisis nunc orci eu sapien. Proin et dolor vel dui tincidunt sodales ac ut augue. Aliquam malesuada sodales enim et efficitur. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris vulputate luctus nisl, ut finibus lectus ultricies at. Cras vulputate velit eu libero volutpat commodo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi eu tellus a nunc ullamcorper facilisis. Ut ut luctus sapien, eget convallis ex. Proin elementum ultrices augue, id gravida urna porta eu. Phasellus nunc risus, bibendum non pharetra eu, vulputate ut leo. Donec viverra faucibus elit eu scelerisque. Morbi eu gravida turpis. Aenean ultrices arcu non quam tempor, ut vulputate nisi ultricies.<\/p>",
-        "TSBlock":{
-           "id":2992
+        "maps": {
+          "addressInfo": [
+
+          ],
+          "fiendOfView": 0,
+          "heading": 0,
+          "latitude": 17.734049112538543,
+          "longitude": 106.0493369513282,
+          "pitch": 0,
+          "searchPlace": null,
+          "staticImageZoom": null,
+          "zoom": 5
         },
-        "flightInfo":[
+        "media": [
 
         ],
-        "media":[
-           {
-              "sourceType":"mediaspirit",
-              "sourceId":"3dd2a2bb0d796cb070ee31b1c16113de",
-              "url":"https:\/\/s3-eu-west-1.amazonaws.com\/demo.mediaspirit.io\/original\/lg\/Zuid-Afrika-Krugerpark-olifanten.JPG"
-           },
-           {
-              "id":4,
-              "sourceType":"mediaspirit",
-              "sourceId":"518ab2b45169dd25618fb08c3019a2c4",
-              "url":"https:\/\/s3-eu-west-1.amazonaws.com\/demo.mediaspirit.io\/original\/lg\/Krugerpark%20safari%20(3).jpg",
-              "description":""
-           },
-           {
-              "sourceType":"mediaspirit",
-              "sourceId":"0fc160a85361066719014f668aadd86d",
-              "url":"https:\/\/s3-eu-west-1.amazonaws.com\/demo.mediaspirit.io\/original\/lg\/Krugerpark%20wrattenzwijn.jpg"
-           }
+        "elements": [{
+            "emptyOlStartDT": false,
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 1,
+            "unitId": 9,
+            "optional": false,
+            "not_calculated": false,
+            "subTitle": "vlucht van Saigon naar Hanoi",
+            "title": "vlucht Ho Chi Minh City - Hanoi",
+            "TSProduct": {
+              "id": 213,
+              "tag": "VNV002",
+              "bookableDays": [
+
+              ]
+            },
+            "TSOrderline": {
+              "id": 17183
+            },
+            "maps": {
+              "addressInfo": [
+
+              ],
+              "fiendOfView": 0,
+              "heading": 0,
+              "latitude": 21.0277644,
+              "longitude": 105.83415979999995,
+              "pitch": 0,
+              "searchPlace": null,
+              "staticImageZoom": null,
+              "zoom": 14
+            },
+            "media": [{
+              "url": "https:\/\/media.outsight.nl\/original\/lg\/Azie-Vietnam-Vervoer-Vlucht.jpg",
+              "id": 30,
+              "description": "",
+              "mediaspirit_id": "664dbadd0792aebb68e2f5b6335fe169",
+              "sourceId": "664dbadd0792aebb68e2f5b6335fe169",
+              "sourceType": "mediaspirit"
+            }],
+            "olPrices": {
+              "costPrice": "295.365",
+              "discount": null,
+              "title": "vlucht Ho Chi Minh City - Hanoi [vlucht van Saigon naar Hanoi]",
+              "discountMethod": null,
+              "exchangeRate": "0.870000000",
+              "purchaseCurrency": "USD",
+              "salesCurrency": "EUR",
+              "participants": {
+                "2036630": {
+                  "costPrice": "147.683",
+                  "salesPrice": 185
+                },
+                "2036631": {
+                  "costPrice": "147.683",
+                  "salesPrice": 185
+                }
+              },
+              "salesTotal": 370
+            },
+            "additionalText": "<html><head><title><\/title><\/head><body>Dit is de beschrijving die in TS bij het product staat -&gt; beschrijving. Hoe lang&nbsp; zou deze tekst moeten zijn? langer dan dit of juist korter?<\/body><\/html>",
+            "subAdditionalText": null,
+            "roomTypes": [{
+              "defaultPrice": "169.7500",
+              "description": "vlucht van Saigon naar Hanoi",
+              "minPerson": 1,
+              "maxPerson": 6,
+              "minUnit": 1,
+              "maxUnit": null
+            }],
+            "supplierComment": null,
+            "sellingAmount": null,
+            "sellingMarkupType": null
+          },
+          {
+            "emptyOlStartDT": false,
+            "offset": 0,
+            "flexNights": 3,
+            "nights": 0,
+            "unitAmount": 3,
+            "unitId": 2,
+            "optional": false,
+            "not_calculated": false,
+            "subTitle": "Deluxe Room",
+            "title": "Hanoi Le Jardin Hotel & Spa",
+            "TSProduct": {
+              "id": 160,
+              "tag": "VNH004",
+              "bookableDays": [
+
+              ]
+            },
+            "TSOrderline": {
+              "id": 17184
+            },
+            "maps": {
+              "addressInfo": [
+
+              ],
+              "fiendOfView": 0,
+              "heading": 0,
+              "latitude": 21.03093623761563,
+              "longitude": 105.84937255398461,
+              "pitch": 0,
+              "searchPlace": null,
+              "staticImageZoom": null,
+              "zoom": 14
+            },
+            "media": [{
+                "url": "https:\/\/media.outsight.nl\/original\/lg\/Azie-Vietnam-Hotels-Hanoi-Le-Jardin-c6e30169.jpg",
+                "id": 33,
+                "description": "",
+                "mediaspirit_id": "bd30a315b9a2fc63edf36707e2dee3fd",
+                "sourceId": "bd30a315b9a2fc63edf36707e2dee3fd",
+                "sourceType": "mediaspirit"
+              },
+              {
+                "url": "https:\/\/media.outsight.nl\/original\/lg\/Azie-Vietnam-Hotels-Hanoi-Le-Jardin-kamer.jpg",
+                "id": 32,
+                "description": "",
+                "mediaspirit_id": "176204336eae60393f3d28db69d00e70",
+                "sourceId": "176204336eae60393f3d28db69d00e70",
+                "sourceType": "mediaspirit"
+              }
+            ],
+            "olPrices": {
+              "costPrice": "164.430",
+              "discount": null,
+              "title": "Hanoi Le Jardin Hotel & Spa [Deluxe Room]",
+              "discountMethod": null,
+              "exchangeRate": "0.870000000",
+              "purchaseCurrency": "USD",
+              "salesCurrency": "EUR",
+              "participants": {
+                "2036630": {
+                  "costPrice": "82.215",
+                  "salesPrice": 110.0001
+                },
+                "2036631": {
+                  "costPrice": "82.215",
+                  "salesPrice": 110.0001
+                }
+              },
+              "salesTotal": 220
+            },
+            "subAdditionalText": "inclusief ontbijt",
+            "additionalText": "<html><head><title><\/title><\/head><body><span style=\"font-size:12px;\"><span style=\"font-family:Arial, Helvetica, sans-serif;\">Hanoi Le Jardin Hotel &amp; Spa is het hotel dat we standaard gebruiken in Hanoi. Het hotel ligt in de wijk Ba Dinh, op loopafstand van o.a. de Quan Thanh-tempel, de Dong Xuan-markt en de oude stadspoort. Het heeft een eigen restaurant, en tuin.<br \/><br \/>Corps is nu 12<\/span><\/span><div class=\"vcard\"><span class=\"star-rating-text widget-star-rating-overlay widget-tooltip widget-tooltip-responsive widget-tooltip-ignore-touch\">&nbsp;<\/span><\/div>&nbsp;<div class=\"tagline\"><p>&nbsp;<\/p><b>&nbsp;<\/b><\/div><\/body><\/html>",
+            "roomTypes": [{
+              "defaultPrice": "63.0000",
+              "description": "Deluxe Room",
+              "minPerson": 1,
+              "maxPerson": 2,
+              "minUnit": 1,
+              "maxUnit": null
+            }],
+            "supplierComment": null,
+            "sellingAmount": null,
+            "sellingMarkupType": null
+          },
+          {
+            "emptyOlStartDT": false,
+            "offset": 1,
+            "nights": 0,
+            "unitAmount": 1,
+            "unitId": 11,
+            "optional": false,
+            "not_calculated": true,
+            "subTitle": "Seat in",
+            "title": "Cu Chi tunnels, excursie halve dag",
+            "TSProduct": {
+              "id": 210,
+              "tag": "VNX009",
+              "bookableDays": [
+
+              ]
+            },
+            "TSOrderline": {
+              "id": 17185
+            },
+            "maps": {
+              "addressInfo": [
+
+              ],
+              "fiendOfView": 0,
+              "heading": 0,
+              "latitude": 11.1434467,
+              "longitude": 106.46447850000004,
+              "pitch": 0,
+              "searchPlace": null,
+              "staticImageZoom": null,
+              "zoom": 14
+            },
+            "media": [{
+              "url": "https:\/\/media.outsight.nl\/original\/lg\/Azie-Vietnam-Excursies-ChiChi.JPG",
+              "id": 31,
+              "description": "",
+              "mediaspirit_id": "988aeff489b8e8594468149b5b4acabd",
+              "sourceId": "988aeff489b8e8594468149b5b4acabd",
+              "sourceType": "mediaspirit"
+            }],
+            "olPrices": {
+              "costPrice": "19.140",
+              "discount": null,
+              "title": "Cu Chi tunnels, excursie halve dag [Seat in]",
+              "discountMethod": null,
+              "exchangeRate": "0.870000000",
+              "purchaseCurrency": "USD",
+              "salesCurrency": "EUR",
+              "participants": {
+                "2036630": {
+                  "costPrice": "9.570",
+                  "salesPrice": 14
+                },
+                "2036631": {
+                  "costPrice": "9.570",
+                  "salesPrice": 14
+                }
+              },
+              "salesTotal": 28
+            },
+            "additionalText": "<html><head><title><\/title><\/head><body>Product -&gt; beschrijving:<p>Op ongeveer 50 kilometer van <strong>Ho Chi Minh City<\/strong> liggen de wereldberoemde Cu Chi tunnels, een van de belangrijkste decors tijdens de Vietnam oorlog. Je rijdt per bus naar de tunnels waar je bij Ben Dinh een ondergronds dorpje bezoekt, in een netwerk van ruim 100 kilometer ondergrondse tunnels.<\/p><p>&nbsp;<\/p><p>Een zeer indrukwekkende excursie die je nog lang zal bijblijven.<br \/>Indien het in je rondreis gunstig uitkomt, kunnen we deze excursie ook voor je combineren met een transfer naar de luchthaven van Ho Chi Minh City.<\/p><\/body><\/html>",
+            "subAdditionalText": null,
+            "roomTypes": [{
+                "defaultPrice": "11.0000",
+                "description": "Seat in",
+                "minPerson": 1,
+                "maxPerson": 6,
+                "minUnit": 1,
+                "maxUnit": null
+              },
+              {
+                "defaultPrice": "105.0000",
+                "description": "Priv\u00e9",
+                "minPerson": 1,
+                "maxPerson": 2,
+                "minUnit": 1,
+                "maxUnit": null
+              }
+            ],
+            "supplierComment": null,
+            "sellingAmount": null,
+            "sellingMarkupType": null
+          }
         ],
-        "elements":[
-           {
-              "offset":0,
-              "nights":0,
-              "unitAmount":0,
-              "unitId":4,
-              "optional":false,
-              "not_calculated":true,
-              "title":"Luctus libero gravida",
-              "TSProduct":{
-                 "id":202,
-                 "tag":"GUATRASEM",
-                 "bookableDays":[
-
-                 ]
-              },
-              "TSOrderline":{
-                 "id":8013
-              },
-              "media":[
-
-              ],
-              "olPrices":{
-                 "costPrice":"0.000",
-                 "discount":null,
-                 "title":"Luctus libero gravida",
-                 "discountMethod":null,
-                 "exchangeRate":"1.000000000",
-                 "purchaseCurrency":"EUR",
-                 "salesCurrency":"EUR",
-                 "participants":{
-                    "5271":{
-                       "costPrice":"0.000",
-                       "salesPrice":"0.000"
-                    }
-                 },
-                 "salesTotal":"0.000"
-              },
-              "additionalText":"Class aptent taciti sociosqu",
-              "subAdditionalText":null,
-              "roomTypes":[
-
-              ],
-              "supplierComment":null,
-              "missingBookableDays":[
-
-              ],
-              "needsOffsetRecalculation":true,
-              "day":3,
-              "date":"2018-11-14T23:00:00.000Z",
-              "endDate":"2018-11-14T23:00:00.000Z",
-              "roomTypeMatchesParticipants":true,
-              "manual_calc":false,
-              "oldPricesUsed":false
-           },
-           {
-              "offset":0,
-              "nights":0,
-              "unitAmount":1,
-              "unitId":3,
-              "optional":true,
-              "not_calculated":true,
-              "title":"Nunc ullamcorper ipsum eu",
-              "TSProduct":{
-                 "id":203,
-                 "tag":"GUAACCLOS",
-                 "bookableDays":[
-
-                 ]
-              },
-              "TSOrderline":{
-                 "id":8014
-              },
-              "media":[
-
-              ],
-              "olPrices":{
-                 "costPrice":"0.000",
-                 "discount":null,
-                 "title":"Nunc ullamcorper ipsum eu",
-                 "discountMethod":null,
-                 "exchangeRate":"1.000000000",
-                 "purchaseCurrency":"EUR",
-                 "salesCurrency":"EUR",
-                 "participants":{
-                    "5271":{
-                       "costPrice":"0.000",
-                       "salesPrice":"0.000"
-                    }
-                 },
-                 "salesTotal":"0.000"
-              },
-              "additionalText":"-",
-              "subAdditionalText":null,
-              "supplierComment":null,
-              "missingBookableDays":[
-
-              ],
-              "needsOffsetRecalculation":true,
-              "day":3,
-              "date":"2018-11-14T23:00:00.000Z",
-              "endDate":"2018-11-14T23:00:00.000Z",
-              "roomTypeMatchesParticipants":true,
-              "manual_calc":false,
-              "oldPricesUsed":false
-           },
-           {
-              "offset":0,
-              "nights":0,
-              "unitAmount":0,
-              "unitId":3,
-              "optional":true,
-              "not_calculated":true,
-              "title":"Nullam sed lectus felis",
-              "TSProduct":{
-                 "id":204,
-                 "tag":"GUAACTJOR",
-                 "bookableDays":[
-
-                 ]
-              },
-              "TSOrderline":{
-                 "id":8015
-              },
-              "media":[
-
-              ],
-              "olPrices":{
-                 "costPrice":"0.000",
-                 "discount":null,
-                 "title":"Nullam sed lectus felis",
-                 "discountMethod":null,
-                 "exchangeRate":"1.000000000",
-                 "purchaseCurrency":"EUR",
-                 "salesCurrency":"EUR",
-                 "participants":{
-                    "5271":{
-                       "costPrice":"0.000",
-                       "salesPrice":"0.000"
-                    }
-                 },
-                 "salesTotal":"0.000"
-              },
-              "additionalText":"Sed commodo mattis orci at viverra",
-              "subAdditionalText":null,
-              "roomTypes":[
-
-              ],
-              "supplierComment":null,
-              "missingBookableDays":[
-
-              ],
-              "day":3,
-              "date":"2018-11-14T23:00:00.000Z",
-              "endDate":"2018-11-14T23:00:00.000Z",
-              "roomTypeMatchesParticipants":true,
-              "needsOffsetRecalculation":true,
-              "maps":{
-                 "latitude":52.212853,
-                 "longitude":5.2886923,
-                 "zoom":13
-              },
-              "manual_calc":false,
-              "oldPricesUsed":false
-           },
-           {
-              "offset":0,
-              "nights":0,
-              "unitAmount":0,
-              "unitId":1,
-              "optional":false,
-              "not_calculated":true,
-              "title":"Proin elementum ultrices",
-              "TSProduct":{
-                 "id":205,
-                 "tag":"GUAACTSUN",
-                 "bookableDays":[
-
-                 ]
-              },
-              "TSOrderline":{
-                 "id":8016
-              },
-              "media":[
-
-              ],
-              "olPrices":{
-                 "costPrice":"0.000",
-                 "discount":null,
-                 "title":"Proin elementum ultrices",
-                 "discountMethod":null,
-                 "exchangeRate":"1.000000000",
-                 "purchaseCurrency":"EUR",
-                 "salesCurrency":"EUR",
-                 "participants":{
-                    "5271":{
-                       "costPrice":"0.000",
-                       "salesPrice":"0.000"
-                    }
-                 },
-                 "salesTotal":"0.000"
-              },
-              "additionalText":"Sed commodo mattis orci at viverra",
-              "subAdditionalText":null,
-              "roomTypes":[
-
-              ],
-              "supplierComment":null,
-              "missingBookableDays":[
-
-              ],
-              "day":3,
-              "date":"2018-11-14T23:00:00.000Z",
-              "endDate":"2018-11-14T23:00:00.000Z",
-              "roomTypeMatchesParticipants":true,
-              "needsOffsetRecalculation":true,
-              "manual_calc":false,
-              "oldPricesUsed":false
-           },
-           {
-              "offset":0,
-              "nights":0,
-              "unitAmount":0,
-              "unitId":1,
-              "optional":false,
-              "not_calculated":true,
-              "title":"Donec aliquam purus interdum eros",
-              "TSProduct":{
-                 "id":206,
-                 "tag":"GUAACCJAG",
-                 "bookableDays":[
-
-                 ]
-              },
-              "TSOrderline":{
-                 "id":8017
-              },
-              "media":[
-
-              ],
-              "olPrices":{
-                 "costPrice":"0.000",
-                 "discount":null,
-                 "title":"Donec aliquam purus interdum eros",
-                 "discountMethod":null,
-                 "exchangeRate":"1.000000000",
-                 "purchaseCurrency":"EUR",
-                 "salesCurrency":"EUR",
-                 "participants":{
-                    "5271":{
-                       "costPrice":"0.000",
-                       "salesPrice":"0.000"
-                    }
-                 },
-                 "salesTotal":"0.000"
-              },
-              "additionalText":"Donec aliquam purus interdum eros",
-              "subAdditionalText":null,
-              "supplierComment":null,
-              "missingBookableDays":[
-
-              ],
-              "day":3,
-              "date":"2018-11-14T23:00:00.000Z",
-              "endDate":"2018-11-14T23:00:00.000Z",
-              "roomTypeMatchesParticipants":true,
-              "needsOffsetRecalculation":true,
-              "manual_calc":false,
-              "oldPricesUsed":false
-           }
-        ],
-        "inViewport":true,
-        "maps":{
-           "latitude":52.212853,
-           "longitude":5.2886923,
-           "zoom":15
+        "liborderId": 1612
+      },
+      {
+        "nights": 1,
+        "day": 7,
+        "isFlight": false,
+        "typeId": 14,
+        "title": "Naar de Mekong",
+        "subTitle": "exc 2 dagen\/1 nacht naar Mekong",
+        "content": null,
+        "TSBlock": {
+          "id": 7637
         },
-        "carRentalElements":[
+        "flightInfo": [
 
         ],
-        "date":"2018-11-14T23:00:00.000Z",
-        "missingBookableDays":false,
-        "elementsOrder":"8013|8014|8015|8016|8017",
-        "elementsMapActive":"",
-        "hasElementsOverlap":false,
-        "carRentalEnd":null,
-        "carRentalStart":null,
-        "endDate":"2018-11-14T23:00:00.000Z"
-     }
-  ],
-  "liborderId":594,
-  "cover":[
-     {
-        "id":145,
-        "sourceType":"mediaspirit",
-        "sourceId":"fc159151e390154a9bcd3e7fcd5ae741",
-        "url":"https:\/\/s3-eu-west-1.amazonaws.com\/demo.mediaspirit.io\/original\/lg\/Krugerpark%20safari%20(1).jpg"
-     }
-  ],
-  "hasNotCalculated":true,
-  "totalDays":3,
-  "totalDaysAllocated":3,
-  "endDate":"2018-11-14T23:00:00.000Z",
-  "notifications":[
+        "maps": {
+          "addressInfo": [
 
-  ],
-  "salesPriceAfterRounding":0,
-  "salesPriceBeforeRounding":0,
-  "costPriceBeforeRounding":0,
-  "title":"Pretium cursus justo",
-  "subTitle":"Augue"
-}
+          ],
+          "fiendOfView": 0,
+          "heading": 0,
+          "latitude": 10.063363,
+          "longitude": 105.59433880000006,
+          "pitch": 0,
+          "searchPlace": null,
+          "staticImageZoom": null,
+          "zoom": 14
+        },
+        "media": [
+
+        ],
+        "elements": [{
+          "emptyOlStartDT": false,
+          "offset": 0,
+          "flexNights": 1,
+          "nights": 0,
+          "unitAmount": 1,
+          "unitId": 13,
+          "optional": false,
+          "not_calculated": false,
+          "subTitle": "Seat in",
+          "title": "De drijvende markten van de Mekong",
+          "TSProduct": {
+            "id": 304,
+            "tag": "VNX016",
+            "bookableDays": [
+
+            ]
+          },
+          "TSOrderline": {
+            "id": 17186
+          },
+          "maps": {
+            "addressInfo": [
+
+            ],
+            "fiendOfView": 0,
+            "heading": 0,
+            "latitude": 10.063363,
+            "longitude": 105.59433880000006,
+            "pitch": 0,
+            "searchPlace": null,
+            "staticImageZoom": null,
+            "zoom": 14
+          },
+          "media": [{
+            "url": "https:\/\/media.outsight.nl\/original\/lg\/Azie Vietnam Mekong-Delta.JPG",
+            "id": 34,
+            "description": "",
+            "mediaspirit_id": "fe64375a485c49df3000382b00073ff5",
+            "sourceId": "fe64375a485c49df3000382b00073ff5",
+            "sourceType": "mediaspirit"
+          }],
+          "olPrices": {
+            "costPrice": "109.620",
+            "discount": null,
+            "title": "De drijvende markten van de Mekong [Seat in]",
+            "discountMethod": null,
+            "exchangeRate": "0.870000000",
+            "purchaseCurrency": "USD",
+            "salesCurrency": "EUR",
+            "participants": {
+              "2036630": {
+                "costPrice": "54.810",
+                "salesPrice": 69
+              },
+              "2036631": {
+                "costPrice": "54.810",
+                "salesPrice": 69
+              }
+            },
+            "salesTotal": 138
+          },
+          "additionalText": "<html><head><title><\/title><\/head><body>Vanuit Ho Chi Minh City&nbsp;reis je naar de <strong>Mekong Delta<\/strong>, waar je de drijvende markt van Cai Rang bezoekt, je maakt een boottocht langs dorpjes en eilanden en je slaapt een nacht in Can Tho in een hotel vlakbij de rivier. Een&nbsp;lokale gids gaat mee om uitleg te geven over het leven in de delta!<\/body><\/html>",
+          "subAdditionalText": null,
+          "roomTypes": [{
+            "defaultPrice": "74.0000",
+            "description": "Seat in",
+            "minPerson": 1,
+            "maxPerson": 2,
+            "minUnit": 1,
+            "maxUnit": null
+          }],
+          "supplierComment": null,
+          "sellingAmount": null,
+          "sellingMarkupType": null
+        }],
+        "liborderId": 1612
+      },
+      {
+        "nights": 3,
+        "day": 6,
+        "isFlight": false,
+        "typeId": 12,
+        "title": "Laatste dagen in Hanoi",
+        "subTitle": "Op welke dag maak ik de excursie?",
+        "content": null,
+        "TSBlock": {
+          "id": 7638
+        },
+        "flightInfo": [
+
+        ],
+        "maps": {
+          "addressInfo": [
+
+          ],
+          "fiendOfView": 0,
+          "heading": 0,
+          "latitude": 21.029350318807815,
+          "longitude": 105.84176617699228,
+          "pitch": 0,
+          "searchPlace": null,
+          "staticImageZoom": null,
+          "zoom": 15
+        },
+        "media": [
+
+        ],
+        "elements": [{
+            "emptyOlStartDT": false,
+            "offset": 0,
+            "flexNights": 3,
+            "nights": 0,
+            "unitAmount": 3,
+            "unitId": 2,
+            "optional": false,
+            "not_calculated": false,
+            "subTitle": "Deluxe Room",
+            "title": "Hanoi Le Jardin Hotel & Spa",
+            "TSProduct": {
+              "id": 160,
+              "tag": "VNH004",
+              "bookableDays": [
+
+              ]
+            },
+            "TSOrderline": {
+              "id": 17187
+            },
+            "maps": {
+              "addressInfo": [
+
+              ],
+              "fiendOfView": 0,
+              "heading": 0,
+              "latitude": 21.03093623761563,
+              "longitude": 105.84937255398461,
+              "pitch": 0,
+              "searchPlace": null,
+              "staticImageZoom": null,
+              "zoom": 14
+            },
+            "media": [{
+                "url": "https:\/\/media.outsight.nl\/original\/lg\/Azie-Vietnam-Hotels-Hanoi-Le-Jardin-c6e30169.jpg",
+                "id": 33,
+                "description": "",
+                "mediaspirit_id": "bd30a315b9a2fc63edf36707e2dee3fd",
+                "sourceId": "bd30a315b9a2fc63edf36707e2dee3fd",
+                "sourceType": "mediaspirit"
+              },
+              {
+                "url": "https:\/\/media.outsight.nl\/original\/lg\/Azie-Vietnam-Hotels-Hanoi-Le-Jardin-kamer.jpg",
+                "id": 32,
+                "description": "",
+                "mediaspirit_id": "176204336eae60393f3d28db69d00e70",
+                "sourceId": "176204336eae60393f3d28db69d00e70",
+                "sourceType": "mediaspirit"
+              }
+            ],
+            "olPrices": {
+              "costPrice": "164.430",
+              "discount": null,
+              "title": "Hanoi Le Jardin Hotel & Spa [Deluxe Room]",
+              "discountMethod": null,
+              "exchangeRate": "0.870000000",
+              "purchaseCurrency": "USD",
+              "salesCurrency": "EUR",
+              "participants": {
+                "2036630": {
+                  "costPrice": "82.215",
+                  "salesPrice": 110.0001
+                },
+                "2036631": {
+                  "costPrice": "82.215",
+                  "salesPrice": 110.0001
+                }
+              },
+              "salesTotal": 220
+            },
+            "subAdditionalText": "inclusief ontbijt",
+            "additionalText": "<html><head><title><\/title><\/head><body><span style=\"font-size:12px;\"><span style=\"font-family:Arial, Helvetica, sans-serif;\">Hanoi Le Jardin Hotel &amp; Spa is het hotel dat we standaard gebruiken in Hanoi. Het hotel ligt in de wijk Ba Dinh, op loopafstand van o.a. de Quan Thanh-tempel, de Dong Xuan-markt en de oude stadspoort. Het heeft een eigen restaurant, en tuin.<br \/><br \/>Corps is nu 12<\/span><\/span><div class=\"vcard\"><span class=\"star-rating-text widget-star-rating-overlay widget-tooltip widget-tooltip-responsive widget-tooltip-ignore-touch\">&nbsp;<\/span><\/div>&nbsp;<div class=\"tagline\"><p>&nbsp;<\/p><b>&nbsp;<\/b><\/div><\/body><\/html>",
+            "roomTypes": [{
+              "defaultPrice": "63.0000",
+              "description": "Deluxe Room",
+              "minPerson": 1,
+              "maxPerson": 2,
+              "minUnit": 1,
+              "maxUnit": null
+            }],
+            "supplierComment": null,
+            "sellingAmount": null,
+            "sellingMarkupType": null
+          },
+          {
+            "emptyOlStartDT": false,
+            "offset": 3,
+            "nights": 0,
+            "unitAmount": 1,
+            "unitId": 12,
+            "optional": false,
+            "not_calculated": false,
+            "subTitle": "Citytour Hanoi",
+            "title": "Vanuit Hanoi - Hanoi Citytour - Seatin (hele dag)",
+            "TSProduct": {
+              "id": 203,
+              "tag": "VNX006",
+              "bookableDays": [
+
+              ]
+            },
+            "TSOrderline": {
+              "id": 17188
+            },
+            "maps": {
+              "addressInfo": [
+
+              ],
+              "fiendOfView": 0,
+              "heading": 0,
+              "latitude": 21.0277644,
+              "longitude": 105.83415979999995,
+              "pitch": 0,
+              "searchPlace": null,
+              "staticImageZoom": null,
+              "zoom": 14
+            },
+            "media": [{
+              "url": "https:\/\/media.outsight.nl\/original\/lg\/verkoopster-Hanoi.JPG",
+              "id": 35,
+              "description": "",
+              "mediaspirit_id": "7ef6dd60d9f376f9506ee2ff3cb3e466",
+              "sourceId": "7ef6dd60d9f376f9506ee2ff3cb3e466",
+              "sourceType": "mediaspirit"
+            }],
+            "olPrices": {
+              "costPrice": "55.680",
+              "discount": null,
+              "title": "Vanuit Hanoi - Hanoi Citytour - Seatin (hele dag) [Citytour Hanoi]",
+              "discountMethod": null,
+              "exchangeRate": "0.870000000",
+              "purchaseCurrency": "USD",
+              "salesCurrency": "EUR",
+              "participants": {
+                "2036630": {
+                  "costPrice": "27.840",
+                  "salesPrice": 35
+                },
+                "2036631": {
+                  "costPrice": "27.840",
+                  "salesPrice": 35
+                }
+              },
+              "salesTotal": 70
+            },
+            "additionalText": "<html><head><title><\/title><\/head><body>Product beschrijving:<p>Tijdens deze stadstour door Hanoi bezoek je in een hele dag: de Pagode op &eacute;&eacute;n Pilaar, het huis van Ho Chi Minh en zijn mausoleum (gesloten op maandag en vrijdag), de Tempel van de Literatuur en de Tran Quoc Pagode. &rsquo;s Middags breng je een bezoek aan de tempel van Ngoc Son en het Hoan Kiem lake.<\/p><p><strong><strong>inbegrepen<\/strong>:<\/strong> vervoer per bus, Engelssprekende gids en entreegelden<\/p><\/body><\/html>",
+            "subAdditionalText": null,
+            "roomTypes": [{
+              "defaultPrice": "32.0000",
+              "description": "Citytour Hanoi",
+              "minPerson": 1,
+              "maxPerson": 6,
+              "minUnit": 1,
+              "maxUnit": null
+            }],
+            "supplierComment": null,
+            "sellingAmount": null,
+            "sellingMarkupType": null
+          },
+          {
+            "emptyOlStartDT": false,
+            "offset": 3,
+            "nights": 0,
+            "unitAmount": 1,
+            "unitId": 8,
+            "optional": false,
+            "not_calculated": false,
+            "subTitle": "<van 1-2>",
+            "title": "transfer airport - hotel in Hanoi",
+            "TSProduct": {
+              "id": 235,
+              "tag": "VNV201",
+              "bookableDays": [
+
+              ]
+            },
+            "TSOrderline": {
+              "id": 17189
+            },
+            "maps": {
+              "addressInfo": [
+
+              ],
+              "fiendOfView": 0,
+              "heading": 0,
+              "latitude": 21.2187149,
+              "longitude": 105.80417090000003,
+              "pitch": 0,
+              "searchPlace": null,
+              "staticImageZoom": null,
+              "zoom": 0.9999999999999997
+            },
+            "media": [{
+              "url": "https:\/\/media.outsight.nl\/original\/lg\/Azie-Vietnam-Vervoer-Transfer.JPG",
+              "id": 36,
+              "description": "",
+              "mediaspirit_id": "e430f8d12e3775a73599bc99416c3f22",
+              "sourceId": "e430f8d12e3775a73599bc99416c3f22",
+              "sourceType": "mediaspirit"
+            }],
+            "olPrices": {
+              "costPrice": "36.540",
+              "discount": null,
+              "title": "transfer airport - hotel in Hanoi [<van 1-2>]",
+              "discountMethod": null,
+              "exchangeRate": "0.870000000",
+              "purchaseCurrency": "USD",
+              "salesCurrency": "EUR",
+              "participants": {
+                "2036630": {
+                  "costPrice": "18.270",
+                  "salesPrice": 26
+                },
+                "2036631": {
+                  "costPrice": "18.270",
+                  "salesPrice": 26
+                }
+              },
+              "salesTotal": 52
+            },
+            "subAdditionalText": null,
+            "additionalText": null,
+            "roomTypes": [{
+                "defaultPrice": "42.0000",
+                "description": "<van 1-2>",
+                "minPerson": 1,
+                "maxPerson": 2,
+                "minUnit": 1,
+                "maxUnit": null
+              },
+              {
+                "defaultPrice": "54.0000",
+                "description": "<van 3-4>",
+                "minPerson": 3,
+                "maxPerson": 4,
+                "minUnit": 1,
+                "maxUnit": null
+              }
+            ],
+            "supplierComment": null,
+            "sellingAmount": null,
+            "sellingMarkupType": null
+          },
+          {
+            "emptyOlStartDT": false,
+            "offset": 0,
+            "flexNights": 3,
+            "nights": 0,
+            "unitAmount": 3,
+            "unitId": 2,
+            "optional": true,
+            "not_calculated": false,
+            "title": "Hanoi Boutique Hotel",
+            "TSProduct": {
+              "id": 161,
+              "tag": "VNH008",
+              "bookableDays": [
+
+              ]
+            },
+            "TSOrderline": {
+              "id": 17190
+            },
+            "maps": {
+              "addressInfo": [
+
+              ],
+              "fiendOfView": 0,
+              "heading": 0,
+              "latitude": 21.0362231,
+              "longitude": 105.85069329999999,
+              "pitch": 0,
+              "searchPlace": null,
+              "staticImageZoom": null,
+              "zoom": 0.9999999999999997
+            },
+            "media": [{
+                "url": "https:\/\/media.outsight.nl\/original\/lg\/Vietnam-hotels-Hanoi-Boutique-Hotel-hal.jpg",
+                "id": 16,
+                "description": "",
+                "mediaspirit_id": "8b01378358ff3350c212b9f2a2986eff",
+                "sourceId": "8b01378358ff3350c212b9f2a2986eff",
+                "sourceType": "mediaspirit"
+              },
+              {
+                "url": "https:\/\/media.outsight.nl\/original\/lg\/Vietnam-hotels-Hanoi-Boutique-Hotel.jpg",
+                "id": 15,
+                "description": "",
+                "mediaspirit_id": "01706c224b99b30bc2258c2a81ffbf4a",
+                "sourceId": "01706c224b99b30bc2258c2a81ffbf4a",
+                "sourceType": "mediaspirit"
+              }
+            ],
+            "olPrices": {
+              "costPrice": "0.000",
+              "discount": null,
+              "title": "Hanoi Boutique Hotel",
+              "discountMethod": null,
+              "exchangeRate": "0.870000000",
+              "purchaseCurrency": "USD",
+              "salesCurrency": "EUR",
+              "participants": {
+                "2036630": {
+                  "costPrice": "0.000",
+                  "salesPrice": ""
+                },
+                "2036631": {
+                  "costPrice": "0.000",
+                  "salesPrice": ""
+                }
+              },
+              "salesTotal": 0
+            },
+            "additionalText": "<html><head><title><\/title><\/head><body><span style=\"color: #800000;\"><span style=\"color: #000000;\">Het Boutique Hotel 1 is een van onze standaardhotels in Hanoi. <\/span><\/span><hr \/><span style=\"color: #800000;\"><span style=\"color: #000000;\">Het is een &lsquo;cozy-boutique&rsquo; hotel in het gezellige Old Quarter.&nbsp;Het hotel ligt heel centraal, vlakbij winkeltjes &amp; restaurants, op loopafstand van het Hoan Kiem Lake en de weekendmarkt. In het hotel is een restaurant en bar, en een mooie SPA-ruimte met sauna, jacuzzi en beautysalon<\/span><\/span><\/body><\/html>",
+            "subAdditionalText": null,
+            "roomTypes": [{
+                "defaultPrice": "57.0000",
+                "description": "kamer 1 of 2 personen",
+                "minPerson": 1,
+                "maxPerson": 2,
+                "minUnit": 1,
+                "maxUnit": null
+              },
+              {
+                "defaultPrice": "77.0000",
+                "description": "Kamer met extra bed 3 personen",
+                "minPerson": 3,
+                "maxPerson": 3,
+                "minUnit": 1,
+                "maxUnit": null
+              }
+            ],
+            "supplierComment": null,
+            "sellingAmount": null,
+            "sellingMarkupType": null
+          }
+        ],
+        "liborderId": 1612
+      }
+    ],
+    "liborderId": 1612
+  }

@@ -81,7 +81,10 @@ import { PersonInfoComponent } from "./component/info/person-info/person-info.co
       {
         path: "",
         redirectTo: "/home",
-        pathMatch: "full"
+        pathMatch: "full",
+        resolve: {
+          itinerary: ItineraryResolver
+        }
       },
       {
         path: "home",

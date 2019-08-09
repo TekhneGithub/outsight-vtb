@@ -101,3 +101,34 @@
 .custom-triange.down.second{
     border-top-color:var(--theme-light);
 }
+
+/* @media screen and (max-width: 767px) {
+    .custom-triange{
+        transform: rotateZ(90deg);
+        top:inherit;
+        right: 0;
+        bottom: 100%;
+        left: 0;
+        margin: 0 auto;
+    }
+    .custom-triange.down{
+        transform: rotateZ(-180deg);
+        top:inherit;
+        left:0;
+    }
+    .custom-triange.up{
+        left: 20%;
+        bottom:99%;
+    }
+    .custom-triange.right{
+        left: 0;
+        transform: rotateZ(90deg);
+        bottom: 88%;
+        right: 0;
+        top: inherit;
+        margin: 0 auto;
+    }
+    .custom-triange.transfrom{
+        bottom:88%;
+    }
+} */
