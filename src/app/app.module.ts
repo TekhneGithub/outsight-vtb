@@ -88,7 +88,10 @@ import { PersonInfoComponent } from "./component/info/person-info/person-info.co
       },
       {
         path: "home",
-        component: HomeComponent
+        component: HomeComponent,
+        resolve: {
+          itinerary: ItineraryResolver
+        }
       },
       {
         path: "tips",
