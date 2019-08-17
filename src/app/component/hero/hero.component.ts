@@ -9,8 +9,8 @@ export class HeroComponent implements OnInit {
   @Input() itinerary: any;
 
   ngOnInit() {
-    console.log(this.itinerary);
-  //   // this.itinerary.title = this.itinerary.participants['party 1'][0].name + ' ' + this.itinerary.participants['party 1'][0].surname + ' & ' + this.itinerary.participants['party 1'][1].name + ' ' + this.itinerary.participants['party 1'][1].surname;
+    console.log("Hero" + this.itinerary);
+   this.itinerary.title = this.itinerary.participants['party 1'][0].name + ' ' + this.itinerary.participants['party 1'][0].surname + ' & ' + this.itinerary.participants['party 1'][1].name + ' ' + this.itinerary.participants['party 1'][1].surname;
 
 
 
