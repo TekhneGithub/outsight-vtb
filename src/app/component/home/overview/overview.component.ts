@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-overview',
@@ -7,9 +7,29 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OverviewComponent implements OnInit {
 
+  @Input() itinerary: any;
+  titles:any[] = new Array();
+
   constructor() { }
 
   ngOnInit() {
+
+    console.log('this.itinerary.startDate', this.itinerary.startDate);
+
+    var startDate = new Date(this.itinerary.startDate);
+    for(const segment of this.itinerary.segments) {
+      
+      
+      var myNewDate = new Date(startDate);
+      myNewDate.setDate(myNewDate.getDate() + segment.day);
+      
+      var obj = { date: myNewDate, title: this.itinerary.title };
+      this.titles.push(obj);
+
+      //this.titles.push({ "date": "" , "title" :"" });
+    }
+    //console.log('titles', this.titles);
+
   }
 
 }
