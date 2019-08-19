@@ -23,8 +23,14 @@ export class OverviewComponent implements OnInit {
       var myNewDate = new Date(startDate);
       myNewDate.setDate(myNewDate.getDate() + segment.day);
       
-      var obj = { date: myNewDate, title: this.itinerary.title };
+      var obj = { date: myNewDate, title: segment.title };
       this.titles.push(obj);
+
+      for(const element of segment.elements) {
+        var obj = { date: myNewDate, title: element.title };
+        this.titles.push(obj);
+      }
+      
 
       //this.titles.push({ "date": "" , "title" :"" });
     }
