@@ -289,7 +289,7 @@
     },
     "segments": [{
         "nights": 2,
-        "day": 12,
+        "day": 1,
         "isFlight": false,
         "typeId": 13,
         "title": "Eerste dagen in Ho Chi Minh Stad",
@@ -507,7 +507,7 @@
       },
       {
         "nights": 3,
-        "day": 10,
+        "day": 3,
         "isFlight": false,
         "typeId": 14,
         "title": "Naar Hanoi",
@@ -784,7 +784,7 @@
       },
       {
         "nights": 1,
-        "day": 7,
+        "day": 6,
         "isFlight": false,
         "typeId": 14,
         "title": "Naar de Mekong",
@@ -892,7 +892,7 @@
       },
       {
         "nights": 3,
-        "day": 6,
+        "day": 7,
         "isFlight": false,
         "typeId": 12,
         "title": "Laatste dagen in Hanoi",
