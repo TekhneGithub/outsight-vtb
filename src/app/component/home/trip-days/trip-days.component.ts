@@ -14,8 +14,8 @@ export class TripDaysComponent implements OnInit {
 
   ngOnInit() {
     for(const segment of this.itinerary.segments) {
-      
-      var obj = { startDay: segment.day, endDay: segment.day + segment.nights, title: segment.title + segment.subTitle, content: segment.content };
+      //map media to url take first one if applicable fix later
+      var obj = { startDay: segment.day, endDay: segment.day + segment.nights, title: segment.title + segment.subTitle, content: segment.content, media: "https://via.placeholder.com/300"};
       this.titles.push(obj);
 
       //this.titles.push({ "date": "" , "title" :"" });
