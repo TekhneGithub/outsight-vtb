@@ -4,7 +4,7 @@
       <h2><span>JOUW REIS - DAGEN</span></h2>
       <div class="row align-items-center" *ngFor="let title of titles">
         <div class="col-md-4 col-sm-6 col-12 dayimg">
-          <img src="https://via.placeholder.com/300" alt="" title="" />
+          <img src="{{ title.media }}" alt="" title="" />
         </div>
         <div class="col-md-8 col-sm-6 col-12 daytext">
           <h3>DAG {{ title.startDay }} t/m {{ title.endDay }} {{ title.title }}</h3>
