@@ -111,7 +111,10 @@ import { PersonInfoComponent } from "./component/info/person-info/person-info.co
       },
       {
         path: "route",
-        component: ContactComponent
+        component: ContactComponent,
+        resolve: {
+          itinerary: ItineraryResolver
+        }
       }
     ]),
     AgmCoreModule.forRoot({

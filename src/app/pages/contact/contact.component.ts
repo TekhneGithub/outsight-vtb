@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+
 
 @Component({
   selector: 'app-contact',
@@ -6,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contact.component.css']
 })
 export class ContactComponent implements OnInit {
+  itinerary: any;
 
-  constructor() { }
-
+  constructor(private _activatedRoute: ActivatedRoute) {
+    const data = this._activatedRoute.snapshot.data;
+    this.itinerary = data.itinerary;
+  }
+  
   ngOnInit() {
   }
 

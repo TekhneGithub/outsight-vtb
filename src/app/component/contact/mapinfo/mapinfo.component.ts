@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-mapinfo',
@@ -7,9 +8,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MapinfoComponent implements OnInit {
 
-  constructor() { }
+  @Input() itinerary: any;
+  titles:any[] = new Array();
+
+  constructor() {
+    
+  }
 
   ngOnInit() {
+    for(const segment of this.itinerary.segments) {
+      
+      var obj = { day: segment.day, title: segment.title};
+      this.titles.push(obj);
+      console.log('title of ', this.titles);
+    }
   }
 
 }
