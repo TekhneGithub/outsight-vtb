@@ -20,7 +20,7 @@ export class MapinfoComponent implements OnInit {
       
       var obj = { day: segment.day, title: segment.title};
       this.titles.push(obj);
-      console.log('title of ', this.titles);
+  
     }
   }
 
