@@ -37,3 +37,21 @@ footer .container {
     display: inline-block;
     margin-right: 10px;
 }
+
+.footertext ul li {
+    display: inline-block;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.footertext ul li a {
+    display: block;
+    font-size: 18px;
+    line-height: 38px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    color: #fff;
+    text-align: center;
+}
