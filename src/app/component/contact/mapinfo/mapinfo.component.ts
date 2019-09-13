@@ -16,7 +16,7 @@ export class MapinfoComponent implements OnInit {
   }
 
   ngOnInit() {
-    for(const segment of this.itinerary.segments) {
+    for(const segment of this.itinerary.data.segments) {
       
       var obj = { day: segment.day, title: segment.title};
       this.titles.push(obj);

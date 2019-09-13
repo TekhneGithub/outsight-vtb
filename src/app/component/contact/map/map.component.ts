@@ -13,7 +13,7 @@ export class MapComponent implements OnInit {
 
   ngOnInit() {
     this.markers = [];
-    for (const seg of this.itinerary.segments) {
+    for (const seg of this.itinerary.data.segments) {
         for (const element of seg.elements) {
             if(element.maps) {
               if(element.maps.latitude){

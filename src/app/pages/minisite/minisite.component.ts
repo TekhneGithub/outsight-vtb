@@ -12,7 +12,7 @@ export class MinisiteComponent implements OnInit {
 
   constructor(private _activatedRoute: ActivatedRoute) {
     const data = this._activatedRoute.snapshot.data;
-    this.itinerary = data.itinerary;
+    this.itinerary = data.itinerary.data;
    
   }
   
