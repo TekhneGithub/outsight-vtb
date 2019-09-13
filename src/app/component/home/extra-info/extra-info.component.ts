@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-extra-info',
@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ExtraInfoComponent implements OnInit {
 
+  @Input() itinerary: any;
+  general: string = '';
+
   constructor() { }
 
   ngOnInit() {
+
+    this.general = this.itinerary.TSOrder.texts.general;
+    //console.log('general', this.itinerary);
+
   }
 
 }
