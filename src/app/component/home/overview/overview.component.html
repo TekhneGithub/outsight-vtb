@@ -16,19 +16,11 @@
             </ul>
           </div>
         </div>
-        <div class="col-md-4 col-sm-6 col-12 bg-theme-color guidesec">
+        <div class="col-md-4 col-sm-6 col-12 bg-theme-color guidesec" *ngFor="let c of finalConsultants">
           <h3>JOUW REISSPECIALIST <span>Florine Pastoors</span></h3>
-          <img src="https://via.placeholder.com/300" alt="" title="" />
+          <img src="{{ c.picture }}" alt="" title="" />
           <p>
-            Dut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
-            gravida. Risus commodo viverra maecenas accumsan lacus vel
-            facilisis. Mauris ante tortor adipiscing at porta tem pus commodo
-            vel ipsum. Nam elemen tum tellus interdum consectetur venenatis
-            diam.Quam eleifend risus natoque.Porumet, que nobisqui re lam,
-            comnimporemo excepelis num fugitat del illique vel ium que num fuga.
-            Tatus esequid quae. Ic tecti beaquas perecta ipit quibustiam ressero
-            et autatur, ne re praereium est voluptum ut mod ute cus ex eos ea
-            evero volut im aut as dolent.
+            {{ c.title }}
           </p>
         </div>
       </div>
