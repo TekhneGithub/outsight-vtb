@@ -9,12 +9,12 @@ export class OverviewComponent implements OnInit {
 
   @Input() itinerary: any;
   titles:any[] = new Array();
-
+  propsal: string = '';
   constructor() { }
 
   ngOnInit() {
-
-    console.log('this.itinerary.startDate', this.itinerary.startDate);
+    
+    this.propsal = this.itinerary.TSOrder.texts.proposal;
 
     var startDate = new Date(this.itinerary.startDate);
     for(const segment of this.itinerary.segments) {
