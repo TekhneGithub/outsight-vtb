@@ -13,6 +13,7 @@ export class OverviewComponent implements OnInit {
   consultData: any;
   consultants:any[];
   finalConsultants:string[] = new Array();
+  months: any[];
 
   constructor() { }
 
@@ -44,7 +45,7 @@ export class OverviewComponent implements OnInit {
     
     this.propsal = this.itinerary.TSOrder.texts.proposal;
 
-    
+    this.months = ['jan', 'feb', 'mrt', 'apr', 'mei', 'juni', 'juli', 'aug', 'sep', 'okt', 'nov', 'dec'];
     
       for( const data of this.itinerary.extraFieldValues ){
         
@@ -71,14 +72,18 @@ export class OverviewComponent implements OnInit {
     for(const segment of this.itinerary.segments) {
       
       
-      var myNewDate = new Date(startDate);
-      myNewDate.setDate(myNewDate.getDate() + segment.day);
+      var date = new Date(startDate);
+      date.setDate(date.getDate() + segment.day);
+
+      var myNewDate = new Date(date);
+     
+      var dateString = date.getDate() + '-' + this.months[date.getMonth()];
       
-      var obj = { date: myNewDate, title: segment.title };
+      var obj = { date: dateString, title: segment.title };
       this.titles.push(obj);
 
       for(const element of segment.elements) {
-        var obj = { date: myNewDate, title: element.title };
+        var obj = { date: dateString, title: element.title };
         this.titles.push(obj);
       }
       
