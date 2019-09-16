@@ -4,13 +4,13 @@
     <table class="tablelist bold">
       <tr>
         <td>Vertrek</td>
-        <td>18 april 2019</td>
-        <td>KLM</td>
+        <td>{{ departureFlight.date }}</td>
+        <td>{{ departureFlight.airlineCode }}</td>
       </tr>
       <tr>
         <td>Retour in NL</td>
-        <td>9 mei 2019</td>
-        <td>KLM</td>
+        <td>{{ arrivalFlight.date }}</td>
+        <td>{{ arrivalFlight.airlineCode }}</td>
       </tr>
     </table>
 
@@ -21,6 +21,14 @@
     </p>
 
     <table class="tablelist">
+      <tr *ngFor="let f of flights">
+        <td>{{ f.date }}</td>
+        <td>{{ f.departureAirport }}-{{ f.arrivalAirport }}
+        <td>{{ f.departureTime }}</td>
+        <td>{{ f.arrivalTime }}*</td>
+        <td>VN {{ f.flightNumber }} uitgevoerd door {{ f.airlineCode }}</td>
+      </tr>
+      <!--
       <tr>
         <td>18-apr</td>
         <td>Amsterdam-Frankfurt 09.50</td>
@@ -49,6 +57,7 @@
         <td>07.10*</td>
         <td>VN 030 uitgevoerd door Vietnam Airlines</td>
       </tr>
+      -->
     </table>
   </div>
 </section>
