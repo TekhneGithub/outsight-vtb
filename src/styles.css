@@ -1605,7 +1605,7 @@ footer .container {
 }
 
 .destlist {
-  padding: 30px 15px;
+  padding: 20px 15px;
 }
 
 .destlist ul li {
@@ -1613,6 +1613,7 @@ footer .container {
   width: 49%;
   color: #fff;
   padding: 5px 0;
+  font-size: 14px;
 }
 
 .destlist ul li:nth-child(2n) {
@@ -1696,9 +1697,9 @@ footer .container {
   left: 0;
   color: #a6192e;
   font-weight: 600;
-  padding: 5px 8px;
-  line-height: 20px;
-  font-size: 20px;
+  padding: 5px 6px;
+  line-height: 12px;
+  font-size: 12px;
   background: #fff;
   border-radius: 50%;
   border: 2px solid #a6192e;
@@ -1721,7 +1722,7 @@ footer .container {
 }
 .travel-even .tavel-even-heading{
   background-color: var( --theme-color);
-  padding: 20px;
+  padding: 15px;
 }
 .travel-even .tavel-even-heading h2{
   color: #ffffff;
@@ -1756,6 +1757,8 @@ footer .container {
   position: relative;
   top: 50px;
   z-index: 2;
+  height: 150px;
+  object-fit: cover;
 }
 .travel-even .trvel-person .travel-person-img:after{
   content: '';
@@ -1930,3 +1933,5 @@ footer .container {
   width:100%;
   margin:0 auto;
 }
+.f-12{font-size: 12px;}
+.mt-20{margin-top: 20px;}
