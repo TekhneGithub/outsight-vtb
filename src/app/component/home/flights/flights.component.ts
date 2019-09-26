@@ -10,6 +10,7 @@ export class FlightsComponent implements OnInit {
   @Input() itinerary: any;
   airports: any[];
   airportDescriptions: any[];
+  airlineCodes: any[];
   flights:any[] = new Array();
   months: any[];
   departureFlight: any;
@@ -18,6 +19,19 @@ export class FlightsComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
+    this.airlineCodes = [
+      {
+        "carrier_code": "RJ",
+        "country": "USA",
+        "airline": "JORDANIAN"
+      },
+      {
+        "carrier_code": "6E",
+        "country": "India",
+        "airline": "Indigo"
+      },
+    ];
 
     this.airportDescriptions = [
       {
@@ -6343,14 +6357,20 @@ export class FlightsComponent implements OnInit {
             
             var date = new Date(flights.departureDate);
             if(!firstLoopExectuion) {
-              this.departureFlight = {date: date.getDate() + ' ' + this.months[date.getMonth()] + ' ' + date.getFullYear(), airlineCode: flights.airlineCode};
+
+              let airlineCode = getObjectByValue(this.airlineCodes, 'carrier_code', flights.airlineCode);
+              airlineCode = airlineCode[0] !== undefined?airlineCode[0].airline:null;
+
+              this.departureFlight = {date: date.getDate() + ' ' + this.months[date.getMonth()] + ' ' + date.getFullYear(), airlineCode: airlineCode};
               firstLoopExectuion = true;
             }
-            this.arrivalFlight = {date: date.getDate() + ' ' + this.months[date.getMonth()] + ' ' + date.getFullYear(), airlineCode: flights.airlineCode};
-            
+            let airlineCode = getObjectByValue(this.airlineCodes, 'carrier_code', flights.airlineCode);
+            airlineCode = airlineCode[0] !== undefined?airlineCode[0].airline:null;
+
+            this.arrivalFlight = {date: date.getDate() + ' ' + this.months[date.getMonth()] + ' ' + date.getFullYear(), airlineCode: airlineCode};
             var dateString = date.getDate() + '-' + this.months[date.getMonth()];
 
-            let data = {date: dateString, departureAirport: departureAirport[0].description, arrivalAirport: arrivalAirport[0].description, departureTime: flights.departureTime, arrivalTime: flights.arrivalTime, flightNumber: flights.flightNumber, airlineCode: flights.airlineCode};
+            let data = {date: dateString, departureAirport: departureAirport[0].description, arrivalAirport: arrivalAirport[0].description, departureTime: flights.departureTime, arrivalTime: flights.arrivalTime, flightNumber: flights.flightNumber, airlineCode: airlineCode};
             this.flights.push(data);
 
           }
