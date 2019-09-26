@@ -17,7 +17,7 @@
           </div>
         </div>
         <div class="col-md-4 col-sm-6 col-12 bg-theme-color guidesec" *ngFor="let c of finalConsultants">
-          <h3>JOUW REISSPECIALIST <span>Florine Pastoors</span></h3>
+          <h3>JOUW REISSPECIALIST <span>{{ c.name }}</span></h3>
           <img src="{{ c.picture }}" alt="" title="" />
           <p>
             {{ c.title }}

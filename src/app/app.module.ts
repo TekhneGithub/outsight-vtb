@@ -103,7 +103,10 @@ import { PersonInfoComponent } from "./component/info/person-info/person-info.co
       },
       {
         path: "price",
-        component: PriceComponent
+        component: PriceComponent,
+        resolve: {
+          itinerary: ItineraryResolver
+        }
       },
       {
         path: "info",
