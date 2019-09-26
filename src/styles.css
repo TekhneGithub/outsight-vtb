@@ -1420,6 +1420,10 @@ footer .container {
 .infowrap [class*="col-"] {
   padding: 0;
 }
+.info-content h2{
+  background: var(--theme-color);
+  font-size: 15px;
+}
 
 .infowrap .bg-theme-color {
   padding: 15px;
@@ -1788,14 +1792,17 @@ footer .container {
 .costwrap {
   background: #fff;
 }
+.costwrap .parent-div {max-width: 800px; margin: 0 auto;}
 
 .costwrap [class*="col-"] {
   padding: 30px;
 }
-
+.costwrap table{
+  width: 100%;
+}
 .costwrap table tr td {
   min-width: 100px;
-  padding: 10px;
+  padding: 10px 0;
   vertical-align: bottom;
 }
 
