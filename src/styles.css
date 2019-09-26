@@ -1694,7 +1694,7 @@ footer .container {
   content: "\2713";
   position: absolute;
   top: 0;
-  left: 0;
+  left: 5px;
   color: #a6192e;
   font-weight: 600;
   padding: 5px 6px;
