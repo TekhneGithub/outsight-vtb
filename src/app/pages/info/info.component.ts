@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-info',
@@ -8,7 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InfoComponent implements OnInit {
 
-  constructor() { }
+  itinerary: any;
+
+  constructor(private _activatedRoute: ActivatedRoute) {
+    const data = this._activatedRoute.snapshot.data;
+    this.itinerary = data.itinerary.data;
+  }
 
   ngOnInit() {
     

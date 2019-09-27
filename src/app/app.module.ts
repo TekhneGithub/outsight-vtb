@@ -95,11 +95,17 @@ import { PersonInfoComponent } from "./component/info/person-info/person-info.co
       },
       {
         path: "tips",
-        component: TipsComponent
+        component: TipsComponent,
+        resolve: {
+          itinerary: ItineraryResolver
+        }
       },
       {
         path: "hotels",
-        component: HotelsComponent
+        component: HotelsComponent,
+        resolve: {
+          itinerary: ItineraryResolver
+        }
       },
       {
         path: "price",
@@ -110,7 +116,10 @@ import { PersonInfoComponent } from "./component/info/person-info/person-info.co
       },
       {
         path: "info",
-        component: InfoComponent
+        component: InfoComponent,
+        resolve: {
+          itinerary: ItineraryResolver
+        }
       },
       {
         path: "route",

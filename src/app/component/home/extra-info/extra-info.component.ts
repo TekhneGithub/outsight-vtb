@@ -15,7 +15,7 @@ export class ExtraInfoComponent implements OnInit {
   ngOnInit() {
 
     this.general = this.itinerary.TSOrder.texts.general;
-    //console.log('general', this.itinerary);
+    console.log('general', this.itinerary);
 
   }
 
