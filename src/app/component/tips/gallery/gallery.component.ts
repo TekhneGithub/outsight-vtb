@@ -7,24 +7,26 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class GalleryComponent implements OnInit {
   @Input() itinerary;
-  tips : any;
+  tips : any[];
   constructor() { }
 
   ngOnInit() {
     //console.log('tips', this.itinerary);
-     for(const segment of this.itinerary.segments) {
-         for(const el of segment.elements){
-            //console.log("tips" +  el.optional);
+    this.tips = [];
+     for(const seg of this.itinerary.segments) {
+       //console.log("custom seg" + seg.title);
+         for(const el of seg.elements){
+            //console.log("el" +  el.optional);
             if(el.optional == true){
-              // console.log(el.title);
-              // console.log(el.media);
-              // console.log(el.additionalText);
+                // console.log(el.title);
+                  //console.log(el.media[0].url);
+                 console.log(el.additionalText);
+                
+            this.tips.push(el);
             }
-            
          }
-         //this.tips.push(segment);
+        
      }
-
   }
 
 }

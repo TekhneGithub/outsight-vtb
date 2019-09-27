@@ -2,15 +2,13 @@
   <div class="daywrap">
     <div class="container">
       <h2><span>LEUK OM TE DOEN</span></h2>
-      <div class="row align-items-center">
-        <div class="col-md-4 col-sm-6 col-12 dayimg">
-          <img src="https://via.placeholder.com/350x350" />
+      <div class="row align-items-center" *ngFor="let tipsdata of this.tips">
+        <div *ngIf= "tipsdata.media.length >= 1" [className]="tipsdata.media.length >= 1 ? 'col-md-4 col-sm-6 col-12 dayimg' : 'dayimg'">
+          <img src="{{tipsdata.media}}" />
         </div>
-        <div class="col-md-8 col-sm-6 col-12 daytext">
-          <h3>MET OUTSIGHT NAAR VIETNAM</h3>
-          <p>
-            Dut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
-            gravida. Risus commodo viverra maecenas
+        <div [className]="tipsdata.media.length >= 1 ? 'col-md-8 col-sm-6 col-12 daytext' : 'daytext'">
+          <h3>{{tipsdata.title}}</h3>
+          <p [innerHTML]="tipsdata.additionalText">
           </p>
         </div>
       </div>
