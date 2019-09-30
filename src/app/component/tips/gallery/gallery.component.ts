@@ -19,10 +19,9 @@ export class GalleryComponent implements OnInit {
             //console.log("el" +  el.optional);
             if(el.optional == true){
                 // console.log(el.title);
-                  //console.log(el.media[0].url);
-                 console.log(el.additionalText);
-                
-            this.tips.push(el);
+                //console.log(el.media[0].url);
+                console.log(el.additionalText);
+                this.tips.push(el);
             }
          }
         
