@@ -17,7 +17,16 @@ export class ExcludingComponent implements OnInit {
       
       if (data.name == 'Not included') {
         for(const f of data.fields) {
-          this.excludedStrings.push({ name:f.name });
+          if(f.value !== undefined) {
+            if(f.value != true && f.value != '') {
+              this.excludedStrings.push({ name:f.value });
+            } else {
+              this.excludedStrings.push({ name:f.name });
+            }
+
+          } else {
+            this.excludedStrings.push({ name:f.name });
+          }
         }
       }
 

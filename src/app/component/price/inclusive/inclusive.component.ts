@@ -44,7 +44,17 @@ export class InclusiveComponent implements OnInit {
       
       if (data.name == 'Included') {
         for(const f of data.fields) {
-          this.includedStrings.push({ name:f.name });
+          if(f.value !== undefined) {
+            if(f.value != true && f.value != '') {
+              this.includedStrings.push({ name:f.value });
+            } else {
+              this.includedStrings.push({ name:f.name });
+            }
+
+          } else {
+            this.includedStrings.push({ name:f.name });
+          }
+          
         }
       }
 
