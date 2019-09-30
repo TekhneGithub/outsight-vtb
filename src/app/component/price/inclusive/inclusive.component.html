@@ -4,29 +4,8 @@
       <div class="col-md-8 col-sm-6 col-12 incldesc">
         <h2><span>INBEGREPEN</span></h2>
         <ul class="dash-style-list">
-          <li>
-            Heenvlucht naar Ho Chi Minh City vanaf Amsterdam en terug vanaf
-            Hanoi, er Vietnam Airlines incl. € 337,- luchthavenbelastingen.
-          </li>
-          <li>
-            Trein-, vlieg- en bustickets zoals genoemd in het reisvoorstel
-            (vliegtickets incl. 20 kilo ruimbagage)
-          </li>
-          <li>Hotelovernachtingen op basis van logies & ontbijt.</li>
-          <li>
-            Tijdens ‘De drijvende markten van de Mekong’: vervoer per A/C bus in
-            internationale groep, boottochten & bezoek aan Drijvende Markt,
-            Engelssprekende gids, lunch op dag 1, hotelovernachting in eenvoudig
-            hotel inclusief ontbijt.
-          </li>
-          <li>
-            Tijdens ‘Rijstterrasssen en Bergstammen bij Sapa’: treinticket Hanoi
-            - Lao Cai (retour), privétransfer Lao Cai - Sapa (retour).
-          </li>
-          <li>
-            Tijdens ‘Halong Bay boottocht’: retourtransfer Halong City (met
-            internationaal gezelschap), Engelssprekende gids, entree Halong Bay,
-            overnachting op boot incl. ontbijt, lunch op dag 1 en 2.
+          <li *ngFor="let str of includedStrings">
+            {{ str.name }}
           </li>
         </ul>
       </div>

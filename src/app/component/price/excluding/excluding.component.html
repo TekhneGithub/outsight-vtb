@@ -4,20 +4,9 @@
       <div class="col-md-8 col-sm-6 col-12">
         <h2><span>NIET INBEGREPEN</span></h2>
         <ul class="dash-style-list">
-          <li>fooien</li>
-          <li>overige maaltijden</li>
-          <li>overige transfers van en naar trein- en busstation en haven</li>
-          <li>optionele excursies en overige entreegelden</li>
-          <li>
-            eventuele hoogseizoen toeslagen ivm feestdagen in Vietnam (14 april
-            t/m 4 mei 2019)
+          <li *ngFor="let str of excludedStrings">
+            {{ str.name }}
           </li>
-          <li>reis- en/of annuleringsverzekering (wel aan te raden!)</li>
-          <li>eventuele brandstoftoeslagen voor de vlucht</li>
-          <li>
-            reserveringskosten á € 15,- p.p. (maximaal € 30,- per boeking)
-          </li>
-          <li>bijdrage Calamiteitenfonds € 2,50 per boeking</li>
         </ul>
       </div>
       <div class="col-md-4 col-sm-6 col-12 bg-gray-color">

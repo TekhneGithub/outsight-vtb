@@ -10,6 +10,7 @@ export class InclusiveComponent implements OnInit {
   consultData: any;
   consultants:any[];
   finalConsultants:string[] = new Array();
+  includedStrings:any[] = new Array();
 
   constructor() { }
 
@@ -38,9 +39,15 @@ export class InclusiveComponent implements OnInit {
         picture: 'assets/images/Florine Sri Lanka.jpg',
       }
     ];
-    console.log('this.itinerary', this.itinerary);
+    
     for( const data of this.itinerary.extraFieldValues ){
-        
+      
+      if (data.name == 'Included') {
+        for(const f of data.fields) {
+          this.includedStrings.push({ name:f.name });
+        }
+      }
+
       for(const fielddata of data.fields)
         {
           this.consultData = fielddata.value;
@@ -57,7 +64,7 @@ export class InclusiveComponent implements OnInit {
       }
      
     }
-    console.log('finalConsultants12', this.finalConsultants);
+    
   }
 
 }

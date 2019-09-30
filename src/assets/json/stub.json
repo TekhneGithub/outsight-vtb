@@ -1,11 +1,11 @@
   {
-  "id": 45,
-  "name": "Mildred Zomerdijk [2019-09-12 11:24:15]",
+  "id": 46,
+  "name": "Mildred Zomerdijk [2019-09-30 13:26:37]",
   "data": {
     "TSOrder": {
       "texts": {
         "internal": "<html>\n<head>\n\t<title><\/title>\n<\/head>\n<body>Dit is de tekst in TS - Travelplan - rechtsbovenin - Informatietekst - 4 tabjes - Meest links: Intern<\/body>\n<\/html>",
-        "general": "<h2>Inspiratietekst Vietnam: Reis langs de groene rijstvelden door verrassend &amp; veelzijdig Vietnam<\/h2><p>Vietnam is een waar paradijs vol verborgen grotten en groene heuvels met oneindige rijstvelden. Vaar over de waterwegen van de Mekong, verbaas je over de mysterieuze rotsformaties in Halong Bay en plof neer aan het heerlijke strand van het sfeervolle Unesco stadje Hoi\u2019An.<br>&nbsp;<br>&nbsp; Dit is de tekst in TS - Travelplan - rechtsbovenin - Informatietekst - 4 tabjes - Links van het midden: Algemeen&nbsp;<\/p><h2>Inspiratietekst Vietnam: Reis langs de groene rijstvelden door verrassend &amp; veelzijdig Vietnam<\/h2><p>Vietnam is een waar paradijs vol verborgen grotten en groene heuvels met oneindige rijstvelden. Vaar over de waterwegen van de Mekong, verbaas je over de mysterieuze rotsformaties in Halong Bay en plof neer aan het heerlijke strand van het sfeervolle Unesco stadje Hoi\u2019An.<br>&nbsp;<br>&nbsp;<\/p>",
+        "general": "<h2>Inspiratietekst: Reis langs de groene rijstvelden door veelzijdig Vietnam<\/h2><p>Vietnam is een waar paradijs vol verborgen grotten en groene heuvels met oneindige rijstvelden. Vaar over de waterwegen van de Mekong, verbaas je over de mysterieuze rotsformaties in Halong Bay en plof neer aan het heerlijke strand van het sfeervolle Unesco stadje Hoi\u2019An.<br>&nbsp;<br><i>Dit is de tekst in TS - Travelplan - 4 tabjes - Algemeen\/general<\/i><\/p><p>&nbsp;<\/p><p><br>&nbsp;<\/p>",
         "proposal": "<!DOCTYPE html>\n<html>\n<head>\n<title><\/title>\n<\/head>\n<body>\nDit is de welkomtekst Vietnam. Dit moet een warm welkom zijn!\nJullie hebben een erg mooie reis uitgezocht! Vietnam is een zeer\nveelzijdige bestemming en een van mijn persoonlijke favorieten.\nVooral het gebied rond <span style=\"color:#ff0000;\">Sapa<\/span> en\nde <span style=\"color:#ff0000;\">tocht door de Halong Bay<\/span>\nzullen een onuitwisbare indruk op je maken!<br>\n<br>\nHierbij vind je een eerste opzet voor <span style=\n\"color:#ff0000;\">je\/jullie 17-daagse reis<\/span> naar Vietnam. Ik\nheb mijn uiterste best gedaan het programma zo goed mogelijk te\nlaten aansluiten bij de besproken reiswensen: veel sfeer, veel\nstrand, mooie hotels en geen nachtbussen. (of zoiets?).<br>\n<br>\n<span style=\"color:#ff0000;\">&nbsp;<\/span><br>\n&nbsp;\n<head>\n<title><\/title>\n<\/head>\nDit is de tekst in TS - Travelplan - rechtsbovenin -\nInformatietekst - 4 tabjes - Rechts van het midden: Offerte<br>\n<br>\nDit is de welkomtekst Vietnam. Dit moet een warm welkom zijn! Komt\nals het goed is als eerste in beeld in de VTB. Jullie hebben een\nerg mooie reis uitgezocht! Vietnam is een zeer veelzijdige\nbestemming en een van mijn persoonlijke favorieten. Vooral het\ngebied rond <span style=\"color:#ff0000;\">Sapa<\/span> en de\n<span style=\"color:#ff0000;\">tocht door de Halong Bay<\/span> zullen\neen onuitwisbare indruk op je maken!<br>\n<br>\nHierbij vind je een eerste opzet voor <span style=\n\"color:#ff0000;\">je\/jullie 17-daagse reis<\/span> naar Vietnam. Ik\nheb mijn uiterste best gedaan het programma zo goed mogelijk te\nlaten aansluiten bij de besproken reiswensen: veel sfeer, veel\nstrand, mooie hotels en geen nachtbussen. (of zoiets?).<br>\n<br>\n<span style=\"color:#ff0000;\">&nbsp;<\/span><br>\n&nbsp;\n<\/body>\n<\/html>",
         "invoice": "<html>\n<head>\n\t<title><\/title>\n<\/head>\n<body>Dit is de tekst in TS - Travelplan - rechtsbovenin - Informatietekst - 4 tabjes - Meest rechts: Factuur<\/body>\n<\/html>",
         "vtbObjectId": "orderTexts1"
@@ -44,7 +44,7 @@
             "link_type": "order",
             "link_id": 1612,
             "value": "Naam Travelplan = Mastertrip",
-            "vtbObjectId": "kprzetqt44fe4ms1wjazaq"
+            "vtbObjectId": "nrpq5qwkp2dzcqggd5d5ap"
           },
           {
             "id": 19,
@@ -75,7 +75,7 @@
             "link_type": "order",
             "link_id": 1612,
             "value": "Florine Pastoor",
-            "vtbObjectId": "9a1reyzg9hixy0ecvb1b"
+            "vtbObjectId": "8dgkxpel729taeva0wxbgl"
           },
           {
             "id": 20,
@@ -97,7 +97,7 @@
             "link_type": "order",
             "link_id": 1612,
             "value": null,
-            "vtbObjectId": "l8so908j02zdmkwq92ju"
+            "vtbObjectId": "cxulw1kerbo2hvvplxabth"
           },
           {
             "id": 1,
@@ -126,7 +126,7 @@
             "link_type": "order",
             "link_id": 1612,
             "value": null,
-            "vtbObjectId": "rxzkei1n8ugprisl32n01n"
+            "vtbObjectId": "he4yhhlbsxfanzoptn5ch"
           },
           {
             "id": 6,
@@ -188,7 +188,7 @@
             "link_type": "order",
             "link_id": 1612,
             "value": "Vietnam",
-            "vtbObjectId": "iotm5nvo6absvf78lvylnc"
+            "vtbObjectId": "p7b1c6jvhdjnup8g8tspp"
           },
           {
             "id": 16,
@@ -250,7 +250,7 @@
             "link_type": "order",
             "link_id": 1612,
             "value": null,
-            "vtbObjectId": "x0ib6m5undnixks2msbr5p"
+            "vtbObjectId": "r82qz5uzt9r3pwyu5x8fqp"
           },
           {
             "id": 17,
@@ -294,7 +294,7 @@
             "link_type": "order",
             "link_id": 1612,
             "value": null,
-            "vtbObjectId": "4w3cbl7d413km5ao0uq6z9"
+            "vtbObjectId": "24c958kfxeg2c3dl4n7wkr"
           },
           {
             "id": 18,
@@ -340,10 +340,386 @@
             "link_type": "order",
             "link_id": 1612,
             "value": null,
-            "vtbObjectId": "1lpenjrm48fphafh22lpt"
+            "vtbObjectId": "m3ls9du1v8qrwzfh0jwi5e"
           }
         ],
-        "vtbObjectId": "bhacg8re6kw2r3it1l8yl5"
+        "vtbObjectId": "3xfy2n2hx93443mluxshwv"
+      },
+      {
+        "id": 4,
+        "parent_id": null,
+        "link_type": "order",
+        "layout_data": {
+          "width": "300px"
+        },
+        "display_at": "both",
+        "sort_order": null,
+        "name": "Included",
+        "fields": [
+          {
+            "id": 21,
+            "name": "genoemde transfers van en naar vliegveld(en)",
+            "type_id": 2,
+            "valid_regex": "",
+            "defaults": null,
+            "category_id": 4,
+            "sort_order": null,
+            "field_width": null,
+            "field_type": "CheckBox",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "Not translated",
+            "vtbObjectId": "mdqel9gjecbnkwlahvla5",
+            "value": true
+          },
+          {
+            "id": 22,
+            "name": "internationale retourvlucht inclusief luchthavenbelastingen",
+            "type_id": 2,
+            "valid_regex": "",
+            "defaults": null,
+            "category_id": 4,
+            "sort_order": null,
+            "field_width": null,
+            "field_type": "CheckBox",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "Not translated",
+            "vtbObjectId": "byw2bwov0lcuyoelc9cqen"
+          },
+          {
+            "id": 23,
+            "name": "trein-, vlieg- en bustickets zoals genoemd in het reisvoorstel  ",
+            "type_id": 2,
+            "valid_regex": "",
+            "defaults": null,
+            "category_id": 4,
+            "sort_order": null,
+            "field_width": null,
+            "field_type": "CheckBox",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "Not translated",
+            "vtbObjectId": "v8x9efzlt7vgg7b2o9jpo"
+          },
+          {
+            "id": 24,
+            "name": "(hotel)overnachtingen inclusief ontbijt",
+            "type_id": 2,
+            "valid_regex": "",
+            "defaults": null,
+            "category_id": 4,
+            "sort_order": null,
+            "field_width": null,
+            "field_type": "CheckBox",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "Not translated",
+            "vtbObjectId": "fpy8ybj0ek23sc4n8uy9z",
+            "value": true
+          },
+          {
+            "id": 25,
+            "name": "(hotel)overnachtingen exclusief ontbijt",
+            "type_id": 2,
+            "valid_regex": "",
+            "defaults": null,
+            "category_id": 4,
+            "sort_order": null,
+            "field_width": null,
+            "field_type": "CheckBox",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "Not translated",
+            "vtbObjectId": "9rcgsueqsfjewr6tedlvfs",
+            "value": true
+          },
+          {
+            "id": 26,
+            "name": "genoemde autohuur",
+            "type_id": 2,
+            "valid_regex": "",
+            "defaults": null,
+            "category_id": 4,
+            "sort_order": null,
+            "field_width": null,
+            "field_type": "CheckBox",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "Not translated",
+            "vtbObjectId": "bd4uxzeq9hnuq54usvk0ga"
+          },
+          {
+            "id": 27,
+            "name": "genoemde binnenlandse vluchten",
+            "type_id": 2,
+            "valid_regex": "",
+            "defaults": null,
+            "category_id": 4,
+            "sort_order": null,
+            "field_width": null,
+            "field_type": "CheckBox",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "Not translated",
+            "vtbObjectId": "0hu3s1h5jflfnvx4993wh",
+            "value": true
+          },
+          {
+            "id": 28,
+            "name": "autohuur inclusief all-risk verzekering",
+            "type_id": 2,
+            "valid_regex": "",
+            "defaults": null,
+            "category_id": 4,
+            "sort_order": null,
+            "field_width": null,
+            "field_type": "CheckBox",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "Not translated",
+            "vtbObjectId": "1yse7dik7de0a1elqp9v9y5"
+          },
+          {
+            "id": 29,
+            "name": "autohuur inclusief beperkte verzekering",
+            "type_id": 2,
+            "valid_regex": "",
+            "defaults": null,
+            "category_id": 4,
+            "sort_order": null,
+            "field_width": null,
+            "field_type": "CheckBox",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "Not translated",
+            "vtbObjectId": "aw4tuesgm5ahj7lp37d455",
+            "value": true
+          },
+          {
+            "id": 39,
+            "name": "Extra",
+            "type_id": 7,
+            "valid_regex": "",
+            "defaults": null,
+            "category_id": 4,
+            "sort_order": null,
+            "field_width": null,
+            "field_type": "TextArea",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "Not translated",
+            "vtbObjectId": "yl3s5pmvvyvv29dmhkfsk"
+          }
+        ],
+        "vtbObjectId": "lnepfoagmk5493f8thmkt"
+      },
+      {
+        "id": 5,
+        "parent_id": null,
+        "link_type": "order",
+        "layout_data": null,
+        "display_at": "both",
+        "sort_order": null,
+        "name": "Not included",
+        "fields": [
+          {
+            "id": 31,
+            "name": "fooien",
+            "type_id": 4,
+            "valid_regex": "",
+            "defaults": null,
+            "category_id": 5,
+            "sort_order": null,
+            "field_width": null,
+            "field_type": "TsOrder",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "Not translated",
+            "vtbObjectId": "48fk3utufxgcp68hs5b0io"
+          },
+          {
+            "id": 32,
+            "name": "overige maaltijden",
+            "type_id": 4,
+            "valid_regex": "",
+            "defaults": null,
+            "category_id": 5,
+            "sort_order": null,
+            "field_width": null,
+            "field_type": "TsOrder",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "Not translated",
+            "vtbObjectId": "gzh0url6tpg9crp51yko0p"
+          },
+          {
+            "id": 33,
+            "name": "optionele excursies en overige entreegelden",
+            "type_id": 4,
+            "valid_regex": "",
+            "defaults": null,
+            "category_id": 5,
+            "sort_order": null,
+            "field_width": null,
+            "field_type": "TsOrder",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "Not translated",
+            "vtbObjectId": "6ssk897mevh9ndalo4h2kp"
+          },
+          {
+            "id": 34,
+            "name": "eventuele hoogseizoentoeslagen",
+            "type_id": 4,
+            "valid_regex": "",
+            "defaults": null,
+            "category_id": 5,
+            "sort_order": null,
+            "field_width": null,
+            "field_type": "TsOrder",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "Not translated",
+            "vtbObjectId": "u2avcv4m48xfy3jh7iz2"
+          },
+          {
+            "id": 35,
+            "name": "reis- en\/of annuleringsverzekering (wel aan te raden!)",
+            "type_id": 4,
+            "valid_regex": "",
+            "defaults": null,
+            "category_id": 5,
+            "sort_order": null,
+            "field_width": null,
+            "field_type": "TsOrder",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "Not translated",
+            "vtbObjectId": "7pmatdae929h9ww719ljf"
+          },
+          {
+            "id": 36,
+            "name": "overige niet genoemde transfers ",
+            "type_id": 2,
+            "valid_regex": "",
+            "defaults": null,
+            "category_id": 5,
+            "sort_order": null,
+            "field_width": null,
+            "field_type": "CheckBox",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "Not translated",
+            "vtbObjectId": "6ulecnjbgwtvnji8g2rb6",
+            "value": true
+          },
+          {
+            "id": 37,
+            "name": "aanvullende verzekeringen autohuur",
+            "type_id": 2,
+            "valid_regex": "",
+            "defaults": null,
+            "category_id": 5,
+            "sort_order": null,
+            "field_width": null,
+            "field_type": "CheckBox",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "Not translated",
+            "vtbObjectId": "p3htxxuhjgyq5s4hicv3",
+            "value": true
+          },
+          {
+            "id": 38,
+            "name": "eventuele brandstoftoeslagen voor de vlucht",
+            "type_id": 2,
+            "valid_regex": "",
+            "defaults": null,
+            "category_id": 5,
+            "sort_order": null,
+            "field_width": null,
+            "field_type": "CheckBox",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "Not translated",
+            "vtbObjectId": "f99xxa9y3zpys0me7v4uz",
+            "value": true
+          },
+          {
+            "id": 40,
+            "name": "Zonder",
+            "type_id": 7,
+            "valid_regex": "",
+            "defaults": null,
+            "category_id": 5,
+            "sort_order": null,
+            "field_width": null,
+            "field_type": "TextArea",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "Not translated",
+            "vtbObjectId": "aluoiz361fee0stgeuq3mg"
+          }
+        ],
+        "vtbObjectId": "1l9wxybie5fe1datjq3pt"
       }
     ],
     "participants": {
@@ -355,7 +731,7 @@
           "surname_prefix": "",
           "title": "2",
           "sex": "female",
-          "birthdate": "1965-09-14T00:00:00.000Z",
+          "birthdate": "1965-09-14",
           "partyName": "party 1"
         },
         {
@@ -365,454 +741,12 @@
           "surname_prefix": "",
           "title": "2",
           "sex": "female",
-          "birthdate": "1964-08-10T00:00:00.000Z",
+          "birthdate": "1964-08-10",
           "partyName": "party 1"
         }
       ]
     },
     "segments": [
-      {
-        "nights": 0,
-        "day": 1,
-        "isFlight": true,
-        "typeId": 4,
-        "title": "internationale vlucht",
-        "subTitle": "per KLM",
-        "content": "<p>Ik heb gezocht naar een geschikte vlucht bij het reisvoorstel. Omdat de vlucht per Singapore Airlines met vertrek op 10 juli vooralsnog het beste aansluit bij je reiswensen, heb ik deze vlucht in het reisvoorstel gezet. &nbsp;<br><br><br>&nbsp;<\/p><p>Theeuwen (infant)<\/p><p>Winters (infant)<\/p>",
-        "TSBlock": {
-          "id": 8374
-        },
-        "flightInfo": [
-          {
-            "id": 5,
-            "airlineCode": "RJ",
-            "flightNumber": "152",
-            "departureAirport": "AMS",
-            "departureDt": "2019-10-11 15:35:00",
-            "arrivalAirport": "AMM",
-            "arrivalDt": "2019-10-11 21:20:00",
-            "arrivalDate": "2019-10-11",
-            "arrivalTime": "21:20",
-            "departureDate": "2019-10-11",
-            "departureTime": "15:35",
-            "stopoverAirport": null,
-            "duration": 0,
-            "farebase": null
-          },
-          {
-            "id": 6,
-            "airlineCode": "RJ",
-            "flightNumber": "151",
-            "departureAirport": "AMM",
-            "departureDt": "2019-10-19 10:45:00",
-            "arrivalAirport": "AMS",
-            "arrivalDt": "2019-10-19 14:45:00",
-            "arrivalDate": "2019-10-19",
-            "arrivalTime": "14:45",
-            "departureDate": "2019-10-19",
-            "departureTime": "10:45",
-            "stopoverAirport": null,
-            "duration": 0,
-            "farebase": null
-          },
-          {
-            "id": 7,
-            "airlineCode": "AP",
-            "flightNumber": null,
-            "departureAirport": "6 -",
-            "departureDt": null,
-            "arrivalAirport": " OU",
-            "arrivalDt": null,
-            "arrivalDate": "1970-01-01",
-            "arrivalTime": "01:00",
-            "departureDate": "1970-01-01",
-            "departureTime": "01:00",
-            "stopoverAirport": null,
-            "duration": 0,
-            "farebase": null
-          }
-        ],
-        "media": [
-          {
-            "sourceType": "mediaspirit",
-            "sourceId": "2fc3e311d2912837be47622ab733ab4b",
-            "url": "https:\/\/media.outsight.nl\/wordpress\/medium\/KLM-logo.png",
-            "description": "KLM"
-          }
-        ],
-        "elements": [
-          {
-            "emptyOlStartDT": false,
-            "offset": 0,
-            "nights": 0,
-            "unitAmount": 2,
-            "unitId": 5,
-            "optional": false,
-            "not_calculated": true,
-            "title": "Internationale vluchtprijs Vietnam (incl. luchthavenbelasting)",
-            "TSProduct": {
-              "id": 327,
-              "tag": "VLS_VN",
-              "bookableDays": [
-                
-              ]
-            },
-            "TSOrderline": {
-              "id": 18804,
-              "extraFieldValues": [
-                {
-                  "id": 8,
-                  "name": "Starttijd",
-                  "type_id": 9,
-                  "valid_regex": "",
-                  "defaults": null,
-                  "category_id": null,
-                  "sort_order": null,
-                  "field_width": null,
-                  "field_type": "Orderline_TextBox",
-                  "display_at": "both",
-                  "show_in_product": 1,
-                  "layout_data": null,
-                  "maxlength": null,
-                  "maxlength_enforce": 0,
-                  "translated_name": "Starttijd"
-                },
-                {
-                  "id": 9,
-                  "name": "Eindtijd",
-                  "type_id": 9,
-                  "valid_regex": "",
-                  "defaults": null,
-                  "category_id": null,
-                  "sort_order": null,
-                  "field_width": null,
-                  "field_type": "Orderline_TextBox",
-                  "display_at": "both",
-                  "show_in_product": 1,
-                  "layout_data": null,
-                  "maxlength": null,
-                  "maxlength_enforce": 0,
-                  "translated_name": "Eindtijd"
-                }
-              ]
-            },
-            "media": [
-              
-            ],
-            "olPrices": {
-              "costPrice": "575.000",
-              "discount": null,
-              "title": "Internationale vluchtprijs Vietnam (incl. luchthavenbelasting)",
-              "discountMethod": null,
-              "exchangeRate": "1.000000000",
-              "purchaseCurrency": "EUR",
-              "salesCurrency": "EUR",
-              "participants": {
-                "2036630": {
-                  "costPrice": "287.500",
-                  "salesPrice": "0.000"
-                },
-                "2036631": {
-                  "costPrice": "287.500",
-                  "salesPrice": "0.000"
-                }
-              },
-              "salesTotal": "0.000",
-              "margin": "0.00000",
-              "hasError": "Bad Request: failed fetching live prices: error_no_matrixline_found",
-              "usedParams": {
-                "productId": 327,
-                "startDate": "2019-9-14",
-                "nrOfItems": 2,
-                "nrOfAdults": 2,
-                "nrOfChildren": 0,
-                "nrOfBabies": 0,
-                "nrOfAdolescent": 0,
-                "matrixDescription": null
-              }
-            },
-            "subAdditionalText": null,
-            "additionalText": null,
-            "roomTypes": [
-              
-            ],
-            "supplierComment": null,
-            "sellingAmount": "9.000",
-            "sellingMarkupType": "absolute",
-            "missingBookableDays": [
-              
-            ],
-            "needsOffsetRecalculation": true,
-            "vtbObjectId": "a92aw1cvyzrmg621v9i9ag",
-            "linkedParty": "party 1",
-            "day": 1,
-            "date": "2019-09-05",
-            "endDate": "2019-09-05",
-            "roomTypeMatchesParticipants": true,
-            "manual_calc": false,
-            "oldPricesUsed": false
-          }
-        ],
-        "inViewport": false,
-        "maps": [
-          
-        ],
-        "vtbObjectId": "vnac3smqxvbyex9zkab3b",
-        "carRentalElements": [
-          
-        ],
-        "date": "2019-09-05",
-        "missingBookableDays": false,
-        "elementsOrder": "18804",
-        "elementsMapActive": "",
-        "hasElementsOverlap": false,
-        "endDate": "2019-09-05"
-      },
-      {
-        "nights": 0,
-        "day": 1,
-        "isFlight": false,
-        "typeId": 1,
-        "title": null,
-        "subTitle": null,
-        "content": null,
-        "TSBlock": {
-          "id": 8383
-        },
-        "flightInfo": [
-          
-        ],
-        "media": [
-          
-        ],
-        "elements": [
-          {
-            "emptyOlStartDT": true,
-            "offset": 0,
-            "nights": 0,
-            "unitAmount": 1,
-            "unitId": 5,
-            "optional": false,
-            "not_calculated": true,
-            "title": "Administratiekosten",
-            "TSProduct": {
-              "id": 7,
-              "tag": "ADM",
-              "bookableDays": [
-                
-              ]
-            },
-            "TSOrderline": {
-              "id": 18805,
-              "extraFieldValues": [
-                {
-                  "id": 8,
-                  "name": "Starttijd",
-                  "type_id": 9,
-                  "valid_regex": "",
-                  "defaults": null,
-                  "category_id": null,
-                  "sort_order": null,
-                  "field_width": null,
-                  "field_type": "Orderline_TextBox",
-                  "display_at": "both",
-                  "show_in_product": 1,
-                  "layout_data": null,
-                  "maxlength": null,
-                  "maxlength_enforce": 0,
-                  "translated_name": "Starttijd"
-                },
-                {
-                  "id": 9,
-                  "name": "Eindtijd",
-                  "type_id": 9,
-                  "valid_regex": "",
-                  "defaults": null,
-                  "category_id": null,
-                  "sort_order": null,
-                  "field_width": null,
-                  "field_type": "Orderline_TextBox",
-                  "display_at": "both",
-                  "show_in_product": 1,
-                  "layout_data": null,
-                  "maxlength": null,
-                  "maxlength_enforce": 0,
-                  "translated_name": "Eindtijd"
-                }
-              ]
-            },
-            "media": [
-              
-            ],
-            "olPrices": {
-              "costPrice": "30.000",
-              "discount": null,
-              "title": "Administratiekosten",
-              "discountMethod": null,
-              "exchangeRate": "1.000000000",
-              "purchaseCurrency": "EUR",
-              "salesCurrency": "EUR",
-              "participants": {
-                "2036630": {
-                  "costPrice": "15.000",
-                  "salesPrice": "0.000"
-                },
-                "2036631": {
-                  "costPrice": "15.000",
-                  "salesPrice": "0.000"
-                }
-              },
-              "salesTotal": "0.000",
-              "margin": "0.00000",
-              "hasError": "Bad Request: failed fetching live prices: error_no_matrixline_found",
-              "usedParams": {
-                "productId": 7,
-                "startDate": "2019-9-14",
-                "nrOfItems": 1,
-                "nrOfAdults": 2,
-                "nrOfChildren": 0,
-                "nrOfBabies": 0,
-                "nrOfAdolescent": 0,
-                "matrixDescription": null
-              }
-            },
-            "subAdditionalText": null,
-            "additionalText": null,
-            "roomTypes": [
-              
-            ],
-            "supplierComment": null,
-            "sellingAmount": "30.000",
-            "sellingMarkupType": "fixed",
-            "missingBookableDays": [
-              
-            ],
-            "needsOffsetRecalculation": true,
-            "vtbObjectId": "c6ggxhb3akm86kze00wna7",
-            "linkedParty": "party 1",
-            "day": 1,
-            "date": "2019-09-05",
-            "endDate": "2019-09-05",
-            "roomTypeMatchesParticipants": true,
-            "manual_calc": false,
-            "oldPricesUsed": false
-          },
-          {
-            "emptyOlStartDT": true,
-            "offset": 0,
-            "nights": 0,
-            "unitAmount": 1,
-            "unitId": 5,
-            "optional": false,
-            "not_calculated": true,
-            "title": "Calamiteitenfonds",
-            "TSProduct": {
-              "id": 10,
-              "tag": "CFonds",
-              "bookableDays": [
-                
-              ]
-            },
-            "TSOrderline": {
-              "id": 18806,
-              "extraFieldValues": [
-                {
-                  "id": 8,
-                  "name": "Starttijd",
-                  "type_id": 9,
-                  "valid_regex": "",
-                  "defaults": null,
-                  "category_id": null,
-                  "sort_order": null,
-                  "field_width": null,
-                  "field_type": "Orderline_TextBox",
-                  "display_at": "both",
-                  "show_in_product": 1,
-                  "layout_data": null,
-                  "maxlength": null,
-                  "maxlength_enforce": 0,
-                  "translated_name": "Starttijd"
-                },
-                {
-                  "id": 9,
-                  "name": "Eindtijd",
-                  "type_id": 9,
-                  "valid_regex": "",
-                  "defaults": null,
-                  "category_id": null,
-                  "sort_order": null,
-                  "field_width": null,
-                  "field_type": "Orderline_TextBox",
-                  "display_at": "both",
-                  "show_in_product": 1,
-                  "layout_data": null,
-                  "maxlength": null,
-                  "maxlength_enforce": 0,
-                  "translated_name": "Eindtijd"
-                }
-              ]
-            },
-            "media": [
-              
-            ],
-            "olPrices": {
-              "costPrice": "2.500",
-              "discount": null,
-              "title": "Calamiteitenfonds",
-              "discountMethod": null,
-              "exchangeRate": "1.000000000",
-              "purchaseCurrency": "EUR",
-              "salesCurrency": "EUR",
-              "participants": {
-                "2036630": {
-                  "costPrice": "1.250",
-                  "salesPrice": "1.250"
-                },
-                "2036631": {
-                  "costPrice": "1.250",
-                  "salesPrice": "1.250"
-                }
-              },
-              "salesTotal": "2.500",
-              "margin": "0.00000"
-            },
-            "subAdditionalText": null,
-            "additionalText": null,
-            "roomTypes": [
-              
-            ],
-            "supplierComment": null,
-            "sellingAmount": "2.500",
-            "sellingMarkupType": "fixed",
-            "missingBookableDays": [
-              
-            ],
-            "needsOffsetRecalculation": true,
-            "vtbObjectId": "9hky459epguzn19aqugrr",
-            "linkedParty": "party 1",
-            "day": 1,
-            "date": "2019-09-05",
-            "endDate": "2019-09-05",
-            "roomTypeMatchesParticipants": true,
-            "manual_calc": false,
-            "oldPricesUsed": false
-          }
-        ],
-        "inViewport": true,
-        "maps": [
-          
-        ],
-        "vtbObjectId": "91f9nkjbsqwgxmzlpqb9ti",
-        "carRentalElements": [
-          
-        ],
-        "date": "2019-09-05",
-        "missingBookableDays": false,
-        "elementsOrder": "18805|18806",
-        "elementsMapActive": "",
-        "hasElementsOverlap": false,
-        "endDate": "2019-09-05"
-      },
       {
         "nights": 2,
         "day": 1,
@@ -820,7 +754,7 @@
         "typeId": 13,
         "title": "Eerste dagen in Ho Chi Minh Stad",
         "subTitle": null,
-        "content": "<p>Je kunt deze eerste dagen bijvoorbeeld het koloniale stadhuis, de drukke markt in de Chinese wijk, de kopie van de Notre Dame uit Parijs of de boulevard bezoeken, waar \u2018s avonds altijd een gezellige bedrijvigheid heerst. Op de vertrekdag word je in de loop van de middag word je opgehaald en naar het internationale vliegveld Tan Son Nhat International Airport gebracht voor je terugvlucht (de meeste vluchten vertrekken in de avond).<br><br><strong>inclusief:<\/strong> transfer na aankomst, twee hotelovernachtingen<br><br>&nbsp;<\/p>",
+        "content": "<p>Je kunt deze eerste dagen bijvoorbeeld het koloniale stadhuis, de drukke markt in de Chinese wijk, de kopie van de Notre Dame uit Parijs of de boulevard bezoeken, waar \u2018s avonds altijd een gezellige bedrijvigheid heerst. Op de vertrekdag word je in de loop van de middag word je opgehaald en naar het internationale vliegveld Tan Son Nhat International Airport gebracht voor je terugvlucht (de meeste vluchten vertrekken in de avond).<br><br>inclusief: transfer na aankomst, twee hotelovernachtingen<br><br>&nbsp;<\/p>",
         "TSBlock": {
           "id": 7602
         },
@@ -857,7 +791,7 @@
             "unitAmount": 1,
             "unitId": 8,
             "optional": false,
-            "not_calculated": false,
+            "not_calculated": true,
             "subTitle": "<1of2 personen>",
             "title": "Transfer luchthaven - hotel in Ho Chi Minh City",
             "TSProduct": {
@@ -938,7 +872,7 @@
               }
             ],
             "olPrices": {
-              "costPrice": "22.620",
+              "costPrice": "22.62000000",
               "discount": null,
               "title": "Transfer luchthaven - hotel in Ho Chi Minh City [<1of2 personen>]",
               "discountMethod": null,
@@ -948,15 +882,14 @@
               "participants": {
                 "2036630": {
                   "costPrice": "11.310",
-                  "salesPrice": "16.000"
+                  "salesPrice": 16
                 },
                 "2036631": {
                   "costPrice": "11.310",
-                  "salesPrice": "16.000"
+                  "salesPrice": 16
                 }
               },
-              "salesTotal": "32.000",
-              "margin": "29.31250"
+              "salesTotal": 32
             },
             "additionalText": "<html><head><title><\/title><\/head><body>Beschrijving bij product: Na aankomst op de luchthaven van <strong>Ho Chi Minh City<\/strong> word je opgewacht door een chauffeur die je naar je hotel voor de eerste twee nachten brengt. In deze bouwsteen zit de transfer van het vliegveld naar je hotel in het centrum en de eerste twee overnachtingen, de rest van de reis kun je zelf verder invullen!<\/body><\/html>",
             "subAdditionalText": null,
@@ -987,14 +920,12 @@
               
             ],
             "needsOffsetRecalculation": true,
-            "vtbObjectId": "am5d6cabgu9x6cojcr6gkb",
+            "vtbObjectId": "tztdqjkk7ujr1m2yzn1ot",
             "linkedParty": "party 1",
             "day": 1,
             "date": "2019-09-05",
             "endDate": "2019-09-05",
-            "roomTypeMatchesParticipants": true,
-            "manual_calc": false,
-            "oldPricesUsed": false
+            "roomTypeMatchesParticipants": true
           },
           {
             "emptyOlStartDT": false,
@@ -1003,7 +934,7 @@
             "unitAmount": 2,
             "unitId": 2,
             "optional": false,
-            "not_calculated": false,
+            "not_calculated": true,
             "subTitle": "Superior Room",
             "title": "Ho Chi Minh, GK Central Hotel",
             "TSProduct": {
@@ -1077,7 +1008,7 @@
               
             ],
             "olPrices": {
-              "costPrice": "90.480",
+              "costPrice": "90.48000000",
               "discount": null,
               "title": "Ho Chi Minh, GK Central Hotel [Superior Room]",
               "discountMethod": null,
@@ -1087,15 +1018,14 @@
               "participants": {
                 "2036630": {
                   "costPrice": "45.240",
-                  "salesPrice": "61.000"
+                  "salesPrice": 61
                 },
                 "2036631": {
                   "costPrice": "45.240",
-                  "salesPrice": "61.000"
+                  "salesPrice": 61
                 }
               },
-              "salesTotal": "122.000",
-              "margin": "25.83607"
+              "salesTotal": 122
             },
             "subAdditionalText": "inclusief ontbijt",
             "additionalText": "<html><head><title><\/title><\/head><body>Het GK Central Hotel is ons standaardhotel in Saigon! Dit is de tekst die in TS staat bij product -&gt; beschrijving. Hoe lang moeten we deze tekst maken?<\/body><\/html>",
@@ -1143,25 +1073,23 @@
             "missingBookableDays": [
               
             ],
-            "vtbObjectId": "g5nb440tiajzt1uf7w3nh",
+            "vtbObjectId": "afw82l0svq58d0k78cngf5",
             "linkedParty": "party 1",
             "hasPreviousElementParticipantOverlap": true,
             "day": 1,
             "date": "2019-09-05",
             "endDate": "2019-09-07",
-            "roomTypeMatchesParticipants": true,
-            "manual_calc": false,
-            "oldPricesUsed": false
+            "roomTypeMatchesParticipants": true
           }
         ],
-        "inViewport": true,
-        "vtbObjectId": "62lebl6ssgbfr9gspjjf5",
+        "inViewport": false,
+        "vtbObjectId": "lo34umh61ozlstmpdq7tp",
         "carRentalElements": [
           
         ],
         "date": "2019-09-05",
         "missingBookableDays": false,
-        "elementsOrder": "17181|17182",
+        "elementsOrder": "tztdqjkk7ujr1m2yzn1ot|afw82l0svq58d0k78cngf5",
         "elementsMapActive": "",
         "hasElementsOverlap": false,
         "endDate": "2019-09-07"
@@ -1173,7 +1101,7 @@
         "typeId": 14,
         "title": "Naar Hanoi",
         "subTitle": "Op welke dag maak ik de excursie?",
-        "content": "<p>&nbsp;Vandaag vlieg je van Saigon naar Hanoi.&nbsp;Na aankomst word je naar je hotel gebracht, waar je drie nachten verblijft. Bezoek hier bijvoorbeeld de Ngoc Tempel op het Hoan Kiem meer, maak een ritje met een <i>cyclo<\/i>, ga verder met winkelen of eet \u2018s avonds een hapje bij een van de kleine restaurantjes aan het prachtige meer!<br>&nbsp;<\/p><p><strong>inclusief:<\/strong> transfer naar airport, binnenlandse vlucht, transfer naar hotel, 3 hotelovernachtingen<br>extra: excursie naar de Cu Chi tunnels<br>&nbsp;<\/p>",
+        "content": "<p>&nbsp;Vandaag vlieg je van Saigon naar Hanoi.&nbsp;Na aankomst word je naar je hotel gebracht, waar je drie nachten verblijft. Bezoek hier bijvoorbeeld de Ngoc Tempel op het Hoan Kiem meer, maak een ritje met een <i>cyclo<\/i>, ga verder met winkelen of eet \u2018s avonds een hapje bij een van de kleine restaurantjes aan het prachtige meer!<br>&nbsp;<\/p><p>inclusief: transfer naar airport, binnenlandse vlucht, transfer naar hotel, 3 hotelovernachtingen<br>extra: excursie naar de Cu Chi tunnels<br>&nbsp;<\/p>",
         "TSBlock": {
           "id": 7636
         },
@@ -1210,7 +1138,7 @@
             "unitAmount": 1,
             "unitId": 9,
             "optional": false,
-            "not_calculated": false,
+            "not_calculated": true,
             "subTitle": "vlucht van Saigon naar Hanoi",
             "title": "vlucht Ho Chi Minh City - Hanoi",
             "TSProduct": {
@@ -1291,7 +1219,7 @@
               }
             ],
             "olPrices": {
-              "costPrice": "295.365",
+              "costPrice": "295.36500000",
               "discount": null,
               "title": "vlucht Ho Chi Minh City - Hanoi [vlucht van Saigon naar Hanoi]",
               "discountMethod": null,
@@ -1301,15 +1229,14 @@
               "participants": {
                 "2036630": {
                   "costPrice": "147.683",
-                  "salesPrice": "185.000"
+                  "salesPrice": 185
                 },
                 "2036631": {
                   "costPrice": "147.683",
-                  "salesPrice": "185.000"
+                  "salesPrice": 185
                 }
               },
-              "salesTotal": "370.000",
-              "margin": "20.17162"
+              "salesTotal": 370
             },
             "additionalText": "<html><head><title><\/title><\/head><body>Dit is de beschrijving die in TS bij het product staat -&gt; beschrijving. Hoe lang&nbsp; zou deze tekst moeten zijn? langer dan dit of juist korter?<\/body><\/html>",
             "subAdditionalText": null,
@@ -1331,14 +1258,12 @@
               
             ],
             "needsOffsetRecalculation": true,
-            "vtbObjectId": "z8lmklv70utumkoijxgio",
+            "vtbObjectId": "y8nyohktpjquj5mwka17",
             "linkedParty": "party 1",
             "day": 3,
             "date": "2019-09-07",
             "endDate": "2019-09-07",
-            "roomTypeMatchesParticipants": true,
-            "manual_calc": false,
-            "oldPricesUsed": false
+            "roomTypeMatchesParticipants": true
           },
           {
             "emptyOlStartDT": false,
@@ -1347,7 +1272,7 @@
             "unitAmount": 3,
             "unitId": 2,
             "optional": false,
-            "not_calculated": false,
+            "not_calculated": true,
             "subTitle": "Deluxe Room",
             "title": "Hanoi Le Jardin Hotel & Spa",
             "TSProduct": {
@@ -1421,7 +1346,7 @@
               
             ],
             "olPrices": {
-              "costPrice": "164.430",
+              "costPrice": "164.43000000",
               "discount": null,
               "title": "Hanoi Le Jardin Hotel & Spa [Deluxe Room]",
               "discountMethod": null,
@@ -1431,15 +1356,14 @@
               "participants": {
                 "2036630": {
                   "costPrice": "82.215",
-                  "salesPrice": "110.000"
+                  "salesPrice": 110.0001
                 },
                 "2036631": {
                   "costPrice": "82.215",
-                  "salesPrice": "110.000"
+                  "salesPrice": 110.0001
                 }
               },
-              "salesTotal": "220.000",
-              "margin": "25.25909"
+              "salesTotal": 220
             },
             "subAdditionalText": "inclusief ontbijt",
             "additionalText": "<html><head><title><\/title><\/head><body><span style=\"font-size:12px;\"><span style=\"font-family:Arial, Helvetica, sans-serif;\">Hanoi Le Jardin Hotel &amp; Spa is het hotel dat we standaard gebruiken in Hanoi. Het hotel ligt in de wijk Ba Dinh, op loopafstand van o.a. de Quan Thanh-tempel, de Dong Xuan-markt en de oude stadspoort. Het heeft een eigen restaurant, en tuin.<br \/><br \/>Corps is nu 12<\/span><\/span><div class=\"vcard\"><span class=\"star-rating-text widget-star-rating-overlay widget-tooltip widget-tooltip-responsive widget-tooltip-ignore-touch\">&nbsp;<\/span><\/div>&nbsp;<div class=\"tagline\"><p>&nbsp;<\/p><b>&nbsp;<\/b><\/div><\/body><\/html>",
@@ -1460,15 +1384,13 @@
             "missingBookableDays": [
               
             ],
-            "vtbObjectId": "pjomirhkq73pu17019aa7",
+            "vtbObjectId": "8t85dzxz0h3gwtcbdjt1lq",
             "linkedParty": "party 1",
             "hasPreviousElementParticipantOverlap": true,
             "day": 3,
             "date": "2019-09-07",
             "endDate": "2019-09-10",
-            "roomTypeMatchesParticipants": true,
-            "manual_calc": false,
-            "oldPricesUsed": false
+            "roomTypeMatchesParticipants": true
           },
           {
             "emptyOlStartDT": false,
@@ -1477,7 +1399,7 @@
             "unitAmount": 1,
             "unitId": 11,
             "optional": false,
-            "not_calculated": false,
+            "not_calculated": true,
             "subTitle": "Seat in",
             "title": "Cu Chi tunnels, excursie halve dag",
             "TSProduct": {
@@ -1551,7 +1473,7 @@
               
             ],
             "olPrices": {
-              "costPrice": "19.140",
+              "costPrice": "19.14000000",
               "discount": null,
               "title": "Cu Chi tunnels, excursie halve dag [Seat in]",
               "discountMethod": null,
@@ -1561,15 +1483,14 @@
               "participants": {
                 "2036630": {
                   "costPrice": "9.570",
-                  "salesPrice": "14.000"
+                  "salesPrice": 14
                 },
                 "2036631": {
                   "costPrice": "9.570",
-                  "salesPrice": "14.000"
+                  "salesPrice": 14
                 }
               },
-              "salesTotal": "28.000",
-              "margin": "31.64286"
+              "salesTotal": 28
             },
             "additionalText": "<html><head><title><\/title><\/head><body>Product -&gt; beschrijving:<p>Op ongeveer 50 kilometer van <strong>Ho Chi Minh City<\/strong> liggen de wereldberoemde Cu Chi tunnels, een van de belangrijkste decors tijdens de Vietnam oorlog. Je rijdt per bus naar de tunnels waar je bij Ben Dinh een ondergronds dorpje bezoekt, in een netwerk van ruim 100 kilometer ondergrondse tunnels.<\/p><p>&nbsp;<\/p><p>Een zeer indrukwekkende excursie die je nog lang zal bijblijven.<br \/>Indien het in je rondreis gunstig uitkomt, kunnen we deze excursie ook voor je combineren met een transfer naar de luchthaven van Ho Chi Minh City.<\/p><\/body><\/html>",
             "subAdditionalText": null,
@@ -1599,24 +1520,22 @@
             "missingBookableDays": [
               
             ],
-            "vtbObjectId": "fdx7u8m6rpl2y61d6knqsn",
+            "vtbObjectId": "xojw5krxjnlc16geilfm",
             "linkedParty": "party 1",
             "day": 6,
             "date": "2019-09-10",
             "endDate": "2019-09-10",
-            "roomTypeMatchesParticipants": true,
-            "manual_calc": false,
-            "oldPricesUsed": false
+            "roomTypeMatchesParticipants": true
           }
         ],
         "inViewport": false,
-        "vtbObjectId": "178wyq05vhb58j0z93brin",
+        "vtbObjectId": "t9yfx9v95heesull09ce9p",
         "carRentalElements": [
           
         ],
         "date": "2019-09-07",
         "missingBookableDays": false,
-        "elementsOrder": "17183|17184|17185",
+        "elementsOrder": "y8nyohktpjquj5mwka17|8t85dzxz0h3gwtcbdjt1lq|xojw5krxjnlc16geilfm",
         "elementsMapActive": "",
         "hasElementsOverlap": false,
         "endDate": "2019-09-10"
@@ -1665,7 +1584,7 @@
             "unitAmount": 1,
             "unitId": 13,
             "optional": false,
-            "not_calculated": false,
+            "not_calculated": true,
             "subTitle": "Seat in",
             "title": "De drijvende markten van de Mekong",
             "TSProduct": {
@@ -1746,7 +1665,7 @@
               }
             ],
             "olPrices": {
-              "costPrice": "109.620",
+              "costPrice": "109.62000000",
               "discount": null,
               "title": "De drijvende markten van de Mekong [Seat in]",
               "discountMethod": null,
@@ -1756,15 +1675,14 @@
               "participants": {
                 "2036630": {
                   "costPrice": "54.810",
-                  "salesPrice": "69.000"
+                  "salesPrice": 69
                 },
                 "2036631": {
                   "costPrice": "54.810",
-                  "salesPrice": "69.000"
+                  "salesPrice": 69
                 }
               },
-              "salesTotal": "138.000",
-              "margin": "20.56522"
+              "salesTotal": 138
             },
             "additionalText": "<html><head><title><\/title><\/head><body>Vanuit Ho Chi Minh City&nbsp;reis je naar de <strong>Mekong Delta<\/strong>, waar je de drijvende markt van Cai Rang bezoekt, je maakt een boottocht langs dorpjes en eilanden en je slaapt een nacht in Can Tho in een hotel vlakbij de rivier. Een&nbsp;lokale gids gaat mee om uitleg te geven over het leven in de delta!<\/body><\/html>",
             "subAdditionalText": null,
@@ -1785,25 +1703,23 @@
             "missingBookableDays": [
               
             ],
-            "vtbObjectId": "l0j0s4ohipkn18uz47du0r",
+            "vtbObjectId": "t21153dkx1e3odbmx8nch",
             "linkedParty": "party 1",
             "hasPreviousElementParticipantOverlap": true,
             "day": 6,
             "date": "2019-09-10",
             "endDate": "2019-09-11",
-            "roomTypeMatchesParticipants": true,
-            "manual_calc": false,
-            "oldPricesUsed": false
+            "roomTypeMatchesParticipants": true
           }
         ],
         "inViewport": false,
-        "vtbObjectId": "fteh6ap3nboguospn46llp",
+        "vtbObjectId": "vy9vb54r8gkiqjckuz75up",
         "carRentalElements": [
           
         ],
         "date": "2019-09-10",
         "missingBookableDays": false,
-        "elementsOrder": "17186",
+        "elementsOrder": "t21153dkx1e3odbmx8nch",
         "elementsMapActive": "",
         "hasElementsOverlap": false,
         "endDate": "2019-09-11"
@@ -1852,7 +1768,7 @@
             "unitAmount": 3,
             "unitId": 2,
             "optional": false,
-            "not_calculated": false,
+            "not_calculated": true,
             "subTitle": "Deluxe Room",
             "title": "Hanoi Le Jardin Hotel & Spa",
             "TSProduct": {
@@ -1926,7 +1842,7 @@
               
             ],
             "olPrices": {
-              "costPrice": "164.430",
+              "costPrice": "164.43000000",
               "discount": null,
               "title": "Hanoi Le Jardin Hotel & Spa [Deluxe Room]",
               "discountMethod": null,
@@ -1936,15 +1852,14 @@
               "participants": {
                 "2036630": {
                   "costPrice": "82.215",
-                  "salesPrice": "110.000"
+                  "salesPrice": 110.0001
                 },
                 "2036631": {
                   "costPrice": "82.215",
-                  "salesPrice": "110.000"
+                  "salesPrice": 110.0001
                 }
               },
-              "salesTotal": "220.000",
-              "margin": "25.25909"
+              "salesTotal": 220
             },
             "subAdditionalText": "inclusief ontbijt",
             "additionalText": "<html><head><title><\/title><\/head><body><span style=\"font-size:12px;\"><span style=\"font-family:Arial, Helvetica, sans-serif;\">Hanoi Le Jardin Hotel &amp; Spa is het hotel dat we standaard gebruiken in Hanoi. Het hotel ligt in de wijk Ba Dinh, op loopafstand van o.a. de Quan Thanh-tempel, de Dong Xuan-markt en de oude stadspoort. Het heeft een eigen restaurant, en tuin.<br \/><br \/>Corps is nu 12<\/span><\/span><div class=\"vcard\"><span class=\"star-rating-text widget-star-rating-overlay widget-tooltip widget-tooltip-responsive widget-tooltip-ignore-touch\">&nbsp;<\/span><\/div>&nbsp;<div class=\"tagline\"><p>&nbsp;<\/p><b>&nbsp;<\/b><\/div><\/body><\/html>",
@@ -1965,15 +1880,13 @@
             "missingBookableDays": [
               
             ],
-            "vtbObjectId": "sbegw77gmqq8vlvwh4qkv6",
+            "vtbObjectId": "f0ku8qamnlf21hel61oci",
             "linkedParty": "party 1",
             "hasPreviousElementParticipantOverlap": true,
             "day": 7,
             "date": "2019-09-11",
             "endDate": "2019-09-14",
-            "roomTypeMatchesParticipants": true,
-            "manual_calc": false,
-            "oldPricesUsed": false
+            "roomTypeMatchesParticipants": true
           },
           {
             "emptyOlStartDT": false,
@@ -1982,7 +1895,7 @@
             "unitAmount": 1,
             "unitId": 12,
             "optional": false,
-            "not_calculated": false,
+            "not_calculated": true,
             "subTitle": "Citytour Hanoi",
             "title": "Vanuit Hanoi - Hanoi Citytour - Seatin (hele dag)",
             "TSProduct": {
@@ -2056,7 +1969,7 @@
               
             ],
             "olPrices": {
-              "costPrice": "55.680",
+              "costPrice": "55.68000000",
               "discount": null,
               "title": "Vanuit Hanoi - Hanoi Citytour - Seatin (hele dag) [Citytour Hanoi]",
               "discountMethod": null,
@@ -2066,15 +1979,14 @@
               "participants": {
                 "2036630": {
                   "costPrice": "27.840",
-                  "salesPrice": "35.000"
+                  "salesPrice": 35
                 },
                 "2036631": {
                   "costPrice": "27.840",
-                  "salesPrice": "35.000"
+                  "salesPrice": 35
                 }
               },
-              "salesTotal": "70.000",
-              "margin": "20.45714"
+              "salesTotal": 70
             },
             "additionalText": "<html><head><title><\/title><\/head><body>Product beschrijving:<p>Tijdens deze stadstour door Hanoi bezoek je in een hele dag: de Pagode op &eacute;&eacute;n Pilaar, het huis van Ho Chi Minh en zijn mausoleum (gesloten op maandag en vrijdag), de Tempel van de Literatuur en de Tran Quoc Pagode. &rsquo;s Middags breng je een bezoek aan de tempel van Ngoc Son en het Hoan Kiem lake.<\/p><p><strong><strong>inbegrepen<\/strong>:<\/strong> vervoer per bus, Engelssprekende gids en entreegelden<\/p><\/body><\/html>",
             "subAdditionalText": null,
@@ -2095,14 +2007,12 @@
             "missingBookableDays": [
               
             ],
-            "vtbObjectId": "xl5gjjpkdcbl58t3z9sbl",
+            "vtbObjectId": "nt5h96yrbeldzj6khtyv",
             "linkedParty": "party 1",
             "day": 10,
             "date": "2019-09-14",
             "endDate": "2019-09-14",
-            "roomTypeMatchesParticipants": true,
-            "manual_calc": false,
-            "oldPricesUsed": false
+            "roomTypeMatchesParticipants": true
           },
           {
             "emptyOlStartDT": false,
@@ -2111,7 +2021,7 @@
             "unitAmount": 1,
             "unitId": 8,
             "optional": false,
-            "not_calculated": false,
+            "not_calculated": true,
             "subTitle": "<van 1-2>",
             "title": "transfer airport - hotel in Hanoi",
             "TSProduct": {
@@ -2192,7 +2102,7 @@
               }
             ],
             "olPrices": {
-              "costPrice": "36.540",
+              "costPrice": "36.54000000",
               "discount": null,
               "title": "transfer airport - hotel in Hanoi [<van 1-2>]",
               "discountMethod": null,
@@ -2202,15 +2112,14 @@
               "participants": {
                 "2036630": {
                   "costPrice": "18.270",
-                  "salesPrice": "26.000"
+                  "salesPrice": 26
                 },
                 "2036631": {
                   "costPrice": "18.270",
-                  "salesPrice": "26.000"
+                  "salesPrice": 26
                 }
               },
-              "salesTotal": "52.000",
-              "margin": "29.73077"
+              "salesTotal": 52
             },
             "subAdditionalText": null,
             "additionalText": null,
@@ -2240,14 +2149,12 @@
             "missingBookableDays": [
               
             ],
-            "vtbObjectId": "360i3yzzg97jg3ffrgg4g9",
+            "vtbObjectId": "ikqwo2ptqnflhi8adc9hs",
             "linkedParty": "party 1",
             "day": 10,
             "date": "2019-09-14",
             "endDate": "2019-09-14",
-            "roomTypeMatchesParticipants": true,
-            "manual_calc": false,
-            "oldPricesUsed": false
+            "roomTypeMatchesParticipants": true
           },
           {
             "emptyOlStartDT": false,
@@ -2256,7 +2163,7 @@
             "unitAmount": 3,
             "unitId": 2,
             "optional": true,
-            "not_calculated": false,
+            "not_calculated": true,
             "title": "Hanoi Boutique Hotel",
             "TSProduct": {
               "id": 161,
@@ -2329,7 +2236,7 @@
               
             ],
             "olPrices": {
-              "costPrice": "0.000",
+              "costPrice": "0.00000000",
               "discount": null,
               "title": "Hanoi Boutique Hotel",
               "discountMethod": null,
@@ -2339,17 +2246,16 @@
               "participants": {
                 "2036630": {
                   "costPrice": "0.000",
-                  "salesPrice": "0.000"
+                  "salesPrice": ""
                 },
                 "2036631": {
                   "costPrice": "0.000",
-                  "salesPrice": "0.000"
+                  "salesPrice": ""
                 }
               },
-              "salesTotal": "0.000",
-              "margin": "0.00000"
+              "salesTotal": 0
             },
-            "additionalText": "<html><head><title><\/title><\/head><body><span style=\"color: #800000;\"><span style=\"color: #000000;\">Het Boutique Hotel 1 is een van onze standaardhotels in Hanoi. <\/span><\/span><hr \/><span style=\"color: #800000;\"><span style=\"color: #000000;\">Het is een &lsquo;cozy-boutique&rsquo; hotel in het gezellige Old Quarter.&nbsp;Het hotel ligt heel centraal, vlakbij winkeltjes &amp; restaurants, op loopafstand van het Hoan Kiem Lake en de weekendmarkt. In het hotel is een restaurant en bar, en een mooie SPA-ruimte met sauna, jacuzzi en beautysalon<\/span><\/span><\/body><\/html>",
+            "additionalText": "<p>Het Boutique Hotel 1 is een van onze standaardhotels in Hanoi. Het is een \u2018cozy-boutique\u2019 hotel in het gezellige Old Quarter.&nbsp;Het hotel ligt heel centraal, vlakbij winkeltjes &amp; restaurants, op loopafstand van het Hoan Kiem Lake en de weekendmarkt. In het hotel is een restaurant en bar, en een mooie SPA-ruimte met sauna, jacuzzi en beautysalon<\/p>",
             "subAdditionalText": null,
             "roomTypes": [
               {
@@ -2377,56 +2283,478 @@
             "missingBookableDays": [
               
             ],
-            "vtbObjectId": "7is5rneuyujcrqnln6psam",
+            "vtbObjectId": "el6gkvu4v7sv3ydmw66xf",
             "linkedParty": "party 1",
             "hasPreviousElementParticipantOverlap": true,
             "day": 7,
             "date": "2019-09-11",
             "endDate": "2019-09-14",
-            "roomTypeMatchesParticipants": true,
-            "manual_calc": false,
-            "oldPricesUsed": false
+            "roomTypeMatchesParticipants": true
           }
         ],
         "inViewport": false,
-        "vtbObjectId": "tdiitqni69th4wag66635a",
+        "vtbObjectId": "alf3i9zcbtofx28j92n77u",
         "carRentalElements": [
           
         ],
         "date": "2019-09-11",
         "missingBookableDays": false,
-        "elementsOrder": "17187|17188|17189|17190",
+        "elementsOrder": "f0ku8qamnlf21hel61oci|nt5h96yrbeldzj6khtyv|ikqwo2ptqnflhi8adc9hs|el6gkvu4v7sv3ydmw66xf",
+        "elementsMapActive": "",
+        "hasElementsOverlap": false,
+        "endDate": "2019-09-14"
+      },
+      {
+        "nights": 0,
+        "day": 10,
+        "isFlight": true,
+        "typeId": 4,
+        "title": "internationale vlucht",
+        "subTitle": "per KLM",
+        "content": "<p>Ik heb gezocht naar een geschikte vlucht bij het reisvoorstel. Omdat de vlucht per Singapore Airlines met vertrek op 10 juli vooralsnog het beste aansluit bij je reiswensen, heb ik deze vlucht in het reisvoorstel gezet. &nbsp;<br><br><br>&nbsp;<\/p><p>Theeuwen (infant)<\/p><p>Winters (infant)<\/p>",
+        "TSBlock": {
+          "id": 8374
+        },
+        "flightInfo": [
+          {
+            "id": 5,
+            "airlineCode": "RJ",
+            "flightNumber": "152",
+            "departureAirport": "AMS",
+            "departureDt": "2019-10-11 15:35:00",
+            "arrivalAirport": "AMM",
+            "arrivalDt": "2019-10-11 21:20:00",
+            "arrivalDate": "2019-10-11",
+            "arrivalTime": "21:20",
+            "departureDate": "2019-10-11",
+            "departureTime": "15:35",
+            "stopoverAirport": null,
+            "duration": 0,
+            "farebase": null
+          },
+          {
+            "id": 6,
+            "airlineCode": "RJ",
+            "flightNumber": "151",
+            "departureAirport": "AMM",
+            "departureDt": "2019-10-19 10:45:00",
+            "arrivalAirport": "AMS",
+            "arrivalDt": "2019-10-19 14:45:00",
+            "arrivalDate": "2019-10-19",
+            "arrivalTime": "14:45",
+            "departureDate": "2019-10-19",
+            "departureTime": "10:45",
+            "stopoverAirport": null,
+            "duration": 0,
+            "farebase": null
+          },
+          {
+            "id": 7,
+            "airlineCode": "AP",
+            "flightNumber": null,
+            "departureAirport": "6 -",
+            "departureDt": "1970-01-01 01:00:00",
+            "arrivalAirport": " OU",
+            "arrivalDt": "1970-01-01 01:00:00",
+            "arrivalDate": "1970-01-01",
+            "arrivalTime": "01:00",
+            "departureDate": "1970-01-01",
+            "departureTime": "01:00",
+            "stopoverAirport": null,
+            "duration": 0,
+            "farebase": null
+          }
+        ],
+        "media": [
+          
+        ],
+        "elements": [
+          {
+            "emptyOlStartDT": false,
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 2,
+            "unitId": 5,
+            "optional": false,
+            "not_calculated": true,
+            "title": "Internationale vluchtprijs Vietnam (incl. luchthavenbelasting)",
+            "TSProduct": {
+              "id": 327,
+              "tag": "VLS_VN",
+              "bookableDays": [
+                
+              ]
+            },
+            "TSOrderline": {
+              "id": 18804,
+              "extraFieldValues": [
+                {
+                  "id": 8,
+                  "name": "Starttijd",
+                  "type_id": 9,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_TextBox",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "Starttijd",
+                  "field_value_link_id": 702,
+                  "link_type": "orderline",
+                  "link_id": 18804,
+                  "value": null
+                },
+                {
+                  "id": 9,
+                  "name": "Eindtijd",
+                  "type_id": 9,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_TextBox",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "Eindtijd",
+                  "field_value_link_id": 703,
+                  "link_type": "orderline",
+                  "link_id": 18804,
+                  "value": null
+                }
+              ]
+            },
+            "media": [
+              
+            ],
+            "olPrices": {
+              "costPrice": "575.00000000",
+              "discount": null,
+              "title": "Internationale vluchtprijs Vietnam (incl. luchthavenbelasting)",
+              "discountMethod": null,
+              "exchangeRate": "1.000000000",
+              "purchaseCurrency": "EUR",
+              "salesCurrency": "EUR",
+              "participants": {
+                "2036630": {
+                  "costPrice": "287.500",
+                  "salesPrice": ""
+                },
+                "2036631": {
+                  "costPrice": "287.500",
+                  "salesPrice": ""
+                }
+              },
+              "salesTotal": 0
+            },
+            "subAdditionalText": null,
+            "additionalText": null,
+            "roomTypes": [
+              
+            ],
+            "supplierComment": null,
+            "sellingAmount": "9.000",
+            "sellingMarkupType": "absolute",
+            "missingBookableDays": [
+              
+            ],
+            "needsOffsetRecalculation": true,
+            "vtbObjectId": "ed7r0y1s534ka18bk59gfn",
+            "linkedParty": "party 1",
+            "day": 10,
+            "date": "2019-09-14",
+            "endDate": "2019-09-14",
+            "roomTypeMatchesParticipants": true
+          }
+        ],
+        "inViewport": false,
+        "maps": [
+          
+        ],
+        "vtbObjectId": "dowmgsy6nprz66zhiyfu5s",
+        "carRentalElements": [
+          
+        ],
+        "date": "2019-09-14",
+        "missingBookableDays": false,
+        "elementsOrder": "ed7r0y1s534ka18bk59gfn",
+        "elementsMapActive": "",
+        "hasElementsOverlap": false,
+        "endDate": "2019-09-14"
+      },
+      {
+        "nights": 0,
+        "day": 10,
+        "isFlight": false,
+        "typeId": 1,
+        "title": null,
+        "subTitle": null,
+        "content": null,
+        "TSBlock": {
+          "id": 8383
+        },
+        "flightInfo": [
+          
+        ],
+        "media": [
+          
+        ],
+        "elements": [
+          {
+            "emptyOlStartDT": true,
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 1,
+            "unitId": 5,
+            "optional": false,
+            "not_calculated": true,
+            "title": "Administratiekosten",
+            "TSProduct": {
+              "id": 7,
+              "tag": "ADM",
+              "bookableDays": [
+                
+              ]
+            },
+            "TSOrderline": {
+              "id": 18805,
+              "extraFieldValues": [
+                {
+                  "id": 8,
+                  "name": "Starttijd",
+                  "type_id": 9,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_TextBox",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "Starttijd",
+                  "field_value_link_id": 704,
+                  "link_type": "orderline",
+                  "link_id": 18805,
+                  "value": null
+                },
+                {
+                  "id": 9,
+                  "name": "Eindtijd",
+                  "type_id": 9,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_TextBox",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "Eindtijd",
+                  "field_value_link_id": 705,
+                  "link_type": "orderline",
+                  "link_id": 18805,
+                  "value": null
+                }
+              ]
+            },
+            "media": [
+              
+            ],
+            "olPrices": {
+              "costPrice": "30.00000000",
+              "discount": null,
+              "title": "Administratiekosten",
+              "discountMethod": null,
+              "exchangeRate": "1.000000000",
+              "purchaseCurrency": "EUR",
+              "salesCurrency": "EUR",
+              "participants": {
+                "2036630": {
+                  "costPrice": "15.000",
+                  "salesPrice": ""
+                },
+                "2036631": {
+                  "costPrice": "15.000",
+                  "salesPrice": ""
+                }
+              },
+              "salesTotal": 0
+            },
+            "subAdditionalText": null,
+            "additionalText": null,
+            "roomTypes": [
+              
+            ],
+            "supplierComment": null,
+            "sellingAmount": "30.000",
+            "sellingMarkupType": "fixed",
+            "missingBookableDays": [
+              
+            ],
+            "needsOffsetRecalculation": true,
+            "vtbObjectId": "vpf3wue773cg4ilf6rx1e6",
+            "linkedParty": "party 1",
+            "day": 10,
+            "date": "2019-09-14",
+            "endDate": "2019-09-14",
+            "roomTypeMatchesParticipants": true
+          },
+          {
+            "emptyOlStartDT": true,
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 1,
+            "unitId": 5,
+            "optional": false,
+            "not_calculated": true,
+            "title": "Calamiteitenfonds",
+            "TSProduct": {
+              "id": 10,
+              "tag": "CFonds",
+              "bookableDays": [
+                
+              ]
+            },
+            "TSOrderline": {
+              "id": 18806,
+              "extraFieldValues": [
+                {
+                  "id": 8,
+                  "name": "Starttijd",
+                  "type_id": 9,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_TextBox",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "Starttijd",
+                  "field_value_link_id": 706,
+                  "link_type": "orderline",
+                  "link_id": 18806,
+                  "value": null
+                },
+                {
+                  "id": 9,
+                  "name": "Eindtijd",
+                  "type_id": 9,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_TextBox",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "Eindtijd",
+                  "field_value_link_id": 707,
+                  "link_type": "orderline",
+                  "link_id": 18806,
+                  "value": null
+                }
+              ]
+            },
+            "media": [
+              
+            ],
+            "olPrices": {
+              "costPrice": "2.50000000",
+              "discount": null,
+              "title": "Calamiteitenfonds",
+              "discountMethod": null,
+              "exchangeRate": "1.000000000",
+              "purchaseCurrency": "EUR",
+              "salesCurrency": "EUR",
+              "participants": {
+                "2036630": {
+                  "costPrice": "1.250",
+                  "salesPrice": 1.25
+                },
+                "2036631": {
+                  "costPrice": "1.250",
+                  "salesPrice": 1.25
+                }
+              },
+              "salesTotal": 2.5
+            },
+            "subAdditionalText": null,
+            "additionalText": null,
+            "roomTypes": [
+              
+            ],
+            "supplierComment": null,
+            "sellingAmount": "2.500",
+            "sellingMarkupType": "fixed",
+            "missingBookableDays": [
+              
+            ],
+            "needsOffsetRecalculation": true,
+            "vtbObjectId": "4ht818i8ipllfiv5emq3o",
+            "linkedParty": "party 1",
+            "day": 10,
+            "date": "2019-09-14",
+            "endDate": "2019-09-14",
+            "roomTypeMatchesParticipants": true
+          }
+        ],
+        "inViewport": false,
+        "maps": [
+          
+        ],
+        "vtbObjectId": "gk13qk5y87cr8l4zamjk1",
+        "carRentalElements": [
+          
+        ],
+        "date": "2019-09-14",
+        "missingBookableDays": false,
+        "elementsOrder": "vpf3wue773cg4ilf6rx1e6|4ht818i8ipllfiv5emq3o",
         "elementsMapActive": "",
         "hasElementsOverlap": false,
         "endDate": "2019-09-14"
       }
     ],
     "liborderId": 1612,
-    "costPriceBeforeRounding": 1565.8050000000003,
+    "costPriceBeforeRounding": 1565.8049999999998,
     "salesPriceBeforeRounding": 1254.5,
-    "vtbObjectId": "a1lppcaudyezksgf18pwvf",
+    "vtbObjectId": "y6mldrpc2mjb6mioxat1",
     "cover": [
-      {
-        "sourceType": "mediaspirit",
-        "sourceId": "9f8954aa8f1359afa3584fe5d3003426",
-        "url": "https:\/\/media.outsight.nl\/wordpress\/medium\/Vietnam-Ninh-Binh.jpg"
-      }
+      
     ],
+    "bookableDaysWarning": false,
     "hasNotCalculated": true,
     "totalDays": 10,
     "totalDaysAllocated": 10,
     "endDate": "2019-09-14",
     "notifications": [
       
-    ],
-    "salesPriceAfterRounding": 1254.5,
-    "title": "Cover Title - we can choose",
-    "subTitle": "Cover Subtitle - we can choose"
+    ]
   },
   "link_type": "order",
   "link_id": 1612,
-  "ts": "2019-09-12 11:41:24",
+  "ts": "2019-09-30 14:00:35",
   "stats_pax": 2,
   "stats_status": "proposal",
-  "stats_total_price": "1254.500"
+  "stats_total_price": null
 }
