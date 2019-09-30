@@ -10,12 +10,14 @@ export class HotelGalleryComponent implements OnInit {
   constructor() { }
   hotels : any[];
   ngOnInit() {
-
+    this.hotels = [];
     for(const seg of this.itinerary.segments) {
-      console.log("custom seg" + seg.title);
-        for(const el of seg.elements){
-          //console.log("unitid " +  el.unitId);
-           
+      for(const el of seg.elements){
+        console.log("unitid " +  el.unitId);
+          if(  el.unitId == 5 && el.unitId == 2) {
+              
+          }
+          
         }
        
     }
