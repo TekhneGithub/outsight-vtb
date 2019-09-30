@@ -27,7 +27,7 @@ export class MapComponent implements OnInit {
       }
       
     }
-    console.log("this.markers123", this.markers);
+    //console.log("this.markers123", this.markers);
   }
 
 }
