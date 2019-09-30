@@ -13,15 +13,21 @@ export class MapComponent implements OnInit {
 
   ngOnInit() {
     this.markers = [];
-    for (const seg of this.itinerary.data.segments) {
-        for (const element of seg.elements) {
-            if(element.maps) {
-              if(element.maps.latitude){
-                this.markers.push(element.maps)
-              }
-            }
+    let i = 1;
+    for (const seg of this.itinerary.segments) {
+      for (const element of seg.elements) {
+        if (element.maps) {
+          
+          if (element.maps.latitude) {
+            Object.assign(element.maps, {title:element.title, id: i.toString()});
+            this.markers.push(element.maps);
+            i++;
+          }
         }
+      }
+      
     }
+    console.log("this.markers123", this.markers);
   }
 
 }
