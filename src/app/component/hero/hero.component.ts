@@ -19,7 +19,7 @@ export class HeroComponent implements OnInit {
 
     this.title = this.itinerary.title;
     this.subTitle = this.itinerary.subTitle;
-    this.coverImage = this.itinerary.cover[0].url;
+    this.coverImage = this.itinerary.cover[0] !== undefined ? this.itinerary.cover[0].url : undefined;
 
     for(const extraFieldValue of this.itinerary.extraFieldValues) {
       for (const field of extraFieldValue.fields) {
