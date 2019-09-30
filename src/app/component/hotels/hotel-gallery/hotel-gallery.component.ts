@@ -8,21 +8,23 @@ import { Component, OnInit , Input} from '@angular/core';
 export class HotelGalleryComponent implements OnInit {
   @Input() itinerary;
   constructor() { }
-  hotels : any[];
+  hotels:any[] = new Array();
+
   ngOnInit() {
-    this.hotels = [];
     for(const seg of this.itinerary.segments) {
       for(const el of seg.elements){
-        console.log("unitid " +  el.unitId);
-          if(  el.unitId == 5 && el.unitId == 2) {
-              
+        
+          if(el.unitId == 5 || el.unitId == 2) {
+            console.log(el.media);
+            let image = el.media[0] !== undefined ? el.media[0].url : undefined;
+            var data = {title: el.title, additionalTaxt: el.additionalText, image: image};
+            this.hotels.push(data);
           }
           
         }
        
     }
-
-
+    console.log('hotels', this.hotels);
   }
 
 }
