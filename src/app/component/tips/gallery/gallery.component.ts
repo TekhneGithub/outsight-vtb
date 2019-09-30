@@ -22,7 +22,7 @@ export class GalleryComponent implements OnInit {
                   //console.log(el.media[0].url);
                  console.log(el.additionalText);
                 
-            this.tips.push(el);
+                  this.tips.push(el);
             }
          }
         
