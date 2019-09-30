@@ -6,7 +6,7 @@
         <div class="col-md-4 col-sm-6 col-12 dayimg" *ngIf="hotel.image !== undefined">
           <img src="{{hotel.image}}" />
         </div>
-        <div class="col-md-8 col-sm-6 col-12 daytext">
+        <div [className]="hotel.image!== undefined ? 'col-md-8 col-sm-6 col-12 daytext' : 'daytext col-12'"  >
           <h3>{{ hotel.title }}</h3>
           <p [innerHTML]="hotel.additionalTaxt">
           </p>
