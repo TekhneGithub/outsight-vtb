@@ -1935,3 +1935,6 @@ footer .container {
 }
 .f-12{font-size: 12px;}
 .mt-20{margin-top: 20px;}
+
+.schedulewrap ul li span.day-no{width: 70px;}
+.schedulewrap ul li span.daytilte{width:clac(100% - 70px);}
