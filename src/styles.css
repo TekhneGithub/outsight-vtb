@@ -1277,6 +1277,7 @@ footer .container {
 @media screen and (max-width: 1023px) {
   .navigation {
       z-index: 99;
+      position: inherit;
   }
   .navigation .hamburger {
       position: absolute;
