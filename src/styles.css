@@ -1279,6 +1279,16 @@ footer .container {
       z-index: 99;
       position: inherit;
   }
+  .banner-cover{
+    height: 100%;
+    object-fit: cover;
+  }
+  .hero.youtube-video{position: relative;}
+  .hero .vdotxt{
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 30%;
+  }
   .navigation .hamburger {
       position: absolute;
       top: 0;
