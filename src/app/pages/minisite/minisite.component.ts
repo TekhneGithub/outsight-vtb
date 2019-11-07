@@ -1,9 +1,9 @@
-import { Component, OnInit, ChangeDetectionStrategy } from "@angular/core";
-import { ActivatedRoute } from "@angular/router";
+import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
-  selector: "app-template",
-  templateUrl: "./minisite.component.html",
+  selector: 'app-template',
+  templateUrl: './minisite.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class MinisiteComponent implements OnInit {
@@ -12,11 +12,10 @@ export class MinisiteComponent implements OnInit {
 
   constructor(private _activatedRoute: ActivatedRoute) {
     const data = this._activatedRoute.snapshot.data;
-    this.itinerary = data.itinerary.data;
-   
+    this.itinerary = data.itinerary;
   }
-  
+
   ngOnInit() {
-    
   }
+
 }
