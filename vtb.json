@@ -14,7 +14,8 @@
       {"function": "overview", "params":{}},
       {"function": "tripDays", "params":{}},
       {"function": "extraInfo", "params":{}},
-      {"function": "flights", "params":{}}
+      {"function": "flights", "params":{}},
+      {"function": "hotels", "params":{}}
     ],
     "startWithEmptyObject": false
   }

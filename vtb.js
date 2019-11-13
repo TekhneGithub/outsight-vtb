@@ -29,9 +29,7 @@ const customTransforms = {
     var hotels =[];
     for(const seg of obj.dst.segments) {
       for(const el of seg.elements) {
-
         if(el.unitId == 5 || el.unitId == 2) {
-          console.log(el.media);
           let image = el.media[0] !== undefined ? el.media[0].url : undefined;
           var data = {title: el.title, additionalTaxt: el.additionalText, image: image};
           hotels.push(data);
