@@ -106,10 +106,10 @@ const customTransforms = {
       }
 
     }
-    obj.dst.flightPrice = flightPrice;
-    obj.dst.otherCost = otherCost;
+    obj.dst.flightPrice = Number(flightPrice.toFixed(2)).toLocaleString('nl');
+    obj.dst.otherCost = Number(otherCost.toFixed(2)).toLocaleString('nl');
 
-    obj.dst.totalCost = flightPrice + otherCost;
+    obj.dst.totalCost = Number((flightPrice + otherCost).toFixed(2)).toLocaleString('nl');;
     return obj;
   },
   'inclusive': (obj, params) => {
