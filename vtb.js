@@ -9,7 +9,9 @@ const customTransforms = {
 
     obj.dst.title = obj.dst.title;
     obj.dst.subTitle = obj.dst.subTitle;
-    obj.dst.coverImage = obj.dst.cover[0] !== undefined ? obj.dst.cover[0].urlreplace('medium', 'large') : undefined;
+    obj.dst.coverImage = obj.dst.cover !== undefined ? 
+                          obj.dst.cover[0] !== undefined ? obj.dst.cover[0].urlreplace('medium', 'large') : undefined
+                            : undefined;
 
     var heroTitle = '';
     for(const extraFieldValue of obj.dst.extraFieldValues) {
