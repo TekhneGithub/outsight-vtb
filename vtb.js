@@ -237,16 +237,17 @@ const customTransforms = {
 
     tripTitles = [];
     for(const segment of obj.dst.segments) {
-      var mediaURL = '';
-      if(segment.media[0] !== undefined) {
-        mediaURL = segment.media[0].url;
-      } else {
-        mediaURL = 'https://via.placeholder.com/300';
+      if(segment.typeId == 16) {
+        var mediaURL = '';
+        if(segment.media[0] !== undefined) {
+          mediaURL = segment.media[0].url;
+        } else {
+          mediaURL = 'https://via.placeholder.com/300';
+        }
+
+        var data = { startDay: segment.day, endDay: segment.day + segment.nights, title: segment.title, content: segment.content, media:mediaURL};
+        tripTitles.push(data);
       }
-
-      var data = { startDay: segment.day, endDay: segment.day + segment.nights, title: segment.title + segment.subTitle, content: segment.content, media:mediaURL};
-      tripTitles.push(data);
-
     }
 
     obj.dst.tripTitles = tripTitles;
