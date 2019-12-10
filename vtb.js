@@ -95,19 +95,22 @@ const customTransforms = {
 
     var flightPrice = 0;
     var otherCost = 0;
-    var emergencyPrice = 0;
+    var totalCost = 0;
+    var remainingPrice = [];
+    var insurancesPrice = 0;
     for(const segment of obj.dst.segments) {
 
       for(const element of segment.elements) {
 
-        if(segment.typeId == 16) {
+        if(segment.typeId == 16 || segment.typeId == 6) {
           otherCost += Math.round(element.olPrices.salesTotal);
         } else if (segment.typeId == 17) {
-          emergencyPrice += Math.round(element.olPrices.salesTotal);
-        }
-
-        if(element.unitId == 9 || element.unitId == 10) {
+          remainingPrice.push({ 'title': element.title, 'price': Math.round(element.olPrices.salesTotal)});
+          totalCost += Math.round(element.olPrices.salesTotal);
+        } else if (segment.typeId == 4) {
           flightPrice += Math.round(element.olPrices.salesTotal);
+        } else if (segment.typeId == 7) {
+          insurancesPrice += Math.round(element.olPrices.salesTotal);
         }
 
       }
@@ -115,9 +118,10 @@ const customTransforms = {
     }
     obj.dst.flightPrice = Number(flightPrice.toFixed(2)).toLocaleString('nl');
     obj.dst.otherCost = Number(otherCost.toFixed(2)).toLocaleString('nl');
-    obj.dst.emergencyPrice = Number(emergencyPrice.toFixed(2)).toLocaleString('nl');
+    obj.dst.insurancesPrice = Number(insurancesPrice.toFixed(2)).toLocaleString('nl');
+    obj.dst.remainingPrice = remainingPrice;
 
-    obj.dst.totalCost = Number((flightPrice + otherCost + emergencyPrice).toFixed(2)).toLocaleString('nl');;
+    obj.dst.totalCost = Number((flightPrice + otherCost + insurancesPrice + totalCost).toFixed(2)).toLocaleString('nl');;
     return obj;
   },
   'inclusive': (obj, params) => {

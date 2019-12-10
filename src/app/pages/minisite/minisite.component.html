@@ -158,16 +158,20 @@
                 <h2><span>PRIJS</span></h2>
                 <table>
                   <tr>
-                    <td>luchtprijs incl. luchthavenbelastingen</td>
+                    <td>*Landarrangement</td>
+                    <td>€ {{ itinerary.otherCost }}</td>
+                  </tr>
+                  <tr *ngFor="let remaining of itinerary.remainingPrice">
+                    <td>{{ remaining.title }}</td>
+                    <td>€ {{ remaining.price }}</td>
+                  </tr>
+                  <tr>
+                    <td>Vluchtprijs</td>
                     <td>€ {{ itinerary.flightPrice }}</td>
                   </tr>
                   <tr>
-                    <td>Calamiteitenfonds</td>
-                    <td>€ {{ itinerary.emergencyPrice }}</td>
-                  </tr>
-                  <tr>
-                    <td>*Landarrangement</td>
-                    <td>€ {{ itinerary.otherCost }}</td>
+                    <td>Verzekeringen</td>
+                    <td>€ {{ itinerary.insurancesPrice }}</td>
                   </tr>
                   <tr>
                     <td>Totaalprijs</td>
