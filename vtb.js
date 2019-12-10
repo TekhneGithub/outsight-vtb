@@ -10,7 +10,7 @@ const customTransforms = {
     obj.dst.title = obj.dst.title;
     obj.dst.subTitle = obj.dst.subTitle;
     obj.dst.coverImage = obj.dst.cover !== undefined ? 
-                          obj.dst.cover[0] !== undefined ? obj.dst.cover[0].urlreplace('medium', 'large') : undefined
+                          obj.dst.cover[0] !== undefined ? obj.dst.cover[0].url.replace('medium', 'large') : undefined
                             : undefined;
 
     var heroTitle = '';
@@ -95,14 +95,19 @@ const customTransforms = {
 
     var flightPrice = 0;
     var otherCost = 0;
+    var emergencyPrice = 0;
     for(const segment of obj.dst.segments) {
 
       for(const element of segment.elements) {
 
+        if(segment.typeId == 16) {
+          otherCost += Math.round(element.olPrices.salesTotal);
+        } else if (segment.typeId == 17) {
+          emergencyPrice += Math.round(element.olPrices.salesTotal);
+        }
+
         if(element.unitId == 9 || element.unitId == 10) {
           flightPrice += Math.round(element.olPrices.salesTotal);
-        } else {
-          otherCost += Math.round(element.olPrices.salesTotal);
         }
 
       }
@@ -110,8 +115,9 @@ const customTransforms = {
     }
     obj.dst.flightPrice = Number(flightPrice.toFixed(2)).toLocaleString('nl');
     obj.dst.otherCost = Number(otherCost.toFixed(2)).toLocaleString('nl');
+    obj.dst.emergencyPrice = Number(emergencyPrice.toFixed(2)).toLocaleString('nl');
 
-    obj.dst.totalCost = Number((flightPrice + otherCost).toFixed(2)).toLocaleString('nl');;
+    obj.dst.totalCost = Number((flightPrice + otherCost + emergencyPrice).toFixed(2)).toLocaleString('nl');;
     return obj;
   },
   'inclusive': (obj, params) => {
