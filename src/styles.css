@@ -123,6 +123,14 @@ ul.dash-style-list li:before {
   line-height: 20px;
 }
 
+.banner-cover {
+  width: 100%;
+  display: block;
+}
+.navigation ul li label {
+  cursor: pointer;
+}
+
 @media screen and (max-width: 767px) {
 
   body,
