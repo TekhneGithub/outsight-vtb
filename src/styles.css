@@ -131,6 +131,50 @@ ul.dash-style-list li:before {
   cursor: pointer;
 }
 
+/* start new table css */
+.flight-table {
+
+}
+.flight-table table {
+    table-layout: fixed;
+    width: 100%;
+}
+.flight-table table tr:nth-of-type(odd) {
+    background-color: rgba(0,0,0,.05);
+}
+.flight-table table th {
+    background: var(--theme-light);
+    color: var(--theme-color);
+    text-align: center;
+    padding: 12px 8px;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+}
+.flight-table table td {
+  text-transform: uppercase;
+  padding: 12px 8px;
+  vertical-align: middle;
+  border-color: #E3E3E3;
+  border-bottom: 1px solid #e9ecef;
+  font-size: 14px;
+  text-align: center;
+}
+.flight-table table td.table-calender {
+  position: relative;
+  text-align: left;
+}
+.flight-table table td.table-calender::after {
+    content: '\f073';
+    font-family: fontAwesome;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 15px;
+}
+/* end new table css */
+
 @media screen and (max-width: 767px) {
 
   body,
