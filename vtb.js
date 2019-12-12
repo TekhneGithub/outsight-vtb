@@ -81,13 +81,16 @@ const customTransforms = {
   'mapInfo': (obj, params) => {
 
     titles = [];
-
+    
     for(const segment of obj.dst.segments) {
-      
-      var data = { day: segment.day, title: segment.title};
-      titles.push(data);
-  
+
+      if(segment.typeId == 16) {
+        var data = { day: segment.day, title: segment.title};
+        titles.push(data);
+
+      }
     }
+
     obj.dst.titles = titles;
     return obj;
   },
