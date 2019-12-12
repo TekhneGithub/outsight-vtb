@@ -222,6 +222,7 @@ const customTransforms = {
     months = ['jan', 'feb', 'mrt', 'apr', 'mei', 'juni', 'juli', 'aug', 'sep', 'okt', 'nov', 'dec'];
     
     var startDate = new Date(obj.dst.startDate);
+    /*
     for(const segment of obj.dst.segments) {
       
       
@@ -240,6 +241,23 @@ const customTransforms = {
         homeTitles.push(data);
       }
       
+    }
+    */
+    for(const segment of obj.dst.segments) {
+
+      var date = new Date(startDate);
+      date.setDate(date.getDate() + segment.day);
+
+      var myNewDate = new Date(date);
+
+      var dateString = date.getDate() + '-' + months[date.getMonth()];
+
+      if(segment.typeId == 16) {
+
+        var data = { date: dateString, title: segment.title};
+        homeTitles.push(data);
+
+      }
     }
     obj.dst.homeTitles = homeTitles;
 
