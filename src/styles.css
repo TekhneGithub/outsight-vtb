@@ -161,12 +161,25 @@ ul.dash-style-list li:before {
   font-size: 14px;
   text-align: center;
 }
-.flight-table table td.table-calender {
+.flight-table table td.table-calender,
+.flight-table table td.table-clock {
   position: relative;
   text-align: left;
 }
 .flight-table table td.table-calender::after {
     content: '\f073';
+    font-family: fontAwesome;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 15px;
+}
+.flight-table table td.table-clock {
+  text-align: right;
+  padding: 0 35px 0 0;
+}
+.flight-table table td.table-clock::after {
+    content: '\f017';
     font-family: fontAwesome;
     position: absolute;
     right: 10px;
