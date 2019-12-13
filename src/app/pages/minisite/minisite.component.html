@@ -252,7 +252,7 @@
               <img src="{{tipsdata.media}}" />
             </div>
             <div [className]="tipsdata.media.length >= 1 ? 'col-md-8 col-sm-6 col-12 daytext' : 'daytext'">
-              <h3>{{tipsdata.title}} - {{ tipsdata.olPrices.salesTotal }}</h3>
+              <h3>{{tipsdata.title}} - € {{ tipsdata.olPrices.salesTotal }}</h3>
               <p [innerHTML]="tipsdata.additionalText">
               </p>
             </div>

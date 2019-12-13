@@ -47,6 +47,7 @@ const customTransforms = {
     for(const seg of obj.dst.segments) {
         for(const el of seg.elements){
           if(el.optional == true){
+              el.olPrices.salesTotal = Math.round(el.olPrices.salesTotal);
               tips.push(el);
           }
         }
