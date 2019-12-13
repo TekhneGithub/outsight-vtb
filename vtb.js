@@ -105,14 +105,14 @@ const customTransforms = {
 
       for(const element of segment.elements) {
 
-        if(segment.typeId == 16 || segment.typeId == 6) {
+        if((segment.typeId == 16 || segment.typeId == 6) && element.optional==false) {
           otherCost += Math.round(element.olPrices.salesTotal);
-        } else if (segment.typeId == 17) {
+        } else if (segment.typeId == 17 && element.optional==false) {
           remainingPrice.push({ 'title': element.title, 'price': Math.round(element.olPrices.salesTotal)});
           totalCost += Math.round(element.olPrices.salesTotal);
-        } else if (segment.typeId == 4) {
+        } else if (segment.typeId == 4 && element.optional==false) {
           flightPrice += Math.round(element.olPrices.salesTotal);
-        } else if (segment.typeId == 7) {
+        } else if (segment.typeId == 7 && element.optional==false) {
           insurancesPrice += Math.round(element.olPrices.salesTotal);
         }
 
