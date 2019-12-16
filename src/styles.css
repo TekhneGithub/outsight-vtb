@@ -163,16 +163,22 @@ ul.dash-style-list li:before {
 }
 .flight-table table td.table-calender,
 .flight-table table td.table-clock {
-  position: relative;
-  text-align: left;
+    position: relative;
+    text-align: right;
+    padding: 0 35px 0 0;
 }
 .flight-table table td.table-calender::after {
-    content: '\f073';
-    font-family: fontAwesome;
-    position: absolute;
-    right: 10px;
-    top: 10px;
-    font-size: 15px;
+  content: '\f073';
+  font-family: FontAwesome;
+  position: absolute;
+  right: 10px;
+  top: 0px;
+  bottom: 0px;
+  height: 100%;
+  font-size: 15px;
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
 }
 .flight-table table td.table-clock {
   text-align: right;
@@ -180,11 +186,16 @@ ul.dash-style-list li:before {
 }
 .flight-table table td.table-clock::after {
     content: '\f017';
-    font-family: fontAwesome;
+    font-family: FontAwesome;
     position: absolute;
     right: 10px;
-    top: 10px;
-    font-size: 15px;
+    top: 0px;
+    bottom: 0px;
+    height: 100%;
+    font-size: 18px;
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
 }
 /* end new table css */
 
