@@ -16,7 +16,7 @@ const customTransforms = {
     var heroTitle = '';
     for(const extraFieldValue of obj.dst.extraFieldValues) {
       for (const field of extraFieldValue.fields) {
-        if (field.name == 'bestemming1' || field.name == 'bestemming2') {
+        if (field.name == 'bestemming1' || field.name == 'bestemming2' || field.name == 'bestemming3' || field.name == 'bestemming4') {
           if(field.value) {
             heroTitle += ' ' + field.value;
           }
@@ -24,6 +24,24 @@ const customTransforms = {
       }
     }
 
+    obj.dst.participantLists = '';
+
+    if (obj.dst.participants['party 1'][0] !== undefined) {
+      for (const participant of obj.dst.participants['party 1']) {
+        obj.dst.participantLists += participant.name + ' ' + participant.surname;
+      }
+      obj.dst.participantLists = obj.dst.participants;
+    }
+
+    var numberOfDays = function() {
+      var startDate = new Date(obj.dst.startDate);
+      var endDate = new Date(obj.dst.endDate);
+
+      return Math.round( (endDate.getTime() - startDate.getTime())/(1000 * 60 * 60 * 24 ) );
+
+    }
+    obj.dst.numberOfDays = numberOfDays();
+    
     obj.dst.heroTitle = heroTitle;
     return obj;
   },
