@@ -133,131 +133,85 @@
           <tr *ngFor="let f of itinerary.flights">
             <td>{{ f.date }}</td>
             <td>{{ f.departureAirport }}-{{ f.arrivalAirport }}
-<<<<<<< HEAD
               <td>{{ f.departureTime }}</td>
               <td>{{ f.arrivalTime }}*</td>
               <td>VN {{ f.flightNumber }} uitgevoerd door {{ f.airlineCode }}</td>
             </tr>
           </table>
-          
+
           <!-- start new table -->
           <div class="flight-table">
-              <div class="table-responsive">
-                  <table cellpadding="0" cellspacing="0" class="table">
-                    <thead>
-                      <tr>
-                        <th scope="col">Airline</th>
-                        <th scope="col">Flight<br>Number</th>
-                        <th scope="col">Departure<br>Airport</th>
-                        <th scope="col">Departure<br>Date</th>
-                        <th scope="col">Departure<br>Time</th>
-                        <th scope="col">Arrival<br>Airport</th>
-                        <th scope="col">Arrival<br>Date</th>
-                        <th scope="col">Arrival<br>Time</th>
-                        <th scope="col">Actions</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>rj</td>
-                        <td>152</td>
-                        <td>ams</td>
-                        <td class="table-calender"><span>11-10-2019</span></td>
-                        <td class="table-clock">15:35</td>
-                        <td>amm</td>
-                        <td class="table-calender"><span>11-10-2019</span></td>
-                        <td class="table-clock">21:20</td>
-                        <td><a href=""><i class="far fa-trash-alt"></i></a> </td>
-                      </tr>
-                      <tr>
-                        <td>rj</td>
-                        <td>152</td>
-                        <td>ams</td>
-                        <td class="table-calender"><span>11-10-2019</span></td>
-                        <td class="table-clock">15:35</td>
-                        <td>amm</td>
-                        <td class="table-calender"><span>11-10-2019</span></td>
-                        <td class="table-clock">21:20</td>
-                        <td><a href=""><i class="far fa-trash-alt"></i></a> </td>
-                      </tr>
-                      <tr>
-                        <td>rj</td>
-                        <td>152</td>
-                        <td>ams</td>
-                        <td class="table-calender"><span>11-10-2019</span></td>
-                        <td class="table-clock">15:35</td>
-                        <td>amm</td>
-                        <td class="table-calender"><span>11-10-2019</span></td>
-                        <td class="table-clock">21:20</td>
-                        <td><a href=""><i class="far fa-trash-alt"></i></a> </td>
-                      </tr>
-                      <tr>
-                        <td>rj</td>
-                        <td>152</td>
-                        <td>ams</td>
-                        <td class="table-calender"><span>11-10-2019</span></td>
-                        <td class="table-clock">15:35</td>
-                        <td>amm</td>
-                        <td class="table-calender"><span>11-10-2019</span></td>
-                        <td class="table-clock">21:20</td>
-                        <td><a href=""><i class="far fa-trash-alt"></i></a> </td>
-                      </tr>
-                    </tbody>
-                  </table>
-=======
-            <td>{{ f.departureTime }}</td>
-            <td>{{ f.arrivalTime }}*</td>
-            <td>VN {{ f.flightNumber }} uitgevoerd door {{ f.airlineCode }}</td>
-          </tr>
-        </table>
-      </div>
-    </section>
-  </div>
-  <!-- Jouw reis tab ends here -->
-
-  <!-- Prijs tab start here -->
-  <div class="tab2">
-    <section>
-      <div class="costwrap">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-md-12 col-sm-12 col-12 bg-theme-color">
-              <div class="parent-div">
-                <h2><span>PRIJS*</span></h2>
-                <table>
+            <div class="table-responsive">
+              <table cellpadding="0" cellspacing="0" class="table">
+                <thead>
                   <tr>
-                    <td>Landarrangement</td>
-                    <td>€ {{ itinerary.otherCost }}</td>
+                    <th scope="col">Airline</th>
+                    <th scope="col">Flight<br>Number</th>
+                    <th scope="col">Departure<br>Airport</th>
+                    <th scope="col">Departure<br>Date</th>
+                    <th scope="col">Departure<br>Time</th>
+                    <th scope="col">Arrival<br>Airport</th>
+                    <th scope="col">Arrival<br>Date</th>
+                    <th scope="col">Arrival<br>Time</th>
+                    <th scope="col">Actions</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>rj</td>
+                    <td>152</td>
+                    <td>ams</td>
+                    <td class="table-calender"><span>11-10-2019</span></td>
+                    <td class="table-clock">15:35</td>
+                    <td>amm</td>
+                    <td class="table-calender"><span>11-10-2019</span></td>
+                    <td class="table-clock">21:20</td>
+                    <td><a href=""><i class="far fa-trash-alt"></i></a> </td>
                   </tr>
                   <tr>
-                    <td>Vluchtprijs</td>
-                    <td>€ {{ itinerary.flightPrice }}</td>
-                  </tr>
-                  <tr *ngFor="let remaining of itinerary.remainingPrice">
-                    <td>{{ remaining.title }}</td>
-                    <td>€ {{ remaining.price }}</td>
+                    <td>rj</td>
+                    <td>152</td>
+                    <td>ams</td>
+                    <td class="table-calender"><span>11-10-2019</span></td>
+                    <td class="table-clock">15:35</td>
+                    <td>amm</td>
+                    <td class="table-calender"><span>11-10-2019</span></td>
+                    <td class="table-clock">21:20</td>
+                    <td><a href=""><i class="far fa-trash-alt"></i></a> </td>
                   </tr>
                   <tr>
-                    <td>Verzekeringen</td>
-                    <td>€ {{ itinerary.insurancesPrice }}</td>
+                    <td>rj</td>
+                    <td>152</td>
+                    <td>ams</td>
+                    <td class="table-calender"><span>11-10-2019</span></td>
+                    <td class="table-clock">15:35</td>
+                    <td>amm</td>
+                    <td class="table-calender"><span>11-10-2019</span></td>
+                    <td class="table-clock">21:20</td>
+                    <td><a href=""><i class="far fa-trash-alt"></i></a> </td>
                   </tr>
                   <tr>
-                    <td>Totaalprijs</td>
-                    <td>€ {{ itinerary.totalCost }}</td>
+                    <td>rj</td>
+                    <td>152</td>
+                    <td>ams</td>
+                    <td class="table-calender"><span>11-10-2019</span></td>
+                    <td class="table-clock">15:35</td>
+                    <td>amm</td>
+                    <td class="table-calender"><span>11-10-2019</span></td>
+                    <td class="table-clock">21:20</td>
+                    <td><a href=""><i class="far fa-trash-alt"></i></a> </td>
                   </tr>
-                </table>
-                <span class="f-12">*Prijzen zijn op aanvraag & onder voorbehoud van wijzigingen.</span>
->>>>>>> 1f458b7c05c203597b69ca42a722c63ca7e72908
-              </div>
+                </tbody>
+              </table>
+            </div>
           </div>
           <!-- end new table -->
-
-
-
+          
         </div>
       </section>
     </div>
     <!-- Jouw reis tab ends here -->
+    
     <!-- Prijs tab start here -->
     <div class="tab2">
       <section>
@@ -307,16 +261,9 @@
                 </li>
               </ul>
             </div>
-<<<<<<< HEAD
             <div class="col-md-4 col-sm-6 col-12 bg-gray-color guidesec" *ngFor="let c of itinerary.finalConsultants">
               <h3>JOUW REISSPECIALIST<span>{{ c.name }}</span></h3>
               <img src="{{ c.picture }}" alt="" title="" />
-=======
-            <div [className]="tipsdata.media.length >= 1 ? 'col-md-8 col-sm-6 col-12 daytext' : 'daytext'">
-              <h3>{{tipsdata.title}} - € {{ tipsdata.olPrices.salesTotal }}</h3>
-              <p [innerHTML]="tipsdata.additionalText">
-              </p>
->>>>>>> 1f458b7c05c203597b69ca42a722c63ca7e72908
             </div>
           </div>
         </div>
