@@ -16,7 +16,7 @@ const customTransforms = {
     var heroTitle = '';
     for(const extraFieldValue of obj.dst.extraFieldValues) {
       for (const field of extraFieldValue.fields) {
-        if (field.name == 'bestemming1' || field.name == 'bestemming2') {
+        if (field.name == 'bestemming1' || field.name == 'bestemming2' || field.name == 'bestemming3' || field.name == 'bestemming4') {
           if(field.value) {
             heroTitle += ' ' + field.value;
           }
@@ -24,6 +24,24 @@ const customTransforms = {
       }
     }
 
+    obj.dst.participantLists = '';
+
+    if (obj.dst.participants['party 1'][0] !== undefined) {
+      for (const participant of obj.dst.participants['party 1']) {
+        obj.dst.participantLists += participant.name + ' ' + participant.surname;
+      }
+      obj.dst.participantLists = obj.dst.participants;
+    }
+
+    var numberOfDays = function() {
+      var startDate = new Date(obj.dst.startDate);
+      var endDate = new Date(obj.dst.endDate);
+
+      return Math.round( (endDate.getTime() - startDate.getTime())/(1000 * 60 * 60 * 24 ) );
+
+    }
+    obj.dst.numberOfDays = numberOfDays();
+    
     obj.dst.heroTitle = heroTitle;
     return obj;
   },
@@ -47,6 +65,7 @@ const customTransforms = {
     for(const seg of obj.dst.segments) {
         for(const el of seg.elements){
           if(el.optional == true){
+              el.olPrices.salesTotal = Math.round(el.olPrices.salesTotal);
               tips.push(el);
           }
         }
@@ -81,13 +100,16 @@ const customTransforms = {
   'mapInfo': (obj, params) => {
 
     titles = [];
-
+    
     for(const segment of obj.dst.segments) {
-      
-      var data = { day: segment.day, title: segment.title};
-      titles.push(data);
-  
+
+      if(segment.typeId == 16) {
+        var data = { day: segment.day, title: segment.title};
+        titles.push(data);
+
+      }
     }
+
     obj.dst.titles = titles;
     return obj;
   },
@@ -102,14 +124,14 @@ const customTransforms = {
 
       for(const element of segment.elements) {
 
-        if(segment.typeId == 16 || segment.typeId == 6) {
+        if((segment.typeId == 16 || segment.typeId == 6) && element.optional==false) {
           otherCost += Math.round(element.olPrices.salesTotal);
-        } else if (segment.typeId == 17) {
+        } else if (segment.typeId == 17 && element.optional==false) {
           remainingPrice.push({ 'title': element.title, 'price': Math.round(element.olPrices.salesTotal)});
           totalCost += Math.round(element.olPrices.salesTotal);
-        } else if (segment.typeId == 4) {
+        } else if (segment.typeId == 4 && element.optional==false) {
           flightPrice += Math.round(element.olPrices.salesTotal);
-        } else if (segment.typeId == 7) {
+        } else if (segment.typeId == 7 && element.optional==false) {
           insurancesPrice += Math.round(element.olPrices.salesTotal);
         }
 
