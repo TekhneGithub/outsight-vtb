@@ -189,7 +189,7 @@ ul.dash-style-list li:before {
 } */
 .flight-table table td.table-clock {
   text-align: right;
-  padding: 0 35px 0 0;
+  padding: 0 15px 0 0;
 }
 /* .flight-table table td.table-clock::after {
     content: '\f017';
