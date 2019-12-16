@@ -12,6 +12,7 @@
     <div class="vdotxt">
       <h1>{{ itinerary.heroTitle }}</h1>
       <h2><span>{{ itinerary.title }}</span> {{ itinerary.subTitle }}</h2>
+      <h2><span>{{ itinerary.numberOfDays }}-daagse reis 2 Personen</span></h2>
     </div>
   </div>
 </section>
@@ -117,7 +118,7 @@
     <section>
       <div class="container flightwrap">
         <h2><span>VLUCHTSCHEMA</span></h2>
-        <table class="tablelist bold">
+        <table class="tablelist bold" *ngIf="itinerary.departureFlight && itinerary.arrivalFlight">
           <tr>
             <td>Vertrek</td>
             <td>{{ itinerary.departureFlight.date }}</td>
@@ -129,16 +130,17 @@
             <td>{{ itinerary.arrivalFlight.airlineCode }}</td>
           </tr>
         </table>
+        <!--
         <table class="tablelist">
           <tr *ngFor="let f of itinerary.flights">
             <td>{{ f.date }}</td>
             <td>{{ f.departureAirport }}-{{ f.arrivalAirport }}
-              <td>{{ f.departureTime }}</td>
-              <td>{{ f.arrivalTime }}*</td>
-              <td>VN {{ f.flightNumber }} uitgevoerd door {{ f.airlineCode }}</td>
-            </tr>
-          </table>
-
+            <td>{{ f.departureTime }}</td>
+            <td>{{ f.arrivalTime }}*</td>
+            <td>VN {{ f.flightNumber }} uitgevoerd door {{ f.airlineCode }}</td>
+          </tr>
+        </table>
+        -->
           <!-- start new table -->
           <div class="flight-table">
             <div class="table-responsive">
@@ -153,10 +155,20 @@
                     <th scope="col">Arrival<br>Airport</th>
                     <th scope="col">Arrival<br>Date</th>
                     <th scope="col">Arrival<br>Time</th>
-                    <th scope="col">Actions</th>
                   </tr>
                 </thead>
                 <tbody>
+                  <tr *ngFor="let f of itinerary.flights">
+                    <td>{{ f.airlineCode }}</td>
+                    <td>{{ f.flightNumber }}</td>
+                    <td>{{ f.departureAirport }}</td>
+                    <td class="table-calender"><span>{{ f.date }}</span></td>
+                    <td class="table-clock">{{ f.departureTime }}</td>
+                    <td>{{ f.arrivalAirport }}</td>
+                    <td class="table-calender"><span>{{ f.arrivalDate }}</span></td>
+                    <td class="table-clock">{{ f.arrivalTime }}</td>
+                  </tr>
+                  <!--
                   <tr>
                     <td>rj</td>
                     <td>152</td>
@@ -189,18 +201,8 @@
                     <td class="table-calender"><span>11-10-2019</span></td>
                     <td class="table-clock">21:20</td>
                     <td><a href=""><i class="far fa-trash-alt"></i></a> </td>
-                  </tr>
-                  <tr>
-                    <td>rj</td>
-                    <td>152</td>
-                    <td>ams</td>
-                    <td class="table-calender"><span>11-10-2019</span></td>
-                    <td class="table-clock">15:35</td>
-                    <td>amm</td>
-                    <td class="table-calender"><span>11-10-2019</span></td>
-                    <td class="table-clock">21:20</td>
-                    <td><a href=""><i class="far fa-trash-alt"></i></a> </td>
-                  </tr>
+                  </tr> 
+                  -->
                 </tbody>
               </table>
             </div>
@@ -211,7 +213,7 @@
       </section>
     </div>
     <!-- Jouw reis tab ends here -->
-    
+
     <!-- Prijs tab start here -->
     <div class="tab2">
       <section>

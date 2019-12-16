@@ -6636,11 +6636,13 @@ const customTransforms = {
         let arrivalInfo = getObjectByValue(airports, 'iata_code', flight.arrivalAirport);
         
         if(departureInfo[0] !== undefined && arrivalInfo[0] !== undefined) {
+
           let departureAirport = getObjectByValue(airportDescriptions, 'airport_id', departureInfo[0].id);
           let arrivalAirport = getObjectByValue(airportDescriptions, 'airport_id', arrivalInfo[0].id);
           if(departureAirport[0] !== undefined && arrivalAirport[0] !== undefined) {
             
             var date = new Date(flight.departureDate);
+            var arrivalDate = new Date(flight.arrivalDate);
             if(!firstLoopExectuion) {
 
               let airlineCode = getObjectByValue(airlineCodes, 'carrier_code', flight.airlineCode);
@@ -6654,8 +6656,9 @@ const customTransforms = {
 
             obj.dst.arrivalFlight = {date: date.getDate() + ' ' + months[date.getMonth()] + ' ' + date.getFullYear(), airlineCode: airlineCode};
             var dateString = date.getDate() + '-' + months[date.getMonth()];
+            var arrivalDateString = arrivalDate.getDate() + '-' + months[arrivalDate.getMonth()];
 
-            let data = {date: dateString, departureAirport: departureAirport[0].description, arrivalAirport: arrivalAirport[0].description, departureTime: flights.departureTime, arrivalTime: flights.arrivalTime, flightNumber: flights.flightNumber, airlineCode: airlineCode};
+            let data = {date: dateString, arrivalDate: arrivalDateString, departureAirport: departureAirport[0].description, arrivalAirport: arrivalAirport[0].description, departureTime: flight.departureTime, arrivalTime: flight.arrivalTime, flightNumber: flight.flightNumber, airlineCode: airlineCode};
             flights.push(data);
 
           }
