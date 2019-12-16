@@ -165,7 +165,14 @@ ul.dash-style-list li:before {
 .flight-table table td.table-clock {
     position: relative;
     text-align: right;
-    padding: 0 35px 0 0;
+    padding: 0 15px 0 0;
+}
+.flight-table table td.table-calender img,
+.flight-table table td.table-clock img {
+  display: inline-block;
+  vertical-align: middle;
+  align-items: center;
+  margin: 0 0 0 10px;
 }
 /* .flight-table table td.table-calender::after {
   content: '\f073';
