@@ -167,7 +167,7 @@ ul.dash-style-list li:before {
     text-align: right;
     padding: 0 35px 0 0;
 }
-.flight-table table td.table-calender::after {
+/* .flight-table table td.table-calender::after {
   content: '\f073';
   font-family: FontAwesome;
   position: absolute;
@@ -179,12 +179,12 @@ ul.dash-style-list li:before {
   display: flex;
   vertical-align: middle;
   align-items: center;
-}
+} */
 .flight-table table td.table-clock {
   text-align: right;
   padding: 0 35px 0 0;
 }
-.flight-table table td.table-clock::after {
+/* .flight-table table td.table-clock::after {
     content: '\f017';
     font-family: FontAwesome;
     position: absolute;
@@ -196,7 +196,7 @@ ul.dash-style-list li:before {
     display: flex;
     vertical-align: middle;
     align-items: center;
-}
+} */
 /* end new table css */
 
 @media screen and (max-width: 767px) {
