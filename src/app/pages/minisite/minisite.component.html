@@ -106,7 +106,11 @@
           <!--<h2>Verrassend Vietnam!</h2>-->
           <div class="row flex-row-reverse align-items-stretch">
             <div class="col-md-4 col-sm-6 col-12 bg-theme-color info-content">
-              <p [innerHTML]="itinerary.general">
+              <p *ngIf="itinerary.flights[0]">
+                We hebben onderstaande vluchten vrijblijvend voor je in optie gezet. Deze optie is geheel vrijblijvend en kosteloos, we kunnen deze 4 werkdagen voor jullie vasthouden. Zijn dit de vluchten waar je gebruik van wilt maken dan kunnen we de vluchten na betaling uitgeven zodat deze niet meer veranderen. We kunnen dan op ons gemak de rondreis nog geheel naar wens samenstellen.
+              </p>
+              <p *ngIf="!itinerary.flights[0]">
+                We kunnen een vlucht optioneel voor je afblokken. We raden dit altijd aan, omdat de beschikbaarheid per dag wisselt en dus snel kan veranderen. Een optie op een vlucht is geheel vrijblijvend en kosteloos, we kunnen deze 4 werkdagen voor jullie vasthouden. We hebben hiervoor dan de volledige namen nodig zoals die in het paspoort staan weergegeven.
               </p>
             </div>
             <div class="col-md-8 col-sm-6 col-12">
