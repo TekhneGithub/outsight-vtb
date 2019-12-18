@@ -6667,7 +6667,8 @@ const customTransforms = {
             let airlineCode = getObjectByValue(airlineCodes, 'carrier_code', flight.airlineCode);
             airlineCode = airlineCode[0] !== undefined?airlineCode[0].airline:null;
 
-            obj.dst.arrivalFlight = {date: date.getDate() + ' ' + months[date.getMonth()] + ' ' + date.getFullYear(), airlineCode: airlineCode};
+            var arrivalFlightDate = new Date(flight.arrivalDate);
+            obj.dst.arrivalFlight = {date: arrivalFlightDate.getDate() + ' ' + months[arrivalFlightDate.getMonth()] + ' ' + arrivalFlightDate.getFullYear(), airlineCode: airlineCode};
             var dateString = date.getDate() + '-' + months[date.getMonth()];
             var arrivalDateString = arrivalDate.getDate() + '-' + months[arrivalDate.getMonth()];
 
