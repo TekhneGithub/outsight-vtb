@@ -24,13 +24,11 @@ const customTransforms = {
       }
     }
 
-    obj.dst.participantLists = '';
-
+    obj.dst.noOfParticipants = obj.dst.participants['party 1'].length;
+    
+    obj.dst.mainBooker = '';
     if (obj.dst.participants['party 1'][0] !== undefined) {
-      for (const participant of obj.dst.participants['party 1']) {
-        obj.dst.participantLists += participant.name + ' ' + participant.surname;
-      }
-      obj.dst.participantLists = obj.dst.participants;
+        obj.dst.mainBooker += obj.dst.participants['party 1'][0].name + ' ' + obj.dst.participants['party 1'][0].surname;
     }
 
     var numberOfDays = function() {
@@ -41,7 +39,7 @@ const customTransforms = {
 
     }
     obj.dst.numberOfDays = numberOfDays();
-    
+
     obj.dst.heroTitle = heroTitle;
     return obj;
   },
