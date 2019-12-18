@@ -14,15 +14,30 @@ const customTransforms = {
                             : undefined;
 
     var heroTitle = '';
+    var locations = [];
     for(const extraFieldValue of obj.dst.extraFieldValues) {
       for (const field of extraFieldValue.fields) {
         if (field.name == 'bestemming1' || field.name == 'bestemming2' || field.name == 'bestemming3' || field.name == 'bestemming4') {
           if(field.value) {
-            heroTitle += ' ' + field.value;
+            //heroTitle += ' ' + field.value;
+
+            locations.push(field.value);
+
           }
         }
       }
     }
+    
+    for(var i=0; i<locations.length; i++) {
+      if( i == 0) {
+        heroTitle += locations[i];
+      } else if(locations.length - 1 == i) {
+        heroTitle += ' & ' + locations[i];
+      } else {
+        heroTitle += ', ' + locations[i];
+      }
+    }
+    obj.dst.heroTitle = heroTitle;
 
     obj.dst.noOfParticipants = obj.dst.participants['party 1'].length;
     
@@ -40,7 +55,7 @@ const customTransforms = {
     }
     obj.dst.numberOfDays = numberOfDays();
 
-    obj.dst.heroTitle = heroTitle;
+    
     return obj;
   },
   'hotels': (obj, params) => {
