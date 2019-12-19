@@ -14,23 +14,36 @@ const customTransforms = {
                             : undefined;
 
     var heroTitle = '';
+    var locations = [];
     for(const extraFieldValue of obj.dst.extraFieldValues) {
       for (const field of extraFieldValue.fields) {
         if (field.name == 'bestemming1' || field.name == 'bestemming2' || field.name == 'bestemming3' || field.name == 'bestemming4') {
           if(field.value) {
-            heroTitle += ' ' + field.value;
+            //heroTitle += ' ' + field.value;
+
+            locations.push(field.value);
+
           }
         }
       }
     }
-
-    obj.dst.participantLists = '';
-
-    if (obj.dst.participants['party 1'][0] !== undefined) {
-      for (const participant of obj.dst.participants['party 1']) {
-        obj.dst.participantLists += participant.name + ' ' + participant.surname;
+    
+    for(var i=0; i<locations.length; i++) {
+      if( i == 0) {
+        heroTitle += locations[i];
+      } else if(locations.length - 1 == i) {
+        heroTitle += ' & ' + locations[i];
+      } else {
+        heroTitle += ', ' + locations[i];
       }
-      obj.dst.participantLists = obj.dst.participants;
+    }
+    obj.dst.heroTitle = heroTitle;
+
+    obj.dst.noOfParticipants = obj.dst.participants['party 1'].length;
+    
+    obj.dst.mainBooker = '';
+    if (obj.dst.participants['party 1'][0] !== undefined) {
+        obj.dst.mainBooker += obj.dst.participants['party 1'][0].name + ' ' + obj.dst.participants['party 1'][0].surname;
     }
 
     var numberOfDays = function() {
@@ -41,8 +54,8 @@ const customTransforms = {
 
     }
     obj.dst.numberOfDays = numberOfDays();
+
     
-    obj.dst.heroTitle = heroTitle;
     return obj;
   },
   'hotels': (obj, params) => {
@@ -6654,7 +6667,8 @@ const customTransforms = {
             let airlineCode = getObjectByValue(airlineCodes, 'carrier_code', flight.airlineCode);
             airlineCode = airlineCode[0] !== undefined?airlineCode[0].airline:null;
 
-            obj.dst.arrivalFlight = {date: date.getDate() + ' ' + months[date.getMonth()] + ' ' + date.getFullYear(), airlineCode: airlineCode};
+            var arrivalFlightDate = new Date(flight.arrivalDate);
+            obj.dst.arrivalFlight = {date: arrivalFlightDate.getDate() + ' ' + months[arrivalFlightDate.getMonth()] + ' ' + arrivalFlightDate.getFullYear(), airlineCode: airlineCode};
             var dateString = date.getDate() + '-' + months[date.getMonth()];
             var arrivalDateString = arrivalDate.getDate() + '-' + months[arrivalDate.getMonth()];
 

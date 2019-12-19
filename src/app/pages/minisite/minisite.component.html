@@ -10,9 +10,10 @@
       <img class="banner-cover" src="{{itinerary.coverImage}}" />
     </div>
     <div class="vdotxt">
+      <h2><span> {{ itinerary.mainBooker }} </span></h2>
       <h1>{{ itinerary.heroTitle }}</h1>
       <h2><span>{{ itinerary.title }}</span> {{ itinerary.subTitle }}</h2>
-      <h2><span>{{ itinerary.numberOfDays }}-daagse reis 2 Personen</span></h2>
+      <h2><span>{{ itinerary.numberOfDays }}-daagse reis {{ itinerary.noOfParticipants }} Personen</span></h2>
     </div>
   </div>
 </section>
@@ -120,14 +121,14 @@
         <h2><span>VLUCHTSCHEMA</span></h2>
         <table class="tablelist bold" *ngIf="itinerary.departureFlight && itinerary.arrivalFlight">
           <tr>
-            <td>Vertrek</td>
+            <td>Vertrek uit NL</td>
             <td>{{ itinerary.departureFlight.date }}</td>
-            <td>{{ itinerary.departureFlight.airlineCode }}</td>
+            <!--<td>{{ itinerary.departureFlight.airlineCode }}</td>-->
           </tr>
           <tr>
             <td>Retour in NL</td>
             <td>{{ itinerary.arrivalFlight.date }}</td>
-            <td>{{ itinerary.arrivalFlight.airlineCode }}</td>
+            <!--<td>{{ itinerary.arrivalFlight.airlineCode }}</td>-->
           </tr>
         </table>
         <!--
@@ -162,11 +163,11 @@
                     <td>{{ f.airlineCode }}</td>
                     <td>{{ f.flightNumber }}</td>
                     <td>{{ f.departureAirport }}</td>
-                    <td class="table-calender"><span>{{ f.date }}</span> <img src="../assets/images/calendar.png"></td>
-                    <td class="table-clock"><span>{{ f.departureTime }}</span> <img src="../assets/images/clock.png"></td>
+                    <td class="table-calender"><span>{{ f.date }}</span></td>
+                    <td class="table-clock"><span>{{ f.departureTime }}</span></td>
                     <td>{{ f.arrivalAirport }}</td>
-                    <td class="table-calender"><span>{{ f.arrivalDate }}</span> <img src="../assets/images/calendar.png"></td>
-                    <td class="table-clock"><span>{{ f.arrivalTime }}</span> <img src="../assets/images/clock.png"></td>
+                    <td class="table-calender"><span>{{ f.arrivalDate }}</span></td>
+                    <td class="table-clock"><span>{{ f.arrivalTime }}</span></td>
                   </tr>
                   <!--
                   <tr>
@@ -314,7 +315,7 @@
                 <img src="{{tipsdata.media}}" />
               </div>
               <div [className]="tipsdata.media.length >= 1 ? 'col-md-8 col-sm-6 col-12 daytext' : 'daytext'">
-                <h3>{{tipsdata.title}}</h3>
+                <h3>{{tipsdata.title}} - {{ tipsdata.olPrices.salesTotal | currency:'EUR':'symbol':undefined:'nl' }}</h3>
                 <p [innerHTML]="tipsdata.additionalText">
                 </p>
               </div>
