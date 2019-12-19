@@ -1302,7 +1302,7 @@ footer .container {
 }
 
 .footertext ul li a {
-  display: block;
+  /* display: block;
   font-size: 18px;
   line-height: 38px;
   width: 40px;
@@ -1310,7 +1310,16 @@ footer .container {
   border-radius: 50%;
   border: 2px solid #fff;
   color: #fff;
-  text-align: center;
+  text-align: center; */
+    display: block;
+    /* font-size: 18px; */
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    /* border-radius: 50%; */
+    border: 2px solid #fff;
+    background: #fff;
+    text-align: center;
 }
 
 /* footer compeont css End here  */
@@ -2247,6 +2256,9 @@ footer .container {
 .align-self-center {
   -ms-flex-item-align: center !important;
   align-self: center !important;
+}
+.width60 {
+  width: 60%;
 }
 
 .text-center {
