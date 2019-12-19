@@ -121,14 +121,14 @@
         <h2><span>VLUCHTSCHEMA</span></h2>
         <table class="tablelist bold" *ngIf="itinerary.departureFlight && itinerary.arrivalFlight">
           <tr>
-            <td>Vertrek</td>
+            <td>Vertrek uit NL</td>
             <td>{{ itinerary.departureFlight.date }}</td>
-            <td>{{ itinerary.departureFlight.airlineCode }}</td>
+            <!--<td>{{ itinerary.departureFlight.airlineCode }}</td>-->
           </tr>
           <tr>
             <td>Retour in NL</td>
             <td>{{ itinerary.arrivalFlight.date }}</td>
-            <td>{{ itinerary.arrivalFlight.airlineCode }}</td>
+            <!--<td>{{ itinerary.arrivalFlight.airlineCode }}</td>-->
           </tr>
         </table>
         <!--
