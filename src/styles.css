@@ -133,7 +133,7 @@ ul.dash-style-list li:before {
 
 /* start new table css */
 .flight-table {
-
+  margin: 20px 0 0 0;
 }
 .flight-table table {
     table-layout: fixed;
@@ -1953,14 +1953,23 @@ footer .container {
   background: #efeff0;
 }
 
+.ticklist {
+  display: inline-block;
+  padding: 0 20px;
+}
 .ticklist li {
-  list-style: none;
+  /* list-style: none;
   padding-left: 50px;
-  position: relative;
+  position: relative; */
+    list-style: none;
+    padding-left: 50px;
+    position: relative;
+    float: left;
+    width: 50%;
 }
 
 .ticklist li+li {
-  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .ticklist li:before {
