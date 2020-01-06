@@ -236,7 +236,7 @@
                       <td>{{ remaining.title }}</td>
                       <td>€ {{ remaining.price }}</td>
                     </tr>
-                    <tr>
+                    <tr *ngIf="itinerary.insurancesPrice != 0">
                       <td>Verzekeringen</td>
                       <td>€ {{ itinerary.insurancesPrice }}</td>
                     </tr>
