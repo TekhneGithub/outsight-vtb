@@ -76,15 +76,13 @@ const customTransforms = {
 
     tips = [];
     for(const seg of obj.dst.segments) {
-      if(seg.typeId == 2 || seg.typeId == 16) {
-        for(const el of seg.elements) {
-          if(el.optional == true) {
-            for(const ele of seg.elements) {
-              if(el.unitId == ele.unitId) {
-                el.olPrices.salesTotal = ((Math.round(ele.olPrices.salesTotal) - Math.round(el.olPrices.salesTotal))/Object.keys(el.olPrices.participants).length);
-                tips.push(el);
-                break;
-              }
+      for(const el of seg.elements) {
+        if(el.optional == true && (el.unitId == 2 || el.unitId == 5)) {
+          for(const ele of seg.elements) {
+            if(el.unitId == ele.unitId) {
+              el.olPrices.salesTotal = ((Math.round(ele.olPrices.salesTotal) - Math.round(el.olPrices.salesTotal))/Object.keys(el.olPrices.participants).length);
+              tips.push(el);
+              break;
             }
           }
         }
