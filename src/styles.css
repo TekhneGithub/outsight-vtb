@@ -1750,7 +1750,7 @@ footer .container {
 }
 .daywrap h3 span {
   font-size: 16px;
-  text-transform: inherit;
+  text-transform: initial;
 }
 
 .daywrap .row {
