@@ -314,7 +314,8 @@
                 <img src="{{tipsdata.media[0].url}}" />
               </div>
               <div [className]="tipsdata.media.length >= 1 ? 'col-md-8 col-sm-6 col-12 daytext' : 'daytext'">
-                <h3>{{tipsdata.title}} - {{ tipsdata.olPrices.salesTotal | currency:'EUR':'symbol':undefined:'nl' }}</h3>
+                <h3>{{tipsdata.title}} + {{ tipsdata.olPrices.salesTotal | currency:'EUR':'symbol':undefined:'nl' }} per persoon per nacht
+</h3>
                 <p [innerHTML]="tipsdata.additionalText">
                 </p>
               </div>
