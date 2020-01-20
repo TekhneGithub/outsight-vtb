@@ -1747,10 +1747,10 @@ footer .container {
 .daywrap h3 {
   font-size: 20px;
   margin-bottom: 10px;
-  text-transform: inherit;
 }
 .daywrap h3 span {
   font-size: 16px;
+  text-transform: inherit;
 }
 
 .daywrap .row {
