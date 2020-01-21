@@ -15,6 +15,7 @@ const customTransforms = {
 
     var heroTitle = '';
     var locations = [];
+    obj.dst.Informatie
     for(const extraFieldValue of obj.dst.extraFieldValues) {
       for (const field of extraFieldValue.fields) {
         if (field.name == 'bestemming1' || field.name == 'bestemming2' || field.name == 'bestemming3' || field.name == 'bestemming4') {
@@ -24,6 +25,8 @@ const customTransforms = {
             locations.push(field.value);
 
           }
+        } else if (field.name == 'Informatie') {
+          obj.dst.Informatie = field.value;
         }
       }
     }
