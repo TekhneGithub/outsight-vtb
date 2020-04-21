@@ -41,7 +41,7 @@
         <li class="tab6"><a href="#route">Route</a></li> -->
         <li class="tab1"><label for="tab1">Jouw reis</label></li>
         <li class="tab2"><label for="tab2">Prijs</label></li>
-        <li class="tab3"><label for="tab3">Extra</label></li>
+        <li class="tab3"><label for="tab3" *ngIf="itinerary.tips[0] !== undefined">Extra</label></li>
         <li class="tab4"><label for="tab4">Hotels</label></li>
         <li class="tab5"><label for="tab5">Info</label></li>
         <li class="tab6"><label for="tab6">Route</label></li>
