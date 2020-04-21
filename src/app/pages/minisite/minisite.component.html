@@ -88,7 +88,7 @@
               <img src="{{ title.media }}" alt="" title="" />
             </div>
             <div class="col-md-8 col-sm-6 col-12 daytext">
-              <h3>DAG {{ title.startDay }} t/m {{ title.endDay }} {{ title.title }}</h3>
+              <h3>DAG {{ title.startDay }} {{ title.nights >=2?'t/m ' + title.endDay:'' }} {{ title.title }}</h3>
               <p [innerHTML]="title.content">
               </p>
             </div>
