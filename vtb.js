@@ -62,8 +62,8 @@ const customTransforms = {
     return obj;
   },
   'hotels': (obj, params) => {
-    var hotels =[];
-    productIds = [];
+    var hotels = [];
+    var productIds = [];
     for(const seg of obj.dst.segments) {
       for(const el of seg.elements) {
         if(el.unitId == 2 && !el.optional) {
